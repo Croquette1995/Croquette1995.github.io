@@ -1,0 +1,393 @@
+= Ressources Utiles - CSS
+Auteur: Corentin Chiodo
+Date:: {docdate}
+:doctype: book
+:icons: font
+:toc: left
+:toclevels: 3
+:toc-title: 
+:source-highlighter: highlight.js
+
+
+== Introduction
+
+[cols="60%,40%", grid=none, frame=none]
+|===
+
+|Le CSS, ou Cascading Style Sheets (feuilles de style en cascade), est un langage de style utilisé pour décrire la présentation et l'apparence d'une page web. Il est utilisé en conjonction avec le HTML (Hypertext Markup Language) pour séparer la structure et le contenu d'une page web de sa mise en page et de son style.
+
+En utilisant des règles de style, le CSS permet de contrôler différents aspects de l'apparence des éléments HTML. Par exemple, vous pouvez définir la couleur du texte, la taille de la police, la mise en page, les marges, les bordures, les arrière-plans et de nombreux autres attributs visuels.
+
+L'un des principaux avantages du CSS est sa capacité à centraliser la gestion du style d'un site web. Au lieu de spécifier les styles directement dans les balises HTML, vous pouvez créer une feuille de style CSS distincte et l'associer à toutes les pages du site. Cela permet une plus grande flexibilité et facilite la maintenance du site, car vous pouvez apporter des modifications globales en modifiant simplement la feuille de style.
+
+| image:./Images/conceptCSS.png[Habillage CSS]
+|===
+
+Lorsqu'un navigateur charge une page web, il analyse le HTML et le CSS associé. Le CSS utilise des sélecteurs pour cibler spécifiquement les éléments HTML auxquels les règles de style doivent être appliquées. Par exemple, vous pouvez cibler tous les paragraphes (élément HTML `<p>`) en utilisant le sélecteur `p` et définir leur couleur de texte à rouge.
+
+
+La balise HTML `<link>` que vous avez mentionnée est utilisée pour lier une feuille de style externe à une page web. L'attribut `rel` indique la relation entre la page et la feuille de style, qui est définie comme une feuille de style (`stylesheet`). L'attribut `type` spécifie le type de contenu de la feuille de style, qui est `text/css` pour une feuille de style CSS. Enfin, l'attribut `href` spécifie l'emplacement de la feuille de style CSS à lier.
+
+[,css]
+----
+<link rel="stylesheet" type="text/css" href="style.css"> 
+----
+
+NOTE: En résumé, le CSS est un langage de style utilisé pour décrire la présentation d'une page web. Il permet de séparer le contenu du style, offrant ainsi une plus grande flexibilité dans la conception et la mise en page. Le navigateur utilise les règles de style définies dans le CSS pour afficher la page web de manière appropriée.
+
+== Sélecteurs 
+
+Les sélecteurs en CSS sont utilisés pour cibler spécifiquement les éléments HTML auxquels vous souhaitez appliquer des règles de style. Voici quelques types de sélecteurs couramment utilisés :
+
+. Sélecteur d'élément : Il sélectionne tous les éléments d'un type donné. Par exemple, pour sélectionner tous les paragraphes, vous pouvez utiliser le sélecteur `p`.
++
+====
+.Exemple :
+[,css]
+----
+p {
+   color: blue;
+}
+----
+Dans cet exemple, tous les paragraphes sur la page auront une couleur de texte bleue.
+====
+
++
+. Sélecteur de classe : Il sélectionne tous les éléments avec une classe donnée. Une classe est un attribut utilisé pour regrouper des éléments HTML et leur appliquer un style commun. Vous pouvez utiliser le sélecteur de classe en précédant le nom de la classe avec un point (`.`).
++
+
+====
+.Exemple :
+[,css]
+----
+.mon-style {
+   font-weight: bold;
+}
+----
+Dans cet exemple, tous les éléments ayant la classe "mon-style" auront une police en gras.
+====
++
+. Sélecteur d'identifiant : Il sélectionne l'élément avec un ID donné. Un ID est un attribut unique utilisé pour identifier de manière unique un élément HTML. Vous pouvez utiliser le sélecteur d'identifiant en précédant le nom de l'ID avec un dièse ("#").
++
+====
+.Exemple :
+[,css]
+----
+#mon-id {
+   background-color: yellow;
+}
+----
+Dans cet exemple, l'élément ayant l'ID "mon-id" aura un arrière-plan jaune.
+
+====
+
+. Sélecteurs imbriqués : Ils permettent de sélectionner des éléments qui sont des descendants directs d'un autre élément spécifique. Par exemple, le sélecteur `h1 > p` sélectionnera tous les paragraphes qui sont des enfants directs d'un élément h1.
+
+. Sélecteurs suivis immédiatement : Ils permettent de sélectionner un élément qui suit immédiatement un autre élément spécifique. Par exemple, le sélecteur `h1 + p` sélectionnera tous les paragraphes qui suivent immédiatement un élément h1.
+
+. Sélecteurs frères : Ils permettent de sélectionner des éléments qui partagent le même parent. Par exemple, le sélecteur `h1 ~ p` sélectionnera tous les paragraphes qui sont des frères (au même niveau) d'un élément h1.
+
+Ces sélecteurs offrent une grande flexibilité pour cibler et styliser les éléments HTML de manière spécifique. Vous pouvez également combiner différents sélecteurs pour affiner encore plus vos sélections CSS.
+
+== Propriétés
+
+Les propriétés CSS sont utilisées pour définir différents aspects de style et de mise en page des éléments HTML. Voici quelques exemples de propriétés couramment utilisées :
+
+. Couleurs :
+- `color` : Détermine la couleur du texte à l'intérieur d'un élément.
+- `background-color` : Détermine la couleur de l'arrière-plan d'un élément.
++
+====
+.Exemple :
+[,css]
+----
+p {
+   color: blue;
+   background-color: yellow;
+}
+----
+Dans cet exemple, tous les paragraphes auront un texte bleu et un arrière-plan jaune.
+====
++
+. Polices :
+- `font-family` : Détermine la famille de polices à utiliser pour le texte d'un élément.
+- `font-size` : Détermine la taille de la police utilisée pour le texte d'un élément.
+- `font-weight` : Détermine le poids de la police, par exemple, "bold" (gras) ou "normal" (normal).
++
+====
+.Exemple :
+[s,css]
+----
+h1 {
+   font-family: Arial, sans-serif;
+   font-size: 24px;
+   font-weight: bold;
+}
+----
+Dans cet exemple, tous les titres de niveau 1 (éléments `<h1>`) auront une police Arial, une taille de police de 24 pixels et seront en gras.
+====
++
+. Tailles :
+Les tailles peuvent être définies en différentes unités telles que pourcentage (%), pixels (px), em, etc.
+- `width` : Détermine la largeur d'un élément.
+- `height` : Détermine la hauteur d'un élément.
++
+====
+.Exemple :
+[,css]
+----
+img {
+   width: 200px;
+   height: 150px;
+}
+----
+Dans cet exemple, toutes les images auront une largeur de 200 pixels et une hauteur de 150 pixels.
+====
++
+. Bordures :
+- `border` : Détermine le style, l'épaisseur et la couleur de la bordure d'un élément.
++
+====
+.Exemple :
+[,css]
+----
+div {
+   border: 1px solid black;
+}
+----
+Dans cet exemple, tous les éléments `<div>` auront une bordure solide de 1 pixel d'épaisseur et de couleur noire.
+====
+Ce ne sont que quelques exemples parmi de nombreuses propriétés CSS disponibles. Chaque propriété a un effet spécifique sur la mise en page et le style des éléments HTML. En combinant différentes propriétés et valeurs, vous pouvez personnaliser l'apparence de votre site web selon vos besoins.
+
+== Boîtes
+
+En CSS, les éléments HTML sont considérés comme des boîtes rectangulaires. Chaque élément est traité comme une boîte avec des dimensions, une position, des marges, des bordures et un remplissage. Voici les propriétés CSS qui affectent les boîtes :
+
+. `width` : Cette propriété définit la largeur de la boîte. Vous pouvez spécifier une valeur en pixels, en pourcentage de la largeur du conteneur parent, en em, etc.
++
+====
+.Exemple :
+[,css]
+----
+div {
+   width: 300px;
+}
+----
+Dans cet exemple, tous les éléments `<div>` auront une largeur de 300 pixels.
+====
++
+
+. `height` : Cette propriété définit la hauteur de la boîte. Tout comme la propriété `width`, vous pouvez spécifier la valeur en pixels, en pourcentage, en em, etc.
++
+====
+.Exemple :
+[,css]
+----
+div {
+   height: 200px;
+}
+----
+Dans cet exemple, tous les éléments `<div>` auront une hauteur de 200 pixels.
+====
++
+. `margin` : Cette propriété définit l'espace autour de la boîte. Elle crée un espace entre les boîtes voisines. Vous pouvez spécifier différentes valeurs pour les marges supérieure, inférieure, gauche et droite, ou utiliser la propriété raccourcie pour définir toutes les marges en une seule fois.
++
+====
+.Exemple :
+[,css]
+----
+div {
+   margin: 10px;
+}
+----
+Dans cet exemple, tous les éléments `<div>` auront une marge de 10 pixels autour d'eux.
+====
++
+. `padding` : Cette propriété définit l'espace entre le contenu de la boîte et ses bordures. Elle crée un espace à l'intérieur de la boîte.
++
+====
+.Exemple :
+[,css]
+----
+div {
+   padding: 20px;
+}
+----
+Dans cet exemple, tous les éléments `<div>` auront un espacement de 20 pixels entre leur contenu et leurs bordures.
+====
++
+. `border` : Cette propriété définit la bordure de la boîte. Vous pouvez spécifier le style, l'épaisseur et la couleur de la bordure. Vous pouvez également définir ces propriétés individuellement en utilisant les propriétés `border-style`, `border-width` et `border-color`.
++
+====
+.Exemple :
+[,css]
+----
+div {
+   border: 1px solid black;
+}
+----
+Dans cet exemple, tous les éléments `<div>` auront une bordure solide de 1 pixel d'épaisseur et de couleur noire.
+====
+
+Ces propriétés CSS permettent de contrôler l'apparence et la mise en page des boîtes des éléments HTML. En utilisant ces propriétés de manière appropriée, vous pouvez créer des mises en page complexes et attrayantes pour votre site web.
+
+== Responsivité
+
+La responsivité en CSS est une approche qui permet d'adapter l'affichage d'un site web en fonction de la taille de l'écran du périphérique utilisé pour le consulter. L'objectif est d'offrir une expérience utilisateur optimale, quelle que soit la taille de l'écran, allant des smartphones aux tablettes et aux ordinateurs de bureau.
+
+Pour rendre un site web responsive, plusieurs techniques CSS sont utilisées :
+
+. Médias queries : Les médias queries permettent de définir des règles CSS spécifiques à certaines plages de tailles d'écran. Par exemple, vous pouvez définir des styles différents pour les écrans larges et les écrans étroits. Cela permet d'adapter la mise en page et les styles en fonction de la résolution de l'écran.
++
+.Exemple :
+[,css]
+----
+@media screen and (max-width: 768px) {
+   /* Styles pour les écrans de taille maximale de 768px */
+   ...
+}
+----
++
+. Grilles flexbox ou CSS grid : Les grilles flexbox et CSS grid sont des techniques de mise en page CSS qui permettent de créer des mises en page flexibles et réactives. Elles permettent de structurer les éléments de manière fluide et de les réorganiser automatiquement en fonction de la taille de l'écran.
+
+. Utilisation de pourcentages : Plutôt que d'utiliser des valeurs absolues en pixels pour définir les tailles des éléments, il est recommandé d'utiliser des pourcentages. Cela permet aux éléments de s'adapter automatiquement à la taille de l'écran.
+
+.Responsivité
+[sidebar]
+****
+TIP: Une conception responsive bien pensée présente plusieurs avantages, notamment :
+
+* Une meilleure expérience utilisateur : Les utilisateurs peuvent accéder au site web et naviguer facilement, quel que soit le périphérique utilisé.
+
+* Une meilleure optimisation pour les moteurs de recherche : Les moteurs de recherche, tels que Google, favorisent les sites web qui offrent une expérience responsive, ce qui peut améliorer le référencement naturel et le positionnement dans les résultats de recherche.
+****
+Pour garantir une bonne responsivité, il est important de tester régulièrement l'affichage du site web sur différents appareils et tailles d'écran. Il est également essentiel de recueillir les retours des utilisateurs pour identifier les problèmes éventuels et apporter des améliorations continues à l'expérience de navigation.
+
+== Flexbox
+
+Les Flexbox, ou Flexible Box Layout, est une technique de mise en page CSS qui permet de créer des conteneurs flexibles pour organiser les éléments d'une manière réactive et flexible. Voici les principes de base des Flexbox :
+
+. Conteneur Flexbox :
+* Pour utiliser Flexbox, vous devez créer un conteneur en définissant la propriété `display` avec la valeur `flex` ou `inline-flex`.
+* Le conteneur Flexbox devient un contexte de mise en page flex où les éléments enfants à l'intérieur du conteneur adoptent les comportements flexibles.
++
+.Exemple :
+[,css]
+----
+.container {
+   display: flex;
+}
+----
++
+. Axes principaux et transversaux :
+* Les conteneurs Flexbox ont deux axes : l'axe principal (main axis) et l'axe transversal (cross axis).
+* L'axe principal est généralement horizontalement orienté, de gauche à droite (ou de droite à gauche pour les langues écrites de droite à gauche).
+* L'axe transversal est généralement verticalement orienté, de haut en bas.
+
+. Distribution des éléments :
+* Les éléments enfants à l'intérieur du conteneur Flexbox sont appelés des "flex items".
+* Les flex items peuvent être distribués de différentes manières le long de l'axe principal, en utilisant des propriétés telles que `justify-content` pour aligner les éléments horizontalement et `align-items` pour les aligner verticalement.
+* Les flex items peuvent également être réorganisés automatiquement en utilisant les propriétés `flex-direction` et `flex-wrap`.
++
+.Exemple :
+[,css]
+----
+.container {
+   display: flex;
+   justify-content: center; /* Alignement horizontal au centre */
+   align-items: center; /* Alignement vertical au centre */
+   flex-wrap: wrap; /* Les flex items peuvent être répartis sur plusieurs lignes */
+}
+----
++
+. Ajustement de la taille des éléments :
+* Les flex items peuvent être configurés pour s'étirer et se rétrécir automatiquement pour remplir l'espace disponible en utilisant la propriété `flex`.
+* La propriété `flex` permet de spécifier la proportion de l'espace disponible que chaque flex item doit occuper.
++
+.Exemple :
+[,css]
+----
+.item {
+   flex: 1; /* Les flex items prennent une part égale de l'espace disponible */
+}
+----
+
+Les Flexbox offrent une approche puissante pour créer des mises en page flexibles et réactives. Ils simplifient la structuration des éléments et permettent de gérer facilement l'alignement, la distribution et la taille des éléments dans un conteneur.
+
+== Grid
+
+Les CSS Grids, ou grilles CSS, sont une technique de mise en page avancée qui permet de diviser une page web en un quadrillage (grid) composé de lignes et de colonnes. Les éléments HTML peuvent ensuite être placés et organisés de manière précise à l'intérieur de ce quadrillage. Voici les principes de base des CSS Grids :
+
+. Conteneur de grille :
+* Pour utiliser CSS Grids, vous devez créer un conteneur en définissant la propriété `display` avec la valeur `grid`.
+* Le conteneur de grille devient un contexte de mise en page en grille où vous pouvez spécifier les lignes et les colonnes de la grille.
++
+.Exemple :
+[,css]
+----
+.container {
+   display: grid;
+}
+----
++
+. Définition de la structure de la grille :
+* Vous pouvez définir la structure de la grille en utilisant les propriétés `grid-template-rows` et `grid-template-columns`.
+* Vous pouvez spécifier la taille des lignes et des colonnes en utilisant des valeurs telles que des pixels, des pourcentages, des fractions, des unités fr, etc.
++
+.Exemple :
+[,css]
+----
+.container {
+   display: grid;
+   grid-template-rows: 100px 200px; /* Deux lignes de 100 pixels et 200 pixels respectivement */
+   grid-template-columns: 1fr 2fr; /* Deux colonnes avec une fraction de 1 et une fraction de 2 respectivement */
+}
+----
++
+. Placement des éléments :
+* Les éléments enfants du conteneur de grille sont placés à l'intérieur de la grille en utilisant les propriétés `grid-row` et `grid-column`.
+* Vous pouvez spécifier à quelle ligne ou à quelle colonne un élément doit appartenir en utilisant des valeurs telles que les numéros de ligne ou de colonne, `span` pour occuper plusieurs lignes ou colonnes, ou `auto` pour que la grille décide de l'emplacement.
++
+.Exemple :
+[,css]
+----
+.item {
+   grid-row: 1 / span 2; /* L'élément occupe la première ligne et s'étend sur deux lignes */
+   grid-column: 2; /* L'élément est placé dans la deuxième colonne */
+}
+----
+
+Les CSS Grids offrent un contrôle précis sur la mise en page des éléments et permettent de créer des mises en page complexes et réactives. Vous pouvez facilement organiser et réorganiser les éléments dans la grille, en spécifiant les positions des lignes et des colonnes. Pour mieux comprendre et pratiquer les CSS Grids, vous pouvez utiliser des ressources interactives telles que le jeu en ligne "CSS Grid Garden" (https://cssgridgarden.com/#fr) qui vous guide à travers différents niveaux d'exercices pour maîtriser cette technique.
+
+== Flexbox vs Grid
+
+[cols="60%,40%", frame=none, grid=none]
+|===
+a|
+[cols="1,1", frame=none]
+!===
+
+!Flexbox ! Grid
+
+!Conçu pour les mises en page unidimensionnelles 
+!Conçu pour les mises en page bidimensionnelles
+!Permet de créer des mises en page responsives facilement 
+!Permet de créer des mises en page très complexes avec de multiples éléments positionnés
+! Idéal pour les dispositions en ligne ou en colonne
+!Idéal pour les dispositions en grille
+!Facile à comprendre et à mettre en oeuvre pour les débutants
+!Nécessite une compréhension plus avancée pour les mises en page complexes 
+!===
+
+| image:./Images/flexVSgrid.png[FlexBox vs Grid]
+|===
+
+== CSS Préconçus
+
+. Bootstrap : https://getbootstrap.com/
+. Materialize : https://materializecss.com/
+. Bulma : https://bulma.io/
+. Tailwind CSS : https://tailwindcss.com/
+. Foundation : https://foundation.zurb.com/
+. Semantic UI : https://semantic-ui.com/
+. CSS Zen Garden : http://www.csszengarden.com/

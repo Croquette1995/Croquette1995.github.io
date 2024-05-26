@@ -1,0 +1,300 @@
+= Ressources Utiles - Python
+Auteur: Corentin Chiodo
+Date:: {docdate}
+:doctype: book
+:icons: font
+:toc: left
+:toclevels: 3
+:toc-title: Table des matières - Python
+:source-highlighter: highlight.js
+:diagram-extension:
+
+// :title-page-background-image: image:cover.png[fit=none,pdfwidth=70%, position= top center]
+// :title-logo-image: image:logo.png[top=90%,align=left, scale=25%]
+
+=== Renvoyer un booléen en vérifiant si un répertoire est vide ou non. 
+[source,python]
+----
+import os <1>
+path = r"C:\Users\Coren\Downloads\bat peinture"
+
+def empty_dir(path):
+    return not os.listdir(path) <2>
+
+print(empty_dir(path))
+----
+<1> module nécessaire.
+<2> retourne False si répertoire contient au moins un fichier.
+
+NOTE: Cette fonction peut être utilisée dans de nombreux cas, par exemple pour nettoyer automatiquement un répertoire en supprimant les fichiers et sous-répertoires vides, ou pour vérifier si un répertoire est prêt à être utilisé pour stocker des données.
+
+'''
+
+=== Comment récupérer les arguments passés à un script ?
+.Exemple
+[source, python]
+----
+nom = sys.argv[1]
+age = sys.argv[2]
+print("Bonjour {0}, vous avez {1} ans.".format(nom, age)) <1>
+----
+<1> script.py corentin 28
+
+=> Bonjour corentin, vous avez 28 ans.
+
+'''
+
+=== Comment convertir un chemin windows en un chemin linux ?
+.Méthode n°1: 
+[source, python]
+----
+import os
+
+def convert_path_to_linux(path):
+    # Normalise le chemin pour supprimer les doubles backslashes
+    normalized_path = os.path.normpath(path)
+    # Remplace les backslashes par des slashes
+    return normalized_path.replace('\\', '/')
+
+windows_path = r'C:\\Users\\Username\\Documents\\file.txt'
+linux_path = convert_path_to_linux(windows_path)
+print(linux_path)  # Output: 'C:/Users/Username/Documents/file.txt'
+----
+
+.Méthode n°2 : avec une expression régulière 
+[source, python]
+----
+import os
+import re <1>
+
+def convert_path_to_linux(path):
+    # Normalise le chemin pour supprimer les doubles backslashes
+    normalized_path = os.path.normpath(path)
+    return re.sub(r'\\+', '/', path)
+
+windows_path = r'C:\\Users\\Username\\Documents\\file.txt'
+linux_path = convert_path_to_linux(windows_path)
+print(linux_path)  # Output: 'C:/Users/Username/Documents/file.txt'
+----
+<1> module pour les expressions régulières
+
+NOTE: link:++Ressources - Regex.html++[Voir Regex] pour plus d'informations.
+
+'''
+
+=== Terminer un processus via son nom [CLI]
+[source, python]
+----
+import psutil <1>
+import re
+
+def terminate_process(process_name):
+    """
+    Terminates processes whose names match the given pattern.
+    
+    Args:
+        process_name (str): The name (or pattern) of the process to terminate.
+    """
+    try:
+        # Flag to check if any processes were found
+        processes_found = False
+        
+        # Iterate over all running processes
+        for proc in psutil.process_iter(['pid', 'name']):
+            try:
+                # Search for the process name using a case-insensitive regex
+                if re.search(process_name, proc.info['name'], re.IGNORECASE): <2>
+                    processes_found = True
+                    print(f"Terminating process {proc.info['name']} with PID {proc.info['pid']}")
+                    
+                    # Terminate the process
+                    proc.terminate()
+                    
+                    # Wait for the process to terminate, with a timeout of 3 seconds
+                    proc.wait(timeout=3)
+            except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
+                # Handle exceptions for non-existing, inaccessible, or zombie processes
+                continue
+        
+        # If no processes were found, inform the user
+        if not processes_found:
+            print(f"No process matching '{process_name}' found.")
+    except Exception as e:
+        # General exception handling
+        print(f"Error while terminating processes: {e}")
+
+if __name__ == "__main__":
+    # Prompt the user to enter the name of the process to terminate
+    process_name = input("Process to terminate: \n")
+    terminate_process(process_name)
+----
+<1> psutil (process and system utilities) est une bibliothèque multiplateforme permettant de récupérer des informations sur les processus en cours d'exécution et l'utilisation du système (CPU, mémoire, disques, réseau, capteurs) en Python. Elle est principalement utile pour la surveillance du système, le profilage, la limitation des ressources des processus et la gestion des processus en cours d'exécution. Elle implémente de nombreuses fonctionnalités offertes par des outils en ligne de commande classiques UNIX tels que ps, top, iotop, lsof, netstat, ifconfig, free et d'autres.
+<2> `re.IGNORECASE` pour rendre la recherche de nom de processus insensible à la casse
+
+'''
+
+=== Insérer une image dans un pdf
+
+.Exemple
+[,python]
+----
+import fitz  # PyMuPDF <1> <2>
+
+# Ouvrir le document PDF
+pdf_document = fitz.open("mon_document.pdf")
+
+# Ouvrir une page spécifique
+page = pdf_document[0]
+
+# Définir l'image à insérer
+image_path = "mon_image.png"
+image_rect = fitz.Rect(100, 100, 300, 300)  # Position et taille de l'image
+
+# Insérer l'image
+page.insert_image(image_rect, filename=image_path)
+
+# Enregistrer le document PDF modifié
+pdf_document.save("document_modifie.pdf")
+
+----
+<1> https://pypi.org/project/PyMuPDF/ 
+<2> https://pymupdf.readthedocs.io/en/latest/tutorial.html#modifying-creating-re-arranging-and-deleting-pages 
+
+'''
+
+[plantuml, format=svg, target="./Images/diagramme"]
+----
+@startuml
+Bob -> Alice : hello
+Alice --> Bob : goodbye
+@enduml
+----
+
+''''
+
+
+[plantuml, format=svg, target="./Images/poney"]
+----
+@startuml
+skinparam classAttributeIconSize 0
+
+package "pkg Classes Diagram" {
+
+  class userAuth {
+    - idUserAuth: int
+    - login: string
+    - password: string
+    - last_login: date
+  }
+
+  class ticket {
+    - idTicket: int
+    - ticketSubject: string
+    - incidentType: string
+    - ticketDescription: string
+    - ticketStatus: string
+    - ticketPriority: string
+    - ticketDate: date
+    - ticketAttachedImage: string
+    - ticketAttachedFile: string
+  }
+
+  class conversation {
+    - idConversation: int
+  }
+
+  class message {
+    - idMessage: int
+    - messageContent: string
+    - messageDate: date
+    - messageAttachedFile: string
+    - messageAttachedImage: string
+  }
+
+  class viewTicket {
+    + answerTicket(idConversation: int): void
+    + addMessageAttachmentFile(attachmentFilePath: string): void
+    + addMessageAttachmentImage(attachmentImagePath: string): void
+    + cancelViewTicket(): void
+    + closeTicket(idTicket: int, ticketStatus: string): void
+  }
+
+  class createTicketForm {
+    + validateTicketForm(): void
+    + addAttachmentFile(attachmentFilePath: string): void
+    + addAttachmentImage(attachmentImagePath: string): void
+    + cancelTicketForm(): void
+    + changeStatus(ticket: Ticket, ticketStatus: string): void
+    + changePriority(ticket: Ticket, ticketPriority: string): void
+  }
+
+  class createTicketPage {
+    + createTicketForm(): void
+    + selectTicket(idTicket: int): void
+    + filterTickets(): ticket[]
+    + viewTicket(idTicket: int): void
+    + displayCreateTicketPage(): void
+  }
+
+  class managementTickets {
+    + validateTicketForm(ticketSubject: string, etc: int): void
+    + addAttachmentFile(attachmentFilePath: string): void
+    + addAttachmentImage(attachmentImagePath: string): void
+    + changeStatus(ticket: Ticket, ticketStatus: string): void
+    + createTicket(): void
+    + changePriority(ticket: Ticket, ticketPriority: string): void
+    + viewTicket(idTicket: int): void
+    + selectTicket(idTicket: int): void
+    + filterTickets(): ticket[]
+    + displayCreateTicketPage(): void
+    + answerTicket(idConversation: int): void
+    + addMessageAttachmentFile(attachmentFilePath: string): void
+    + addMessageAttachmentImage(attachmentImagePath: string): void
+    + cancelViewTicket(): void
+    + closeTicket(idTicket: int, ticketStatus: string): void
+  }
+
+  enum ticketPriority {
+    high
+    middle
+    low
+  }
+
+  enum ticketStatus {
+    in_progress
+    to_be_processed
+    processed
+  }
+
+  enum incidentType {
+    mechanical_failure
+    software_problem
+    user_error
+  }
+
+  viewTicket ..> userAuth: uses
+  createTicketForm ..> userAuth: uses
+  createTicketPage ..> userAuth: uses
+
+  viewTicket ..> conversation: uses
+  viewTicket ..> message: uses
+
+  createTicketForm ..> ticket: uses
+
+  createTicketPage ..> ticket: uses
+
+  managementTickets ..> ticket: uses
+  managementTickets ..> conversation: uses
+  managementTickets ..> message: uses
+
+  ticket --|> ticketPriority
+  ticket --|> ticketStatus
+  ticket --|> incidentType
+
+  conversation "1" -- "0..*" message
+  ticket "1" -- "1..*" managementTickets
+}
+@enduml
+
+----
+

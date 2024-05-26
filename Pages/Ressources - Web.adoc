@@ -1,0 +1,17 @@
+= Ressources Utiles - Web
+Auteur: Corentin Chiodo
+Date:: {docdate}
+:doctype: book
+:icons: font
+
+[cols="35%,65%", grid=none, frame=none]
+|===
+| image:./Images/HTML.png[32,32,logo=HTML] link:++./Web - HTML.html++[Html]
+
+image:./Images/CSS.png[32,32,logo=CSS] link:++./Web - CSS.html++[CSS]
+
+image:./Images/Tailwind.png[32,32,logo=Tailwind] link:++./Web - Tailwind.html++[Tailwind CSS]
+
+| image:./Images/World Wide Web.png[WWW]
+|===
+

@@ -1,0 +1,14 @@
+= Ressources Utiles - AsciiDocs
+Auteur: Corentin Chiodo
+Date:: {docdate}
+:doctype: book
+:icons: font
+:source-highlighter: highlight.js
+// :title-page-background-image: image:cover.png[fit=none,pdfwidth=70%, position= top center]
+// :title-logo-image: image:logo.png[top=90%,align=left, scale=25%]
+
+link:https://docs.asciidoctor.org/asciidoc/latest/[Documentation AsciiDocs]
+
+'''
+
+link:https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/[Syntax Quick Reference]

@@ -1,0 +1,421 @@
+= Ressources Utiles - HTML
+Auteur: Corentin Chiodo
+Date:: {docdate}
+:doctype: book
+:icons: font
+:toc: left
+:toclevels: 3
+:toc-title: 
+:source-highlighter: highlight.js
+
+== Introduction
+
+L'HTML (HyperText Markup Language) est le langage de balisage standard utilisé pour créer et structurer le contenu des pages web. Voici quelques points clés sur l'HTML :
+
+[cols="65%,35%", frame=none, grid=none]
+|===
+|
+1. Structure de base :
+   L'HTML utilise une structure de balises pour définir la hiérarchie et l'organisation du contenu sur une page web. Une balise HTML est composée d'un nom entouré de chevrons (`<` et `>`). Les balises sont généralement utilisées par paires, avec une balise d'ouverture et une balise de fermeture pour entourer le contenu. Par exemple, `<p>` est une balise d'ouverture pour un paragraphe, et `</p>` est la balise de fermeture correspondante.
+
+2. Balises et attributs :
+   Les balises HTML définissent le type de contenu qu'elles entourent. Par exemple, `<h1>` est utilisé pour les titres de niveau 1, `<img>` pour les images, `<a>` pour les liens, etc. Les balises peuvent également avoir des attributs, qui fournissent des informations supplémentaires sur l'élément. Par exemple, l'attribut `src` est utilisé pour spécifier l'emplacement d'une image dans la balise `<img>`, et l'attribut `href` définit l'URL de destination pour une balise `<a>`.
+
+3. Hiérarchie et structure :
+   L'HTML permet de créer une structure hiérarchique en utilisant des balises imbriquées. Les balises peuvent être contenues à l'intérieur d'autres balises, ce qui permet de définir des sections, des sous-sections et des éléments imbriqués. Par exemple, un en-tête `<header>` peut contenir un titre `<h1>`, une navigation `<nav>`, etc. Cette structure aide à organiser et à formater le contenu de manière logique.
+
+4. Contenu textuel :
+   L'HTML est utilisé pour structurer et formater le contenu textuel d'une page web. Il permet de créer des paragraphes `<p>`, des titres `<h1>`, `<h2>`, etc., des listes `<ul>` (liste non ordonnée) ou `<ol>` (liste ordonnée), des citations `<blockquote>`, des éléments de texte en gras `<strong>` ou en italique `<em>`, et bien plus encore.
+
+5. Images et médias :
+   L'HTML permet l'intégration d'images, de vidéos, de fichiers audio et d'autres médias dans une page web. La balise `<img>` est utilisée pour insérer des images, tandis que les balises `<video>`, `<audio>`, etc., sont utilisées pour intégrer des éléments multimédias.
+
+6. Formulaires :
+   L'HTML facilite la création de formulaires interactifs sur les pages web. Les balises `<form>` sont utilisées pour créer un formulaire, tandis que les balises `<input>`, `<select>`, `<textarea>`, etc., sont utilisées pour créer différents types de champs de saisie.
+
+L'HTML fournit une structure de base pour les pages web, qui peut ensuite être stylisée à l'aide de langages de style tels que CSS (Cascading Style Sheets) pour améliorer l'apparence et la mise en page des éléments sur la page. L'HTML est une partie essentielle de la création
+
+| image:./Images/compositionHTML.png[]
+
+|===
+
+== Head
+
+Le `<head>` est une section de l'élément `<html>` d'une page web qui contient des informations et des balises destinées à configurer et à décrire la page. Voici quelques éléments couramment utilisés dans la section `<head>` : 
+
+. L'encodage de caractères `<meta charset="utf-8">` :
+   Cette balise spécifie l'encodage des caractères utilisé sur la page. L'encodage UTF-8 est largement utilisé car il prend en charge de nombreux caractères différents.
+
+. Le titre de la page `<title>` :
+   Cette balise définit le titre de la page, qui est affiché dans la barre de titre de la fenêtre du navigateur et est souvent utilisé comme titre dans les résultats des moteurs de recherche.
+
+. La description de la page `<meta name="description" content="Description de la page">` :
+   Cette balise permet de fournir une description concise de la page. Cette description est souvent utilisée par les moteurs de recherche pour afficher un extrait de la page dans les résultats de recherche.
+
+. Les mots-clés de la page `<meta name="keywords" content="mot-clé 1, mot-clé 2">` :
+   Cette balise était autrefois utilisée pour spécifier les mots-clés pertinents pour la page. Cependant, les moteurs de recherche accordent aujourd'hui moins d'importance à cette balise, mais elle peut encore être utilisée pour référencer des mots-clés importants.
+
+. Les informations d'auteur `<meta name="author" content="Nom de l'auteur">` :
+   Cette balise permet de spécifier le nom de l'auteur de la page.
+
+. Les liens vers les feuilles de style CSS `<link rel="stylesheet" href="styles.css">` :
+   Cette balise établit un lien vers une feuille de style externe (généralement un fichier CSS) qui contient des règles de style pour la mise en forme de la page.
+
+. Les liens vers les fichiers de script JavaScript `<script src="script.js"></script>` :
+   Cette balise permet de charger un fichier JavaScript externe qui contient du code pour ajouter des fonctionnalités interactives à la page.
+
+Ces éléments du `<head>` sont essentiels pour configurer et optimiser une page web en fournissant des informations aux navigateurs, aux moteurs de recherche et aux autres outils d'analyse et d'interprétation des pages web.
+
+
+== Liens
+
+Les liens sont des éléments essentiels du Web car ils permettent de naviguer entre les pages, les sites web et même les différentes sections d'une page. Voici quelques points importants à savoir sur les liens :
+
+. Création d'un lien :
+   Pour créer un lien, on utilise la balise `<a>` (ancre) suivie de l'attribut `href` (hypertext reference). L'attribut `href` spécifie l'adresse de destination du lien, qui peut être une URL complète, une URL relative ou une ancre interne.
++   
+
+====
+[source, html]
+.Exemple
+----
+<a href="http://www.example.com">Cliquez ici</a> <1>
+----
+<1> Ce lien redirigera les utilisateurs vers le site web "http://www.example.com" lorsqu'ils cliqueront dessus.
+====
++
+
+. Liens internes (ancres) :
+   Les liens internes sont utilisés pour naviguer vers des sections spécifiques d'une même page. Pour créer un lien interne, on utilise une ancre, qui est un identifiant unique associé à une section spécifique de la page.
++
+====
+.Exemple de lien interne :
+[source,html]
+----
+<a href="#section2">Aller à la section 2</a> <1>
+----
+<1> Ce lien permettra aux utilisateurs de naviguer vers une section de la page ayant l'attribut `id="section2"` lorsque le lien est cliqué.
+====
++
+. Cibler une nouvelle fenêtre ou onglet :
+   En utilisant l'attribut `target` dans la balise `<a>`, on peut spécifier si le lien doit être ouvert dans la même fenêtre ou un nouvel onglet. Par défaut, les liens s'ouvrent dans la même fenêtre.
++   
+====
+.Exemple de lien avec cible sur un nouvel onglet :
+[source, html]
+----
+<a href="http://www.example.com" target="_blank">Cliquez ici</a> <1>
+----
+<1> Ce lien ouvrira le site web "http://www.example.com" dans un nouvel onglet du navigateur.
+====
+
+Les liens sont utilisés pour faciliter la navigation sur le Web en reliant les différentes pages, sites web et sections d'une page. Ils permettent aux utilisateurs de passer d'une ressource à une autre en cliquant simplement sur le lien approprié.
+
+
+== Images
+
+Les images jouent un rôle important dans la création de contenu visuel attrayant sur les pages web. Voici quelques points clés à connaître sur l'utilisation des images en HTML :
+
+. Balise `<img>` :
+   La balise `<img>` est utilisée pour insérer des images dans une page HTML. Elle ne nécessite pas de balise de fermeture car elle est une balise vide.
++
+.Exemple :
+[,html]
+----
+<img src="chemin/vers/mon/image.jpg" alt="Description de l'image">
+----
+
++
+. Attribut `src` :
+   L'attribut `src` (source) est utilisé pour spécifier le chemin d'accès à l'image. Ce chemin peut être une URL complète vers une image hébergée sur un serveur distant ou un chemin relatif vers une image stockée localement.
++
+.Exemple avec URL :
+[,html]
+----
+<img src="http://www.example.com/chemin/vers/mon/image.jpg" alt="Description de l'image">
+----
++
+.Exemple avec chemin relatif :
+[,html]
+----
+<img src="images/mon-image.jpg" alt="Description de l'image">
+----
++
+. Attribut `alt` :
+   L'attribut `alt` (alternative) est utilisé pour fournir une description textuelle de l'image. Cette description est affichée par les navigateurs lorsque l'image ne peut pas être chargée ou pour les utilisateurs ayant des problèmes de vision qui utilisent des technologies d'assistance.
++
+====
+.Exemple
+[,html]
+----
+<img src="chemin/vers/mon/image.jpg" alt="Un chat noir jouant avec une balle"> <1>
+----
+<1> Il est recommandé d'inclure toujours l'attribut `alt` pour toutes les images, car cela améliore l'accessibilité et l'expérience utilisateur.
+====
++
+. Formats d'image :
+   L'HTML prend en charge différents formats d'image courants tels que JPEG, PNG, GIF, etc. Assurez-vous d'utiliser le bon format d'image en fonction de vos besoins en termes de qualité, de transparence, de compression, etc.
+
+L'insertion d'images dans une page HTML peut améliorer considérablement l'aspect visuel et l'engagement des utilisateurs. Assurez-vous de choisir des images adaptées, d'optimiser leur taille et de fournir des descriptions appropriées pour une expérience utilisateur optimale.
+
+== Listes
+
+Les listes sont utilisées pour organiser et structurer le contenu de manière ordonnée. En HTML, il existe deux types de listes couramment utilisées : les listes à puces et les listes numérotées. Voici comment les créer :
+
+. Liste à puces avec la balise `<ul>` :
+   La balise `<ul>` (unordered list) est utilisée pour créer une liste à puces. Chaque élément de la liste est défini par la balise `<li>` (list item), qui est imbriquée à l'intérieur de la balise `<ul>`.
++
+.Exemple :
+[,html]
+----
+<ul>
+    <li>Élément 1</li>
+    <li>Élément 2</li>
+    <li>Élément 3</li>
+</ul>
+----
++
+. Liste numérotée avec la balise `<ol>` :
+   La balise `<ol>` (ordered list) est utilisée pour créer une liste numérotée. Comme pour la liste à puces, chaque élément de la liste est défini par la balise `<li>`, qui est imbriquée à l'intérieur de la balise `<ol>`.
++
+.Exemple :
+[,html]
+----
+<ol>
+    <li>Élément 1</li>
+    <li>Élément 2</li>
+    <li>Élément 3</li>
+</ol>
+----
+
+Les styles visuels des listes à puces et des listes numérotées sont généralement définis dans les fichiers CSS pour correspondre au design global de la page. Vous pouvez personnaliser l'apparence des listes en utilisant des sélecteurs CSS pour cibler les balises `<ul>` et `<ol>`, ainsi que les balises `<li>`.
+
+Il est également possible d'imbriquer des listes à l'intérieur d'autres listes, ce qui crée une structure de liste hiérarchique.
+
+.Exemple de liste imbriquée :
+[,html]
+----
+<ul>
+  <li>Élément 1</li>
+  <li>Élément 2
+    <ul>
+      <li>Sous-élément 1</li>
+      <li>Sous-élément 2</li>
+    </ul>
+  </li>
+  <li>Élément 3</li>
+</ul>
+----
+
+Les listes offrent une manière organisée et structurée de présenter des informations dans une page HTML, que ce soit pour des points clés, des étapes d'un processus, des produits, etc.
+
+== Tableaux
+
+Les tableaux HTML sont utilisés pour organiser les données en lignes et colonnes. Voici comment créer un tableau en HTML :
+
+. Balise `<table>` :
+   Le tableau est créé en utilisant la balise `<table>`. Cette balise englobe tout le contenu du tableau.
+
+. Balise `<tr>` :
+   Les lignes du tableau sont définies par la balise `<tr>` (table row). Chaque balise `<tr>` contient une ou plusieurs balises `<td>` ou `<th>` pour représenter les cellules de la ligne.
+
+. Balise `<td>` et `<th>` :
+   Les cellules du tableau sont définies par la balise `<td>` (table data) pour les cellules de données normales et la balise `<th>` (table header) pour les cellules d'en-tête. Les balises `<th>` sont généralement utilisées pour la première ligne du tableau, qui contient les titres des colonnes.
++
+.Exemple de tableau simple :
+[,html]
+----
+<table>
+    <tr>
+        <th>Colonne 1</th>
+        <th>Colonne 2</th>
+    </tr>
+    <tr>
+        <td>Ligne 1, Cellule 1</td>
+        <td>Ligne 1, Cellule 2</td>
+    </tr>
+    <tr>
+        <td>Ligne 2, Cellule 1</td>
+        <td>Ligne 2, Cellule 2</td>
+    </tr>
+</table>
+----
++
+. Attributs `rowspan` et `colspan` :
+   Il est possible de fusionner des cellules en utilisant les attributs `rowspan` (fusion de lignes) et `colspan` (fusion de colonnes). Ces attributs spécifient combien de lignes ou de colonnes doivent être fusionnées pour une cellule donnée.
++
+.Exemple de fusion de cellules :
+[,html]
+----
+<table>
+    <tr>
+        <th rowspan="2">Titre fusionné</th>
+        <th>Colonne 1</th>
+        <th>Colonne 2</th>
+    </tr>
+    <tr>
+        <td>Ligne 1, Cellule 1</td>
+        <td>Ligne 1, Cellule 2</td>
+    </tr>
+</table>
+----
+
+NOTE: Cependant, l'utilisation excessive de tableaux pour la mise en page et la présentation de contenu complexe peut rendre le contenu moins accessible aux utilisateurs ayant des besoins spécifiques, tels que les utilisateurs de lecteurs d'écran. Il est donc recommandé d'utiliser les tableaux de manière appropriée et de préférer les méthodes de mise en page CSS plus flexibles lorsque cela est possible.
+
+== Menu
+
+La création de menus de navigation est un élément essentiel pour faciliter la navigation des visiteurs sur un site web. Voici comment créer un menu de navigation en HTML :
+
+. Balise `<nav>` :
+   La balise `<nav>` est utilisée pour englober le menu de navigation dans la structure HTML. Elle permet de spécifier que le contenu qu'elle contient est destiné à la navigation.
++
+.Exemple :
+[,html]
+----
+<nav>
+    <!-- Contenu du menu de navigation -->
+</nav>
+----
++
+. Balise `<ul>` et `<li>` :
+   À l'intérieur de la balise `<nav>`, on utilise la balise `<ul>` (unordered list) pour créer une liste non ordonnée qui représente le menu de navigation. Chaque élément du menu est défini par la balise `<li>` (list item), qui est imbriquée à l'intérieur de la balise `<ul>`.
++
+====
+.Exemple :
+[,html]
+----
+<nav>
+    <ul>
+        <li><a href="index.html">Accueil</a></li> <1>
+        <li><a href="about.html">À propos</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+----
+<1> Chaque élément du menu est défini par la balise `<li>`, et à l'intérieur de celle-ci, on utilise la balise `<a>` pour créer un lien vers la page correspondante. L'attribut `href` spécifie l'URL de destination du lien.
+====
++
+
+. Personnalisation du menu :
+   Vous pouvez personnaliser l'apparence du menu de navigation en utilisant des règles CSS pour cibler les balises `<nav>`, `<ul>`, `<li>` et `<a>`. Cela vous permet de modifier les couleurs, les polices, les espacements, etc., pour correspondre au style de votre site web.
+
+Les menus de navigation aident les utilisateurs à se déplacer facilement entre les différentes pages d'un site web. Ils offrent une structure claire et logique, ce qui facilite l'expérience utilisateur. Assurez-vous de créer des menus de navigation cohérents et faciles à utiliser pour améliorer la navigation sur votre site.
+
+== Formulaires
+
+Les formulaires sont utilisés pour collecter des informations auprès des utilisateurs d'un site web. Voici comment créer un formulaire en HTML :
+
+. Balise `<form>` :
+   La balise `<form>` est utilisée pour créer un formulaire interactif. Elle englobe tous les éléments du formulaire.
++
+====
+.Exemple :
+[,html]
+----
+<form action="traitement.php" method="POST"> <1>
+    <!-- Contenu du formulaire -->
+</form>
+----
+<1> L'attribut `action` spécifie l'URL ou le script de traitement qui recevra les données soumises par le formulaire. L'attribut `method` indique la méthode d'envoi des données, généralement "POST" ou "GET".
+====
++
+. Champs de formulaire :
+   À l'intérieur de la balise `<form>`, vous pouvez utiliser différentes balises pour créer différents types de champs de formulaire :
++
+[square]
+* Zone de texte avec la balise `<input>` :
++
+.Exemple :
+[source,html]
+----
+<input type="text" name="nom" placeholder="Nom">
+----
++
+* Boutons radio avec la balise `<input>` et l'attribut `type="radio"` :
++
+.Exemple :
+[,html]
+----
+<input type="radio" name="sexe" value="homme"> Homme
+<input type="radio" name="sexe" value="femme"> Femme
+----
++
+* Cases à cocher avec la balise `<input>` et l'attribut `type="checkbox"` :
++
+.Exemple :
+[,html]
+----
+<input type="checkbox" name="newsletter" value="oui"> S'abonner à la newsletter
+----
++
+* Menu déroulant avec la balise `<select>` et les balises `<option>` :
++
+.Exemple :
+[,html]
+----
+<select name="pays">
+   <option value="france">France</option>
+   <option value="espagne">Espagne</option>
+   <option value="italie">Italie</option>
+   </select>
+----
++
+* Bouton d'envoi avec la balise `<input>` et l'attribut `type="submit"` :
++
+.Exemple :
+[,html]
+----
+<input type="submit" value="Envoyer">
+----
++
+. Traitement des données :
+   Une fois le formulaire soumis, les données peuvent être traitées côté serveur en utilisant un langage de traitement tel que PHP. Le script de traitement peut valider les données, les stocker dans une base de données, envoyer des e-mails, etc. L'attribut `action` de la balise `<form>` spécifie l'URL ou le script de traitement qui recevra les données.
++
+====
+.Exemple de traitement.php :
+[,php]
+----
+<?php
+   $nom = $_POST['nom'];
+   $sexe = $_POST['sexe'];
+   $newsletter = $_POST['newsletter'];
+   $pays = $_POST['pays'];
+
+   // Traitement des données...
+?>
+----
+
+Dans cet exemple, les valeurs des champs de formulaire sont récupérées à l'aide de la variable superglobale `$_POST` en PHP. Vous pouvez ensuite utiliser ces valeurs pour effectuer les actions souhaitées.
+====
+Les formulaires sont un élément essentiel pour interagir avec les utilisateurs et collecter des informations. Ils offrent une grande flexibilité en permettant aux utilisateurs d'entrer différentes données et de les envoyer au serveur pour traitement.
+
+== Accessibilité 
+
+L'accessibilité est un aspect essentiel lors de la conception et du développement d'un site web. Cela implique de rendre le contenu et les fonctionnalités accessibles à tous les utilisateurs, y compris ceux ayant des limitations visuelles ou utilisant des technologies d'assistance. Voici quelques points importants concernant l'accessibilité :
+
+. Texte alternatif pour les images :
+   L'ajout d'un texte alternatif à chaque image à l'aide de l'attribut `alt` de la balise `<img>` est crucial pour les utilisateurs malvoyants. Le texte alternatif décrit l'image et est lu par les lecteurs d'écran pour fournir une compréhension du contenu visuel aux utilisateurs qui ne peuvent pas voir l'image.
++
+.Exemple :
+[source, html]
+----
+<img src="chemin/vers/mon/image.jpg" alt="Description de l'image">
+----
++
+. Structure sémantique :
+Utilisez les balises HTML appropriées pour structurer le contenu de manière sémantique. Cela facilite la compréhension du contenu par les technologies d'assistance. Utilisez les balises `<h1>` à `<h6>` pour les titres, les balises `<p>` pour les paragraphes, les balises `<ul>` et `<ol>` pour les listes, etc.
+
+. Évitez les éléments non accessibles :
+   Évitez d'utiliser des éléments tels que les tableaux `<table>`, les frames `<frame>` et `<frameset>`, ainsi que les effets visuels tels que `<blink>` et `<marquee>`. Ces éléments peuvent causer des problèmes d'accessibilité et ne sont pas pris en charge par tous les dispositifs d'assistance.
+
+. Contraste des couleurs :
+   Assurez-vous que le contraste entre le texte et l'arrière-plan est suffisant pour permettre une lecture facile. Les couleurs de texte faiblement contrastées peuvent rendre la lecture difficile pour les personnes ayant une vision réduite.
+
+. Navigation claire et cohérente :
+   Assurez-vous que la navigation sur votre site est claire et cohérente. Utilisez des balises appropriées pour les menus de navigation, tels que la balise `<nav>`, et structurez les liens de manière logique pour faciliter la navigation pour tous les utilisateurs.
+
+. Testez l'accessibilité :
+   Effectuez des tests d'accessibilité réguliers sur votre site web en utilisant des outils d'évaluation automatique et en réalisant des tests manuels. Ces tests vous aideront à identifier les problèmes d'accessibilité et à prendre les mesures nécessaires pour les résoudre.
+
+En respectant ces bonnes pratiques d'accessibilité, vous pouvez rendre votre site web plus inclusif et permettre à tous les utilisateurs, y compris ceux ayant des limitations visuelles ou utilisant des technologies d'assistance, de naviguer et d'interagir avec votre contenu de manière efficace.
