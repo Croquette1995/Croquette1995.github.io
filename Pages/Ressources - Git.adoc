@@ -1,0 +1,160 @@
+= Ressources Utiles - Git
+Auteur: Corentin Chiodo
+Date:: {docdate}
+:doctype: book
+:icons: font
+:toc: left
+:toclevels: 3
+:toc-title: 
+:source-highlighter: pygments
+
+== Exemples de commandes utiles
+
+1. **git init**
+   - Initialise un nouveau dépôt Git local.
+   - Exemple :
+     ```sh
+     git init
+     ```
+
+2. **git clone**
+   - Clone un dépôt distant sur votre machine locale.
+   - Exemple :
+     ```sh
+     git clone <url-du-repo>
+     ```
+   - Description :
+     - Remplacez `<url-du-repo>` par l'URL du dépôt que vous souhaitez cloner. Exemple : `git clone https://github.com/utilisateur/repository.git`
+
+3. **git status**
+   - Affiche l'état des fichiers dans le répertoire de travail et l'index.
+   - Exemple :
+     ```sh
+     git status
+     ```
+
+4. **git add**
+   - Ajoute des fichiers ou des modifications spécifiques à l'index (staging area).
+   - Exemple :
+     ```sh
+     git add <fichier>
+     ```
+   - Description :
+     - Remplacez `<fichier>` par le nom du fichier que vous souhaitez ajouter à l'index. Exemple : `git add fichier.txt`
+
+5. **git commit**
+   - Enregistre les modifications dans le dépôt avec un message descriptif.
+   - Exemple :
+     ```sh
+     git commit -m "<message>"
+     ```
+   - Description :
+     - Remplacez `<message>` par un message descriptif pour le commit. Exemple : `git commit -m "Ajout du fichier de configuration"`
+
+6. **git push**
+   - Envoie les commits locaux vers un dépôt distant.
+   - Exemple :
+     ```sh
+     git push <remote> <branche>
+     ```
+   - Description :
+     - Remplacez `<remote>` par le nom du dépôt distant (souvent `origin`) et `<branche>` par le nom de la branche. Exemple : `git push origin main`
+
+7. **git pull**
+   - Récupère les modifications depuis un dépôt distant et les fusionne avec la branche locale.
+   - Exemple :
+     ```sh
+     git pull <remote> <branche>
+     ```
+   - Description :
+     - Remplacez `<remote>` par le nom du dépôt distant et `<branche>` par le nom de la branche. Exemple : `git pull origin main`
+
+8. **git branch**
+   - Liste les branches locales, crée une nouvelle branche, ou supprime une branche.
+   - Exemple pour lister les branches :
+     ```sh
+     git branch
+     ```
+   - Exemple pour créer une branche :
+     ```sh
+     git branch <nom-branche>
+     ```
+   - Description :
+     - Remplacez `<nom-branche>` par le nom de la nouvelle branche. Exemple : `git branch nouvelle-branche`
+
+9. **git checkout**
+   - Permet de naviguer entre les branches ou les commits.
+   - Exemple pour changer de branche :
+     ```sh
+     git checkout <nom-branche>
+     ```
+   - Exemple pour créer et changer de branche :
+     ```sh
+     git checkout -b <nom-branche>
+     ```
+   - Description :
+     - Remplacez `<nom-branche>` par le nom de la branche cible. Exemple : `git checkout -b nouvelle-branche`
+
+10. **git merge**
+    - Fusionne une branche spécifiée avec la branche courante.
+    - Exemple :
+      ```sh
+      git merge <nom-branche>
+      ```
+    - Description :
+      - Remplacez `<nom-branche>` par le nom de la branche que vous souhaitez fusionner. Exemple : `git merge nouvelle-branche`
+
+11. **git remote**
+    - Gère les dépôts distants.
+    - Exemple pour ajouter un dépôt distant :
+      ```sh
+      git remote add <nom-distant> <url-du-repo>
+      ```
+    - Description :
+      - Remplacez `<nom-distant>` par un nom pour le dépôt distant (souvent `origin`) et `<url-du-repo>` par l'URL du dépôt. Exemple : `git remote add origin https://github.com/utilisateur/repository.git`
+
+12. **git fetch**
+    - Récupère les données de tous les derniers commits depuis un dépôt distant, mais ne fusionne pas ces modifications avec votre branche locale.
+    - Exemple :
+      ```sh
+      git fetch <remote>
+      ```
+    - Description :
+      - Remplacez `<remote>` par le nom du dépôt distant. Exemple : `git fetch origin`
+
+13. **git log**
+    - Affiche l'historique des commits.
+    - Exemple :
+      ```sh
+      git log
+      ```
+
+14. **git diff**
+    - Affiche les différences entre les commits, les branches, les fichiers, etc.
+    - Exemple pour voir les modifications non indexées :
+      ```sh
+      git diff
+      ```
+    - Exemple pour voir les modifications indexées :
+      ```sh
+      git diff --cached
+      ```
+
+15. **git rebase**
+    - Applique les commits d'une branche sur une autre en réécrivant l'historique.
+    - Exemple :
+      ```sh
+      git rebase <branche-cible>
+      ```
+    - Description :
+      - Remplacez `<branche-cible>` par le nom de la branche sur laquelle vous souhaitez rebaser. Exemple : `git rebase main`
+
+16. **git revert**
+    - Annule un commit spécifique en créant un nouveau commit qui inverse les modifications apportées par le commit spécifié.
+    - Exemple :
+      ```sh
+      git revert <commit-hash>
+      ```
+    - Description :
+      - Remplacez `<commit-hash>` par le hash du commit que vous souhaitez annuler. Exemple : `git revert abc123`
+

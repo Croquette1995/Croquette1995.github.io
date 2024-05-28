@@ -34,6 +34,10 @@ link:++./Pages/Ressources - Python.html++[Python]
 
 !image:./Images/Web.png[logo, 32, 32]
 link:++./Pages/Ressources - Web.html++[Web]
+
+image:./Images/Git.png[logo, 32, 32]
+link:++./Pages/Ressources - Git.html+++[Git]
+
 !===
 
 |image:./Images/Resources.png[Ressourcesimage,role=half-width,align="center"]
