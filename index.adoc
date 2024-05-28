@@ -36,7 +36,7 @@ link:++./Pages/Ressources - Python.html++[Python]
 link:++./Pages/Ressources - Web.html++[Web]
 
 image:./Images/Git.png[logo, 32, 32]
-link:++./Pages/Ressources - Git.html+++[Git]
+link:++./Pages/Ressources - Git.html++[Git]
 
 !===
 
