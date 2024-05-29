@@ -1,6 +1,4 @@
-[options="header"]
+[options="header", role=poney, grid=none, frame=none]
 |=======================
 |<<index.txt#,Home icon:home[]>>|<<one.txt#,One>>|<<two.txt#,Two>>|<<three.txt#,Three>>
 |=======================
-[.right.text-center]
-icon:file-text-o[5x, role=Maroon]

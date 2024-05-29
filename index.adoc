@@ -7,10 +7,9 @@ Date:: {docdate}
 :toc-title: Table des matières
 :toclevels: 3
 :source-highlighter: highlight.js
+:stylesheet: stylesheets/gazette.css
 // :title-page-background-image: image:cover.png[fit=none,pdfwidth=70%, position= top center]
 // :title-logo-image: image:logo.png[top=90%,align=left, scale=25%]
-
-include::example.html[]
 
 include::header.adoc[]
 

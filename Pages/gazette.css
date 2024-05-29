@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.23">
-<meta name="author" content="Auteur: Corentin Chiodo">
-<title>Ressources Utiles - Latex</title>
-<style>
 /* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
 
 @import url(//fonts.googleapis.com/css?family=Source+Serif+Pro|UnifrakturMaguntia|Source+Sans+Pro);
@@ -156,34 +146,3 @@ table {
   width: 55vw!important;
   font-size: 3vw;
 }
-
-</style>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/styles/github.min.css">
-</head>
-<body class="book">
-<div id="header">
-<h1>Ressources Utiles - Latex</h1>
-<div class="details">
-<span id="author" class="author">Auteur: Corentin Chiodo</span><br>
-<span id="revdate">Date</span>
-<br><span id="revremark">: 2024-05-26</span>
-</div>
-</div>
-<div id="content">
-
-</div>
-<div id="footer">
-<div id="footer-text">
-Last updated 2024-05-26 18:34:47 +0200
-</div>
-</div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/highlight.min.js"></script>
-<script>
-if (!hljs.initHighlighting.called) {
-  hljs.initHighlighting.called = true
-  ;[].slice.call(document.querySelectorAll('pre.highlight > code[data-lang]')).forEach(function (el) { hljs.highlightBlock(el) })
-}
-</script>
-</body>
-</html>
