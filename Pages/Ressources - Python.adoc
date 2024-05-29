@@ -9,8 +9,12 @@ Date:: {docdate}
 :source-highlighter: highlight.js
 :diagram-extension:
 
+
 // :title-page-background-image: image:cover.png[fit=none,pdfwidth=70%, position= top center]
 // :title-logo-image: image:logo.png[top=90%,align=left, scale=25%]
+
+include::C:\Users\Coren\Nextcloud\Croquette1995.github.io\header.adoc[]
+
 
 === Renvoyer un booléen en vérifiant si un répertoire est vide ou non. 
 [source,python]
