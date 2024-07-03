@@ -3,6 +3,13 @@ Auteur: Corentin Chiodo
 Date:: {docdate}
 :doctype: book
 :icons: font
+:toc: left
+:toc-title: Table des matières
+:example-caption: 
+:listing-caption: 
+:source-highlighter: rouge
+
+== Introduction
 
 .Regex
 ****
@@ -42,3 +49,22 @@ Voici quelques concepts clés des expressions régulières :
 ** `{n,m}` : entre n et m occurrences.
 
 ****
+
+== Renommer plusieurs fichiers selon une suite numérique sous Windows avec PowerRename 
+
+.Via PowerRename
+====
+
+.Correspondre au nom complet du fichier :
+[,console]
+----
+.*$
+----
+.Exemple d'un renommage 
+[, console]
+----
+Dreamland T${padding=2start=11} <1>
+----
+<1> padding : 2 nombres. 
+====
+
