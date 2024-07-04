@@ -1,4 +1,0 @@
-[options="header", role=poney, grid=none, frame=none]
-|=======================
-|<<index.txt#,Home icon:home[]>>|<<one.txt#,One>>|<<two.txt#,Two>>|<<three.txt#,Three>>
-|=======================

@@ -1,241 +1,369 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.17">
-<meta name="author" content="Auteur: Corentin Chiodo">
-<title>Ressources Utiles - Index</title>
-<style>
-/* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
-
-@import url(//fonts.googleapis.com/css?family=Source+Serif+Pro|UnifrakturMaguntia|Source+Sans+Pro);
-@import url(https://cdn.jsdelivr.net/gh/asciidoctor/asciidoctor@2.0/data/stylesheets/asciidoctor-default.css); /* Default asciidoc style framework - important */
-
-/* CUSTOMISATIONS */
-/* Change the values in root for quick customisation. If you want even more fine grain... venture further. */
-:root{
---maincolor:#FFFFFF;
---primarycolor:#000000;
---secondarycolor:#AAAAAA;
---tertiarycolor:#CCCCCC;
---sidebarbackground:#FFFFFF;
---linkcolor:#0D47A1;
---linkcoloralternate:#B71C1C;
-}
-
-/* Text styles */
-
-body {
-  font-family: "Source Serif Pro", serif;
-  background-color: var(--maincolor);
-  color: black;
-}
-
-h1,h2,h3,h4,h5,h6 {
-  color: var(--primarycolor) !important;
-}
-h1 {
-  font-family: "UnifrakturMaguntia", serif;
-}
-#header h1 {
-  border-bottom: 2px solid black!important;
-}
-h2 {
-  font-family: "Source Serif Pro", serif;
-  font-style: italic;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-h3 {
-  font-family: "Source Serif Pro", serif;
-  font-style: italic;
-  font-weight: bold;
-}
-h4 {
-  font-family:'Times New Roman',Times,serif;
-  letter-spacing: -1px;
-  text-transform: uppercase;
-}
-h5 {
-  font-family:'Times New Roman',Times,serif;
-  letter-spacing: -1px;
-  text-transform: uppercase;
-}
-h6 {
-  font-family: "Source Serif Pro", serif;
-  font-weight: bold;
-}
-hr {
-  border-color: black;
-}
-
-.title {
-  color: black !important;
-  font-family: "Source Serif Pro", serif;
-  font-style: normal;
-  font-weight: normal;
-}
-a {
-  text-decoration: none;
-  color: #5A5A5A!important;
-}
-p {
-  font-family: "Source Serif Pro", serif !important;
-}
-#toc.toc2 a:link {
-  color: var(--linkcolor);
-  font-family: "Source Serif Pro", serif;
-}
-blockquote {
-  color: var(--primarycolor) !important;
-}
-.quoteblock {
-  color: black;
-}
-.quoteblock blockquote:before {
-  color: black;
-}
-code {
-  color: white;
-  background-color: var(--secondarycolor) !important;
-}
-mark {
-  background-color: var(--tertiarycolor);
-} /* Text highlighting color */
-
-cite {
-  color: var(--primarycolor)!important;
-}
-
-pre {
-  background-color: var(--maincolor)!important;
-}
-code {
-/*   background-color: var(--maincolor)!important; */
-}
-
-img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-}
-video {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-}
-
-/* Table styles */
-th {
-  background-color: var(--maincolor);
-  color: black !important;
-}
-td {
-  background-color: var(--maincolor);
-  color: black !important;
-}
-
-
-#toc.toc2 {
-  background-color: var(--sidebarbackground);
-}
-#toctitle {
-  color: black;
-  font-family: "Source Serif Pro", serif;
-  font-weight: bold;
-  padding-top: 20px;
-}
-
-/* Responsiveness fixes */
-video {
-  max-width: 100%;
-}
-
-@media all and (max-width: 600px) {
-table {
-  width: 55vw!important;
-  font-size: 3vw;
-}
-
-</style>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/styles/github.min.css">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pharmacie Marchal</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.1/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="my-bulma-project.css">  
 </head>
-<body class="book">
-<div id="header">
-<h1>Ressources Utiles - Index</h1>
-<div class="details">
-<span id="author" class="author">Auteur: Corentin Chiodo</span><br>
-<span id="revdate">Date</span>
-<br><span id="revremark">: 2024-05-29</span>
-</div>
-</div>
-<div id="content">
-<div id="preamble">
-<div class="sectionbody">
-<table class="tableblock frame-none grid-none stretch poney">
-<colgroup>
-<col style="width: 25%;">
-<col style="width: 25%;">
-<col style="width: 25%;">
-<col style="width: 25%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top"><a href="index.html">Home <span class="icon"><i class="fa fa-home"></i></span></a></th>
-<th class="tableblock halign-left valign-top"><a href="one.html">One</a></th>
-<th class="tableblock halign-left valign-top"><a href="two.html">Two</a></th>
-<th class="tableblock halign-left valign-top"><a href="three.html">Three</a></th>
-</tr>
-</thead>
-</table>
-<table class="tableblock frame-none grid-none stretch">
-<colgroup>
-<col style="width: 40%;">
-<col style="width: 60%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><table class="tableblock frame-none grid-none stretch">
-<colgroup>
-<col style="width: 50%;">
-<col style="width: 50%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="./Images/AsciiDocs.png" alt="logo" width="32" height="32"></span>
-<a href="./Pages/Ressources - AsciiDocs.html">AsciiDocs</a></p>
-<p class="tableblock"><span class="image"><img src="./Images/LaTex.png" alt="logo" width="32" height="32"></span>
-<a href="./Pages/Ressources - Latex.html">LaTex</a></p>
-<p class="tableblock"><span class="image"><img src="./Images/Regex.png" alt="logo" width="32" height="32"></span>
-<a href="./Pages/Ressources - Regex.html">Regex</a></p>
-<p class="tableblock"><span class="image"><img src="./Images/Python.png" alt="logo" width="32" height="32"></span>
-<a href="./Pages/Ressources - Python.html">Python</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="./Images/Web.png" alt="logo" width="32" height="32"></span>
-<a href="./Pages/Ressources - Web.html">Web</a></p>
-<p class="tableblock"><span class="image"><img src="./Images/Git.png" alt="logo" width="32" height="32"></span>
-<a href="./Pages/Ressources - Git.html">Git</a></p></td>
-</tr>
-</tbody>
-</table></div></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image half-width"><img src="./Images/Resources.png" alt="Ressourcesimage"></span></p></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-<div id="footer">
-<div id="footer-text">
-Last updated 2024-05-29 15:18:17 +0200
-</div>
-</div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/highlight.min.js"></script>
-<script>
-if (!hljs.initHighlighting.called) {
-  hljs.initHighlighting.called = true
-  ;[].slice.call(document.querySelectorAll('pre.highlight > code')).forEach(function (el) { hljs.highlightBlock(el) })
-}
-</script>
-</body>
+  <body>
+    <section class="section">
+        <nav class="navbar is-fixed-top is-spaced has-shadow is-transparent">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="./index.html"> 
+                    <span class="icon-text mr-2">
+                        <i class="far fa-hospital"></i>
+                    </span>
+                    Pharmacie Marchal
+                </a>
+                <a role="button" class="navbar-burger is-active" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                  </a>
+            </div>
+            <div class="navbar-menu is-active">
+                <div class="navbar-end">
+                    <a class="has-text-black navbar-item" href="./index.html">
+                        <span class="icon">
+                            <i class="fas fa-home">
+                            </i>
+                        </span>
+                        <span>Accueil</span>
+                        
+                    </a>
+                    <a class="has-text-black navbar-item" href="./reservations.html">
+                        <span class="icon">
+                            <i class="far fa-calendar-check "></i>
+                        </span>
+                        <span>Réservations</span>
+                    </a>
+                    <div class="navbar-item has-dropdown is-hoverable is-boxed">
+                        <a class="navbar-link">
+                            <span class="icon">
+                                <i class="far fas fa-screwdriver"></i>
+                            </span>
+                            <span>
+                                Nos Services
+                            </span>
+                          
+                        </a>
+                        <div class="navbar-dropdown">
+                          <a class="navbar-item" href="./services.html#conseils">
+                            Conseils
+                          </a>
+                          <a class="navbar-item">
+                            Réservations
+                          </a>
+                          <a class="navbar-item">
+                            Services
+                          </a>
+                          <a class="navbar-item">
+                            Contact
+                          </a>
+                        </div>
+                    </div>
+                    <a class="navbar-item" href="./contact.html">
+                        <span class="icon">
+                            <i class="fas fa-address-book"></i>
+                        </span>
+                        <span>
+                            Contact
+                        </span>
+
+                    </a>
+
+                    
+                </div>
+            </div>
+
+          </nav>
+    </section>
+
+  <section class="section">
+    <h1 class="title has-text-centered-desktop">Bienvenue sur le site de la Pharmacie Marchal !</h1>
+    <div class="columns container">
+        <div class="column"> 
+
+        </div>
+        <div class="column is-three-fifths"> 
+            <figure class="">
+                <img src="./Images/Présentation.png" alt="Image de présentation - Pharmacie Marchal">
+            </figure>
+        </div>
+        <div class="column"> 
+            
+        </div>
+    </div>
+    <hr class="has-arrow-separator">
+
+    <section class="section" id="presentation">
+        <div class="container columns is-full">
+            <div class="column is-three-fifths">
+
+                <article class="message is-medium">
+                    <h2 class="title">Pharmacie Marchal</h2>
+
+                    <div class="message-body">
+                        Bienvenue sur le site de la Pharmacie Marchal, située à Chièvres et dédiée à votre santé et bien-être. Notre équipe de professionnels vous accompagne et vous conseille pour répondre à toutes vos attentes pharmaceutiques.
+                    </div>
+                </article>
+            </div>
+            <div class="column is-two-fifths"> 
+                    <figure class="image has-ratio">
+                        <img style="border-radius: 10px;" src="./Images/Section/index.html/accueilPharmacie.png" alt="image de la pharmacie">
+                    </figure>
+
+
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="section is-small">
+        
+        <div class="columns is-desktop">
+            <div class="column is-three-fifths">
+                <h2 class="title">
+                    L'équipe
+                </h2>
+                <h2 class="subtitle has-text-black">Notre équipe de professionnels de la santé est là pour vous aider. Composée de deux pharmaciens expérimentés et d'une assistante, notre équipe se tient à votre disposition pour vous offrir des conseils avisés et un accompagnement personnalisé.</h2>
+                
+                <div class="container columns box is-flex-direction-row">
+
+                    <div class="column is-half is-flex-direction-column">
+                        <div class="column media box">
+                            <div class="media-left">
+                                <figure class="image is-64x64">
+                                    <img class="is-rounded" src="./Images/Section/index.html/manface.png" alt="visage homme">
+                                </figure>
+                            </div>
+                            <div class="column  media-content">
+                                <div class="content">
+                                    <p><strong>Pharmacien Titulaire</strong>
+                                        <br>
+                                        Baptiste Chiodo
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="media box column">
+                            <div class="media-left">
+                                <figure class="image is-64x64">
+                                    <img class="is-rounded" src="./Images/Section/index.html/woman2.png" alt="visage femme">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <div class="content">
+                                    <p><strong>Pharmacien adjoint</strong>
+                                        <br>
+                                        Anne Herbeaux
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="media box column">
+                            <div class="media-left">
+                                <figure class="image is-64x64">
+                                    <img class="is-rounded" src="./Images/Section/index.html/woman1.png" alt="visage femme">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <div class="content">
+                                    <p><strong>Assistante</strong>
+                                        <br>
+                                        Perrine Dumont
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <figure>
+                            <img src="./Images/Section/index.html/equipeImage1.png" alt="image equipe">
+                        </figure>
+
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="column is-two-fifths">
+                <h2 class="title has-text-centered">
+                    Ressources Utiles
+                </h2>
+                <div class="columns is-flex-direction-column is-align-items-center">
+                    <div class="media column box is-two-thirds">
+                        <div class="media-left">
+                            <figure class="image is-64x64">
+                                <img class="is-rounded" src="./Images/Section/index.html/bouteillePoison.png" alt="Centre anti-poison">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <p> <strong>Centre Anti-Poison</strong> 
+                                <br>
+                                070 245 245
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="media column box is-two-thirds">
+                        <div class="media-left">
+                            <figure class="image is-64x64">
+                                <img class="" src="./Images/Section/index.html/urgences.png" alt="Urgences">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <p> <strong>Urgences</strong> 
+                                <br>
+                                112
+                            </p>
+                        </div>
+                    </div>
+                    <div class="media column box is-two-thirds">
+                        <div class="media-left">
+                            <figure class="image is-64x64">
+                                <img class="is-rounded" src="./Images/Section/index.html/police.png" alt="Police">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <p><strong>Police</strong>
+                                <br>
+                                101
+                            </p>
+                        </div>
+                    </div>
+                    <div class="media column box is-two-thirds">
+                        <div class="media-left">
+                            <figure class="image is-64x64">
+                                <img class="is-rounded" src="./Images/Section/index.html/docteur.png" alt="Médecin de garde">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <p><strong>Médecin de garde</strong>
+                                <br>
+                                1773
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+        
+        
+
+    </section>
+    <hr>
+    <h2 class="title has-text-centered">Nos Services</h2>
+    <div class="section level is-flex">
+        <article class="level-item message is-info is-medium has-text-centered ">
+            <div class="message-body is-medium is-flex is-flex-direction-column is-align-items-center">
+                <figure class="image is-64x64 is-align-content-center">
+                    <img class="" src="./Images/Section/index.html/vaccination.png" alt="Vaccination">
+                </figure>
+                <p>
+                    Vaccination Covid-19
+                </p>
+                <button style="border: 1px solid;" class="button is-rounded is-link is-light">
+                    En savoir plus
+                </button>
+            </div>
+        </article>
+        <article class="level-item message is-info is-medium has-text-centered ">
+            <div class="message-body is-medium is-flex is-flex-direction-column is-align-items-center">
+                <figure class="image is-64x64 is-align-content-center">
+                    <img class="" src="./Images/Section/index.html/Médicament.png" alt="Préparations magistrales">
+                </figure>
+                <p>
+                    Préparations magistrales
+                </p>
+                <button style="border: 1px solid;" class="button is-rounded is-link is-light">
+                    En savoir plus
+                </button>
+            </div>
+        </article>
+        <article class="level-item message is-info is-medium has-text-centered ">
+            <div class="message-body is-medium is-flex is-flex-direction-column is-align-items-center">
+                <figure class="image is-64x64 is-align-content-center">
+                    <img class="" src="./Images/Section/index.html/matérielmédical.png" alt="Location Matériel Médical">
+                </figure>
+                <p>
+                    Location Matériel Médical
+                </p>
+                <button style="border: 1px solid;" class="button is-rounded is-link is-light">
+                    En savoir plus
+                </button>
+            </div>
+        </article>
+        <article class="level-item message is-info is-medium has-text-centered ">
+            <div class="message-body is-medium is-flex is-flex-direction-column is-align-items-center">
+                <figure class="image is-64x64 is-align-content-center">
+                    <img class="" src="./Images/Section/index.html/conseil.png" alt="Conseils">
+                </figure>
+                <p>
+                    Conseils
+                </p>
+                <button style="border: 1px solid;" class="button is-rounded is-link is-light">
+                    En savoir plus
+                </button>
+            </div>
+        </article>
+        <hr>
+    </div>
+    
+    <section class="section">
+        <h2 class="title has-text-centered">Informations</h2>
+
+        <div class="columns is-flex-direction-row box is-flex-wrap-wrap">
+            <div class="is-flex-wrap-wrap column is-widescreen is-three-fifths is-flex is-align-content-center">
+                <div class="is-flex-wrap-wrap columns is-flex-direction-row ">
+                    <div class="is-flex-wrap-wrap column is-half is-flex-direction-column is-flex">
+                        <div class="is-flex-wrap-wrap columns ">
+                            <div class="is-flex-wrap-wrap container column is-flex is-flex-direction-column is-align-items-center box m-1">
+                                <figure class="image is-64x64">
+                                    <img src="./Images/Footer/courriel.png" alt="courriel">
+                                </figure>
+                                <p class="has-text-centered"><strong>Courriel</strong><br>pharmacie.sylviemarchal@gmail.com</p>
+                            </div>
+                            <div class="container column is-flex is-flex-direction-column is-align-items-center box m-1">
+                                <figure class="image is-64x64">
+                                    <img src="./Images/Footer/courriel.png" alt="courriel">
+                                </figure>
+                                <p class="has-text-centered"><strong>Courriel</strong><br>pharmacie.sylviemarchal@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="is-flex-wrap-wrap column is-half is-flex-direction-column is-flex">
+                        <div class="is-flex-wrap-wrap is-flex columns">
+                            <div class="is-flex-wrap-wrap container column is-flex is-flex-direction-column is-align-items-center box m-1">
+                                <figure class="image is-64x64">
+                                    <img src="./Images/Footer/courriel.png" alt="courriel">
+                                </figure>
+                                <p class="has-text-centered"><strong>Courriel</strong><br>pharmacie.sylviemarchal@gmail.com</p>
+                            </div>
+                            <div class="container column is-flex is-flex-direction-column is-align-items-center box m-1 is-fullwidth">
+                                <figure class="image is-64x64">
+                                    <img src="./Images/Footer/courriel.png" alt="courriel">
+                                </figure>
+                                <p class="has-text-centered"><strong>Courriel</strong><br>pharmacie.sylviemarchal@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column is-two-fifths is-flex is-flex-wrap-wrap is-fullwidth">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2533.1892937343187!2d3.8041890762301014!3d50.58643487756374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c25511fc167583%3A0x5a6769697e600fdd!2sPharmacie%20MARCHAL!5e0!3m2!1sfr!2sbe!4v1683020083745!5m2!1sfr!2sbe" width="500" height="350" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Localisation Gmaps Pharmacie"></iframe>
+            </div>
+        </div>
+
+
+    </section>
+  </body>
 </html>
