@@ -21759,6 +21759,8 @@ has-background-danger.is-hoverable:active {
     flex-direction: column-reverse;
   }
 
+
+
 }
 @media screen and (min-width: 769px), print {
   .has-text-justified-tablet {
