@@ -22449,3 +22449,12 @@ has-background-danger.is-hoverable:active {
 }
 
 /*# sourceMappingURL=my-bulma-project.css.map */
+
+#boutonRemonter {
+    display: none;
+    position: fixed;
+    bottom: 2%;
+    left: 2%;
+    transition :all 1s;
+    
+}

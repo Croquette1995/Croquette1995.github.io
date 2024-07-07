@@ -20,14 +20,14 @@
                         </span>
                         Pharmacie Marchal
                     </a>
-                    <a role="button" class="navbar-burger is-active" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <a role="button" class="navbar-burger is-active has-text-grey-light" aria-label="menu" aria-expanded="false" data-target="navMenu">
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
                       </a>
                 </div>
-                <div class="navbar-menu is-active">
+                <div class="navbar-menu is-active" id="navMenu">
                     <div class="navbar-end">
                         <a class="has-text-black navbar-item" href="./index.html">
                             <span class="icon">
@@ -43,7 +43,7 @@
                             </span>
                             <span>Réservations</span>
                         </a>
-                        <div class="navbar-item has-dropdown is-hoverable is-boxed">
+                        <div class="navbar-item has-dropdown is-hoverable is-boxed" id="servicesDropdown">
                             <a class="navbar-link">
                                 <span class="icon">
                                     <i class="far fas fa-screwdriver"></i>
@@ -196,10 +196,14 @@
     
        
 
-        <button class="button" id="boutonRemonter" onclick="remonter()"><span class="material-symbols-outlined">
-            step_out
-            </span>Remonter </button>
+        <button class="button" id="boutonRemonter" onclick="remonter()">
+            <span class="material-symbols-outlined">
+                <i class="fa-regular fa-hand-point-up"></i>
+            </span>
+            <span class="ml-2">Remonter</span> 
+        </button>
 
         <script src="script.js"></script>
+        <script src="script2.js"></script>
     </body>
 </html>
