@@ -1,0 +1,80 @@
+{
+    "infosUtiles":[
+        {
+            "nom":"Nerja Office du tourisme",
+            "type":"Informations  (En – Sp)",
+            "lien":"http://www.nerja.es/turismo/index.php"
+        },
+        {
+            "nom":"Nerja today",
+            "type":"Informations  (En)",
+            "lien":"http://www.nerjatoday.com/"
+        },
+        {
+            "nom":"Centauro Rent a Car",
+            "type":"Location voitures",
+            "lien":"http://www.centauro.net"
+        },
+        {
+            "nom":"Aeropuerto Malaga",
+            "type":"Vols",
+            "lien":"http://www.aena.es/csee/Satellite/Aeropuerto-Malaga/es/Inicio.html"
+        },
+        {
+            "nom":"Ryanair",
+            "type":"Vols",
+            "lien":"https://www.ryanair.com/"
+        },
+        {
+            "nom":"Vueling",
+            "type":"Vols",
+            "lien":"http://www.vueling.com/fr"
+        },{
+            "nom":"Jetairfly",
+            "type":"Vols",
+            "lien":"https://www.jetairfly.com/fr"
+        },{
+            "nom":"Norwegian (Köln)",
+            "type":"Vols",
+            "lien":"http://www.norwegian.com/de"
+        },{
+            "nom":"Air Berlin (Köln)",
+            "type":"Vols",
+            "lien":"http://www.airberlin.com/en-DE/site/start.php"
+        },{
+            "nom":"Germanwings (Köln)",
+            "type":"Vols",
+            "lien":"https://www.germanwings.com/fr.html"
+        },{
+            "nom":"Easy Jet (Paris - CDG)",
+            "type":"Vols",
+            "lien":"http://www.easyjet.com/be-fr"
+        },{
+            "nom":"Transavia (Orly)",
+            "type":"Vols",
+            "lien":"https://www.transavia.com/"
+        },{
+            "nom":"Air Europa (Paris CDG)",
+            "type":"Vols",
+            "lien":"https://www.aireuropa.com/"
+        },{
+            "nom":"EMT (lignes autobus Malaga)",
+            "type":"Bus  aeropuerto – Malaga city",
+            "lien":"http://www.emtsam.org/estabus/"
+        },{
+            "nom":"ASLA (lignes autobus régionale)",
+            "type":"Bus Malaga City - Nerja",
+            "lien":"http://www.alsa.es/"
+        }
+
+    ],
+    "listeRestaurants":
+    [
+        {
+            "titre":"Liste des restaurants",
+            "image":"./Images/Liens/restaurant.png",
+            "lien":"./Lien/restaurants.pdf",
+            "date":"Août 2024"
+        }
+    ]
+}

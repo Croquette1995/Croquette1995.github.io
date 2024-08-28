@@ -1,0 +1,90 @@
+{
+    "Généralités":{
+        "Description":
+        [
+            "Notre appartement de vacances a été entièrement rénové au début de l’année 2015."
+            ,
+            "Il offre un excellent confort pour 2 à maximum 4 personnes avec une superficie de près de 55m²."
+            ,
+            "L’appartement est climatisé (chaud/froid)."
+        ],
+        "Images":
+        [
+            "huhu.png"
+        ],
+        "Logo":"fas fa-info"
+    },
+    "Chambre et Séjour":{
+        "Description":
+        [
+            "Chambre avec un grand lit pour 2 personnes."
+            ,
+            "Séjour avec un canapé-lit pour 2 personnes."
+            ,
+            "Télévision écran plat LCD avec accès aux chaînes internationales (françaises, anglaises, allemandes, nordiques, espagnoles)."
+            ,
+            "Internet wifi disponible."
+        ],
+        "Images":
+        [
+            "huhu.png"
+        ],
+        "Logo":"fas fa-bed"
+    },
+    "Salle de Bain et Cuisine":{
+        "Description":
+        [
+            "Salle de bain équipée d’une douche spacieuse et d’un sèche-cheveux."
+            ,
+            "Cuisine entièrement équipée (taque, four, micro-onde, frigo-congélateur, machine à laver)."
+        ],
+        "Images":
+        [
+            "huhu.png"
+        ],
+        "Logo":"fas fa-bath"
+    },
+    "Extérieur":{
+        "Description":
+        [
+            "Terrasse spacieuse avec store solaire."
+            ,
+            "Jardin avec fleurs exotiques et barbecue à disposition."
+        ],
+        "Images":
+        [
+            "huhu.png"
+        ],
+        "Logo":"fas fa-external-link-alt"
+    },
+    "Services et Commodités":{
+        "Description":
+        [
+            "Draps, serviettes de bain et de toilette, draps de plage fournis et remplacés chaque semaine."
+            ,
+            "Parking, bar, restaurant, supermarchés, distributeur de billets, ligne de bus pour le centre-ville et les plages de Nerja."
+        ],
+        "Images":
+        [
+            "huhu.png"
+        ],
+        "Logo":"fas fa-taxi"
+    },
+    "Activités et Loisirs":{
+        "Description":
+        [
+            "Piscine et pataugeoires de Capistrano Village (une des 3 piscines est en face de l'appartement)."
+            ,
+            "Courts de tennis à 150 mètres"
+            ,
+            "Deux terrains de golf à moins de 20 km"
+            ,
+            "Pistes de ski de la Sierra Nevada (Granada) à moins d’une heure de route."
+        ],
+        "Images":
+        [
+            "huhu.png"
+        ],
+        "logo":"fas fa-umbrella-beach"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "elcapistranovillage":
+    [
+        {
+            "Titre":
+            "El Capistrano Village"
+        },
+            {"paragraphe":
+            "El Capistrano est un complexe touristique formé de plusieurs petits villages (San Juan de Capistrano, Oasis de Capistrano, Capistrano Beach et Capistrano Village) qui se caractérisent par des villas et appartements de style andalou, de grands jardins fortement fleuris et ses allées piétonnes qui vous invitent à la promenade."
+        },
+            {"paragraphe": 
+            "La Casa Dali se trouve à Capistrano Village."
+            
+        },   {"paragraphe": 
+            "La plage de Burriana est à 800m et le Balcon de l’Europe à 1,1 km. En été deux lignes d’autobus passent par le centre du village (une seule le reste de l'année)."
+        }
+    ],
+    "nerja":
+    [
+        {
+            "paragraphe":
+            "Située au sud de la Costa Del Sol, Nerja dispose de près de nombreuses plages offrant des activités variées telles que le ski nautique, la plongée avec tuba et la voile. Bien que touristique, Nerja n'a pas encore subi les conséquences de l'urbanisation incontrôlée du littoral de la Costa Del Sol, son immense promenade offrant une vue panoramique sur la Méditerranée."
+        },
+        {
+            "paragraphe":
+            "Nerja bénéficie d’un climat doux toute l'année et c’est ici que la légendaire série télé Verano Azul fut tournée."
+        },
+        {
+            "paragraphe":
+            "Les incontournables :"
+        },
+        {
+            "paragraphe":
+            ""
+        }
+
+    ]
+}
