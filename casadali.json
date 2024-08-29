@@ -10,7 +10,9 @@
         ],
         "Images":
         [
-            "huhu.png"
+            "https://bulma.io/assets/images/placeholders/1280x960.png",
+            "./Images/banniere.png",
+            "./Images/Nerja.jpg"
         ],
         "Logo":"fas fa-info"
     },
@@ -27,7 +29,8 @@
         ],
         "Images":
         [
-            "huhu.png"
+            "./Images/logo.png",
+            "./Images/eclairs.jpg"
         ],
         "Logo":"fas fa-bed"
     },

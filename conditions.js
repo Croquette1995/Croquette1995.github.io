@@ -27,7 +27,7 @@ async function loadData(){
                 addElement("p", "mb-3", emplacement, `${paragraph}`)
             });
         }
-        
+
         if(content['contact']) {
             console.log(`${content['contact']}`);
             addElement("a", "mb-2", emplacement, `Contact : ${content['contact']}`)
@@ -72,3 +72,29 @@ loadData();
 //     }
 // }
 
+let buttonMenu = document.querySelector("#buttonMenu");
+let colMenu = document.querySelector("#colMenu");
+
+let state = true;
+buttonMenu.addEventListener("click", function(){
+    if(state){
+
+        colMenu.style.transition = "all 0.5s ease";
+        colMenu.style.dislay="none";
+        colMenu.classList.add("is-hidden-desktop");
+        //let parent = document.querySelector("#test");
+        const parent = buttonMenu.parentNode;
+        console.log(parent);
+        parent.classList.remove("is-four-fifths");
+        parent.classList.add("is-full");
+        return state = false;
+    }
+    else{
+        colMenu.classList.remove("is-hidden-desktop");
+        const parent = buttonMenu.parentNode;
+        parent.classList.remove("is-full");
+        parent.classList.add("is-four-fifths");
+        return state = true;
+        
+    }
+})

@@ -9,21 +9,41 @@
         <link rel="stylesheet" href="my-bulma-project.css">  
         <title>Casa</title>
     </head>
-    <body>
+    <style>
+            
+            
+        
+        .gt_switcher.notranslate {
+            margin: 5%;
+            background-color: var(--bulma-box-background-color);;
+            border: none;
+            overflow:auto;
+        }
+        #google_translate_element2{
+            
+            border-radius : 50px;
+        }
+
+        
+</style>
+    <body class="has-background-white-ter">
         <section class="section">
             <div class="columns">
-                <div class="column ml-3" id="colMenu">
+                <div class="column box is-flex is-flex-direction-column is-align-items-center  mr-1 mb-0" id="colMenu">
                     <aside class="menu">
-                        <figure class="image is-128x128">
-                            <img class="" src="./Images/logo.png" />
-                          </figure>
-                        <p class="menu-label">Menu</p>
+                        <div class="is-flex is-flex-direction-column is-align-items-center">
+                            <figure class="image is-128x128">
+                                <img class="" src="./Images/logo.png" />
+                              </figure>
+                        </div>
+                        
+                        <p class="menu-label is-size-6 has-text-centered">Menu</p>
                         <ul class="menu-list">
-                          <li><a>Accueil</a></li>
+                          <li><a href="index.html">Accueil</a></li>
                           <li>
                             <a href="casadali.html">Casa Dali</a>
                             <ul>
-                                <li><a href="">Photos</a></li>
+                                <li><a href="casadali.html#GalerieCasaDali">Photos</a></li>
                             </ul>
                           </li>
                         
@@ -32,16 +52,62 @@
                             <a href="situation.html">Situation</a>
                             <ul>
                                 <li><a href="situation.html#ElCapistranoVillage">El Capistrano Village</a></li>
-                                <li><a href="">Nerja</a></li>
+                                <li><a href="situation.html#Nerja">Nerja</a></li>
                             </ul>
                           </li>
                           <li><a href="liens.html">Liens</a></li>
                           
                         </ul>
+                        <p class="menu-label is-size-6 has-text-centered">Langages</p>
+                        <div class="gtranslate_wrapper"></div>
+                        <p class="menu-label is-size-6 has-text-centered">Contact</p>
                         
-                      </aside>
+                        
+                    </aside>
+                    <div class="card mt-5" style="width: 100%; ">
+                        
+    
+                        <div class="card-image ">
+                            <figure class="image is-1by1">
+                                <img
+                                  src="./Images/Contact.png"
+                                  alt="Placeholder image"
+                                />
+                              </figure>
+
+                        </div>
+                        <div class="card-content">
+                            <p class="is-size-5 has-text-weight-semibold has-text-centered mb-2">Pour réservations :</p>
+                            <div class="icon-text ">
+                                <span class="icon has-text-danger">
+                                    <i class="fas fa-lg fa-envelope"></i>
+                                </span>
+                                <span style="overflow-wrap: break-word;">
+                                    <a href="mailto:casadali.capistrano@gmail.com">Adresse Email</a> 
+                                </span>
+                            </div>
+                            <div class="icon-text">
+                                <span class="icon has-text-danger">
+                                    <i class="fab fa-lg fa-facebook"></i>
+                                </span>
+                                <span style="overflow-wrap: break-word;">
+                                    <a href="https://www.facebook.com/casadalinerja">Lien facebook</a> 
+                                </span>
+                            </div>  
+                            
+
+
+                        </div>
+                    </div>
+
+                    
+                    
+
                 </div>
-                <div class="column is-four-fifths">
+                <div class="column is-four-fifths box " style="position: relative;" id="test">
+                    <span class="icon" style="position:absolute; cursor: pointer;" id="buttonMenu">
+                        <i class="fas fa-2x fa-bars"></i>
+                    </span>
                     <section class="section is-small">
                         <figure class="image" >
                             <img src="./Images/banniere.png" alt="Bannière" style="border-radius: 10px; box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;">
@@ -50,7 +116,7 @@
                     
                     <section class="section">
 
-                        <div class="columns box">
+                        <div class="columns box has-background-white-ter is-shadowless">
                             <div class="column is-three-fifths-desktop is-four-fifths-tablet" id="container">
                             
                             </div>
@@ -72,5 +138,7 @@
         </section>
 
     <script type="text/javascript" src="conditions.js"></script>
+    <script>window.gtranslateSettings = {"default_language":"fr","native_language_names":true,"detect_browser_language":true,"languages":["fr","es","en","ro","nl","it"],"wrapper_selector":".gtranslate_wrapper","switcher_horizontal_position":"inline","flag_style":"3d"}</script>
+        <script src="https://cdn.gtranslate.net/widgets/latest/dwf.js" defer></script>
     </body>
 </html>

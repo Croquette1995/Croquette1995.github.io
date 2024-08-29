@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.1/css/bulma.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
         <link rel="stylesheet" href="my-bulma-project.css">  
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css">
         <title>Casa</title>
     </head>
 
@@ -14,113 +15,176 @@
       div#galerie{
         border-left: 1px solid var(--bulma-border);
       }
+
+      .carousel{
+        overflow:hidden;
+      }
+
+      .gt_switcher.notranslate {
+                margin: 5%;
+                background-color: var(--bulma-box-background-color);;
+                border: none;
+                overflow:auto;
+            }
+            #google_translate_element2{
+                
+                border-radius : 50px;
+            }
+
     </style>
-    <body>
-        <section class="section">
-            <div class="columns">
-                <div class="column ml-3" id="colMenu">
-                    <aside class="menu">
-                        <figure class="image is-128x128">
-                            <img class="" src="./Images/logo.png" />
-                          </figure>
-                        <p class="menu-label">Menu</p>
-                        <ul class="menu-list">
-                          <li><a href="index.html">Accueil</a></li>
-                          <li>
-                            <a>Casa Dali</a>
-                            <ul>
-                                <li><a href="">Photos</a></li>
-                            </ul>
-                          </li>
-                        
-                          <li><a>Conditions</a></li>
-                          <li>
-                            <a>Situation</a>
-                            <ul>
-                                <li><a href="">El Capistrano Village</a></li>
-                                <li><a href="">Nerja</a></li>
-                            </ul>
-                          </li>
-                          <li><a>Liens</a></li>
-                          
-                        </ul>
-                        
-                      </aside>
+    <body class="has-background-white-ter">
+      <section class="section">
+        <div class="columns">
+          <div class="column box is-flex is-flex-direction-column is-align-items-center  mr-1 mb-0" id="colMenu">
+            <aside class="menu">
+                <div class="is-flex is-flex-direction-column is-align-items-center">
+                    <figure class="image is-128x128">
+                        <img class="" src="./Images/logo.png" />
+                      </figure>
                 </div>
-                <div class="column is-four-fifths">
-                    <section class="section is-small">
-                        <figure class="image" >
-                            <img src="./Images/banniere.png" alt="Bannière" style="border-radius: 10px; box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;">
-                        </figure>
-                    </section>
+                
+                <p class="menu-label is-size-6 has-text-centered">Menu</p>
+                <ul class="menu-list">
+                  <li><a href="index.html">Accueil</a></li>
+                  <li>
+                    <a href="casadali.html">Casa Dali</a>
+                    <ul>
+                        <li><a href="casadali.html#GalerieCasaDali">Photos</a></li>
+                    </ul>
+                  </li>
+                
+                  <li><a href="conditions.html">Conditions</a></li>
+                  <li>
+                    <a href="situation.html">Situation</a>
+                    <ul>
+                        <li><a href="situation.html#ElCapistranoVillage">El Capistrano Village</a></li>
+                        <li><a href="situation.html#Nerja">Nerja</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="liens.html">Liens</a></li>
+                  
+                </ul>
+                <p class="menu-label is-size-6 has-text-centered">Langages</p>
+                <div class="gtranslate_wrapper"></div>
+                <p class="menu-label is-size-6 has-text-centered">Contact</p>
+                
+                
+            </aside>
+            <div class="card mt-5" style="width: 100%; ">
+                
+
+                <div class="card-image ">
+                    <figure class="image is-1by1">
+                        <img
+                          src="./Images/Contact.png"
+                          alt="Placeholder image"
+                        />
+                      </figure>
+
+                </div>
+                <div class="card-content">
+                    <p class="is-size-5 has-text-weight-semibold has-text-centered mb-2">Pour réservations :</p>
+                    <div class="icon-text ">
+                        <span class="icon has-text-danger">
+                            <i class="fas fa-lg fa-envelope"></i>
+                        </span>
+                        <span style="overflow-wrap: break-word;">
+                            <a href="mailto:casadali.capistrano@gmail.com">Adresse Email</a> 
+                        </span>
+                    </div>
+                    <div class="icon-text">
+                        <span class="icon has-text-danger">
+                            <i class="fab fa-lg fa-facebook"></i>
+                        </span>
+                        <span style="overflow-wrap: break-word;">
+                            <a href="https://www.facebook.com/casadalinerja">Lien facebook</a> 
+                        </span>
+                    </div>  
                     
-                    <section class="section">
-                      <h1 class="title is-2"> Casa Dali</h1>
 
-                        <div class="box">
-                          
-                            <div class="tabs is-toggle">
-                                <ul class="mb-3" id="tabs">
+
+                </div>
+            </div>
+
+            
+            
+
+        </div>
+
+          <div class="column box is-four-fifths" style="position: relative;" id="test">
+            <span class="icon" style="position:absolute; cursor: pointer;" id="buttonMenu">
+              <i class="fas fa-2x fa-bars"></i>
+            </span>
+            <section class="section">
+              <figure class="image" >
+                <img src="./Images/banniere.png" alt="Bannière" style="border-radius: 10px; box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;">
+              </figure>
+            </section>
+                    
+            <section class="section">
+              <h1 class="title is-2"> Casa Dali</h1>
+              <div class="box has-background-white-ter is-shadowless">          
+                <div class="tabs is-toggle">
+                  <ul class="mb-3" id="tabs">
                                   
-                                </ul>
-                                  
+                  </ul>                
+                </div>
+                <div class="columns mt-4">
+                  <div class="column is-half" id="description">
+                    <h2 class="title is-5">Description</h2>
+                  </div>
+                  <div class="column is-mobile is-flex is-flex-direction-row is-align-items-center is-justify-content-center" id="galerie">
+                    <div class="is-align-content-center mr-3">  
+                      <button class="button" id="buttonLeft">
+                        <span class="icon is-small">
+                          <i class="fas fas fa-arrow-left"></i>
+                        </span>
+                      </button>
+                    </div>
+                    <div class="is-align-content-center">
+                      <img class=" is-flex image is-4by3" style="min-height: 300px; object-fit: contain; border-radius: 5px;"src="" alt="Placeholder image" id="image"/>
+                    </div>
+                    <div class="is-align-content-center ml-3">         
+                      <button class="button" id="buttonRight">
+                        <span class="icon is-small">
+                          <i class="fas fa-arrow-right"></i>
+                        </span>
+                      </button>
+                    </div>          
+                  </div>
+                </div>
+
+
+
+              </div>         
+                              
+                              
+                              
+                          <div class="box has-background-white-ter is-shadowless"> 
+                            <div class="columns ">
+                              <div class="column is-half is-flex is-align-content-center is-align-items-center is-justify-content-center">
+                                    <iframe class="has-ratio" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3196.468744120831!2d-3.868031924490266!3d36.75932097225896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7225aa78ebc253%3A0x534d1d5b1892a82d!2sC.%20Andaluc%C3%ADa%20Pueblo%20Andaluz%2C%20108%2C%2029780%20Nerja%2C%20M%C3%A1laga%2C%20Espagne!5e0!3m2!1sfr!2sbe!4v1724935724619!5m2!1sfr!2sbe" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 
                               </div>
+                              <div class="column is-half">
+                                <h2 class="title is-5 has-text-centered">Localisation</h2>
+                                <div class="is-flex is-align-content-center is-align-items-center is-justify-content-center">
+                                  <img width="40%" src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ddf2b6b1-4ada-4905-a2c3-a37cc09cda46/Untitled/w=640,quality=90,fit=scale-down" alt="">
 
-                              <div class="columns mt-4">
-                                <div class="column is-three-fifths" id="description">
-                                  <h2 class="title is-5">Description</h2>
-                                  
                                 </div>
 
-                                <div class="column  is-mobile is-flex is-flex-direction-row" id="galerie">
-              
-                                  <div class="is-align-content-center mr-3">
-                
-                                    
-                                    <button class="button">
-                                      <span class="icon is-small">
-                                        <i class="fas fas fa-arrow-left"></i>
-                                      </span>
-                                    </button>
-                
-                
-                                  </div>
-                                  
-                
-                                  
-                                <div class="">
-                                  <figure class="image" style="width: 100%;">
-                                    <img
-                                      src="https://bulma.io/assets/images/placeholders/1280x960.png"
-                                      alt="Placeholder image"
-                                    />
-                                  </figure>
-                                </div>
-                
-                                <div class="is-align-content-center ml-3">
-                
-                                    
-                                  <button class="button">
-                                    <span class="icon is-small">
-                                      <i class="fas fa-arrow-right"></i>
-                                    </span>
-                                  </button>
-                
-                
-                                </div>
-                                
-                              
-                            
+                              </div>
+                            </div>
                           </div>
+                          
+                          
+                          <h2 class="title is-5 has-text-centered" id="GalerieCasaDali">Galerie</h2>
+                          <div class="carousel" id="carousel-demo">
 
-                              </div>
-                              
-                              
-                              
 
-                        </div>
-                        
+                          
+                          
+                          
                     </section>
                     
                 </div>
@@ -129,16 +193,13 @@
         </section>
 
 
-        <div class="columns">
-          <div class="column">
-
-          </div>
-          
-          <div class="column">
-
-          </div>
-        </div>
+        
 
     <script type="text/javascript" src="casadali.js"></script>
+    <script>window.gtranslateSettings = {"default_language":"fr","native_language_names":true,"detect_browser_language":true,"languages":["fr","es","en","ro","nl"],"wrapper_selector":".gtranslate_wrapper","switcher_horizontal_position":"inline","flag_style":"3d"}</script>
+    <script src="https://cdn.gtranslate.net/widgets/latest/dwf.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
+		
+		
     </body>
 </html>
