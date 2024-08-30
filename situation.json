@@ -1,38 +1,120 @@
 {
     "elcapistranovillage":
-    [
         {
-            "Titre":
-            "El Capistrano Village"
+            "Titre":"El Capistrano Village",
+            "Paragraphe":
+            [
+                "El Capistrano est un complexe touristique formé de plusieurs petits villages (San Juan de Capistrano, Oasis de Capistrano, Capistrano Beach et Capistrano Village) qui se caractérisent par des villas et appartements de style andalou, de grands jardins fortement fleuris et ses allées piétonnes qui vous invitent à la promenade."
+                ,
+                "La Casa Dali se trouve à Capistrano Village."
+                ,
+                "La plage de Burriana est à 800m et le Balcon de l’Europe à 1,1 km. En été deux lignes d’autobus passent par le centre du village (une seule le reste de l'année)."
+            ],
+            "Images":
+            [
+                "68_2_a5.jpg",
+                "71_2_a8.jpg",
+                "73_2_b1.jpg",
+                "75_2_b3.jpg",
+                "77_2_b5.jpg",
+                "78_2_b6.jpg"
+            ]
         },
-            {"paragraphe":
-            "El Capistrano est un complexe touristique formé de plusieurs petits villages (San Juan de Capistrano, Oasis de Capistrano, Capistrano Beach et Capistrano Village) qui se caractérisent par des villas et appartements de style andalou, de grands jardins fortement fleuris et ses allées piétonnes qui vous invitent à la promenade."
-        },
-            {"paragraphe": 
-            "La Casa Dali se trouve à Capistrano Village."
-            
-        },   {"paragraphe": 
-            "La plage de Burriana est à 800m et le Balcon de l’Europe à 1,1 km. En été deux lignes d’autobus passent par le centre du village (une seule le reste de l'année)."
-        }
-    ],
+    
     "nerja":
+        {
+            "Titre":"Nerja",
+            "Paragraphe":
+            [
+                "Située au sud de la Costa Del Sol, Nerja dispose de près de nombreuses plages offrant des activités variées telles que le ski nautique, la plongée avec tuba et la voile. Bien que touristique, Nerja n'a pas encore subi les conséquences de l'urbanisation incontrôlée du littoral de la Costa Del Sol, son immense promenade offrant une vue panoramique sur la Méditerranée."
+                ,
+                "Nerja bénéficie d’un climat doux toute l'année et c’est ici que la légendaire série télé Verano Azul fut tournée."
+                
+            ],
+            "Images":
+            [
+                "203_2_dsc_0022__1280x960_.jpg",
+                "205_2_dsc_0263__1280x960_.jpg",
+                "206_2_dsc_0272__1280x960_.jpg",
+                "207_2_dsc_0319__960x1280_.jpg",
+                "208_2_dsc_0320__960x1280_.jpg",
+                "209_2_dsc_0395__1280x960_.jpg",
+                "210_2_dsc_0398__1280x960_.jpg",
+                "211_2_dsc_0401__1280x960_.jpg",
+                "212_2_dsc_0403__1280x960_.jpg",
+                "218_2_img_3108__853x1280_.jpg",
+                "219_2_img_3110__1280x853_.jpg",
+                "221_2_img_3112__853x1280_.jpg",
+                "224_2_img_4190__1280x853_.jpg",
+                "225_2_img_4191__1280x853_.jpg",
+                "228_2_img_4198__1280x853_.jpg"
+            ]
+        },
+    "Les incontournables :":
     [
-        {
-            "paragraphe":
-            "Située au sud de la Costa Del Sol, Nerja dispose de près de nombreuses plages offrant des activités variées telles que le ski nautique, la plongée avec tuba et la voile. Bien que touristique, Nerja n'a pas encore subi les conséquences de l'urbanisation incontrôlée du littoral de la Costa Del Sol, son immense promenade offrant une vue panoramique sur la Méditerranée."
-        },
-        {
-            "paragraphe":
-            "Nerja bénéficie d’un climat doux toute l'année et c’est ici que la légendaire série télé Verano Azul fut tournée."
-        },
-        {
-            "paragraphe":
-            "Les incontournables :"
-        },
-        {
-            "paragraphe":
-            ""
-        }
 
+        {
+            "Titre":"Le Balcon de l'Europe",
+            "Description":"Le Balcon de l'Europe - un mirador sur la mer avec une vue imprenable sur la Méditerranée d’où on voit jusqu’aux côtes africaines.",
+            "Image":"balconEurope.jpeg"
+        },
+        {
+            "Titre":"L’église El Salvador",
+            "Description":"Située entre le Balcon de l’Europe et la Plaza Cavana, l’église El Salvador est un chef d’œuvre baroque et mauresque datant de la fin du 17e siècle.",
+            "Image":"IglesiaElSalvadorNerja.jpg"
+        },
+        {
+            "Titre":"La Plaza Cavana",
+            "Description":"La Plaza Cavana, un excellent endroit pour se détendre et déguster une sangria ou un café à l’une des nombreuses terrasses.",
+            "Image":"PlazadeCavana.jpg"
+        },
+        {
+            "Titre":"Les rues adjacentes au Balcon de l’Europe",
+            "Description":"Les rues adjacentes au Balcon de l’Europe et leurs multiples restaurants, heladerias et magasins de souvenirs (Carabeo, Gloria, Almirante Fernandiz, etc.).",
+            "Image":"rueAdjacente.avif"
+        },
+        {
+            "Titre":"La plaza de los Cangrejos",
+            "Description":"La plaza de los Cangrejos (la place des crabes) et ses nombreux restaurants. Elle située au bord de la playa Torricella et non loin de la tour qui porte le même nom.",
+            "Image":"plazadeloscangrejos.webp"
+        },
+        {
+            "Titre":"Le Mirador del Bendito",
+            "Description":"Le Mirador del Bendito qui offre une très belle vue sur la Méditerranée et la Playa Burriana, il est situé au bout de la rue Carabeo.",
+            "Image":"MiradordelBendito.jpg"
+        },
+        {
+            "Titre":"L’Aqueduc de l’Aigle",
+            "Description":"A la sortie de Nerja vers Maro, se dresse l’Aqueduc de l’Aigle, établi sur quatre niveaux. Il fut construit au XIXe siècle pour approvisionner en eau les moulins de l’ancienne usine de sucre de San Joaquín de Maro",
+            "Image":"aqueduc-de-nerja.webp"
+        },
+        {
+            "Titre":"La Grotte de Nerja",
+            "Description":"La Grotte de Nerja – un large ensemble de grottes long de 4 km qui, en juillet, sont le théâtre de certains concerts du Festival de Musique et de Danse.",
+            "Image":"Cueva-de-Nerja.jpg"
+        },
+        {
+            "Titre":"Les plages de Nerja",
+            "Description":"Les différentes plages de Nerja sont : El Playazo, El Chucho, La Torrecilla, El Salón, La Caletilla, Calahonta, El chorrillo, Carabeo, Carabeillo et Burriana.",
+            "Image":"nerjabeach.webp"
+        },
+        {
+            "Titre":"Les criques de Nerja",
+            "Description":"En quittant Nerja vers Almuñecar par la N340, vous rencontrerez des petites plages et criques plus sauvages : Cala Barranco de Maro, La Caleta, Playa de Maro, Playa Del Molino de Papel, Playa de Las Alberquillas, Calas Del Pino et Cala El Cañuelo.",
+            "Image":"nerjacrique.webp"
+        }
     ]
-}
+
+}                
+                
+                
+                
+                
+
+
+
+
+
+
+
+

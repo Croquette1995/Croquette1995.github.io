@@ -7,10 +7,13 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.1/css/bulma.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
         <link rel="stylesheet" href="my-bulma-project.css">  
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css">
         <title>Casa</title>
     </head>
     <style>
-            
+            .carousel{
+        overflow:hidden;
+      }
             
         
         .gt_switcher.notranslate {
@@ -22,6 +25,10 @@
         #google_translate_element2{
             
             border-radius : 50px;
+        }
+
+        .title{
+            text-align: center;
         }
 
         
@@ -114,38 +121,41 @@
                         </figure>
                     </section>
                     
-                    <section class="section ">
-                        <div class="columns">
-                            <div class="column is-three-fifths" id="containerPresentation">
-
-                            </div>
-                            <div class="column">
-                                <div class="card m-3">
-                                    <div class="card-image">
-                                        <figure class="image is-4by3" id="carousel">
-                                            <img
-                                              src="https://bulma.io/assets/images/placeholders/1280x960.png" id="imageCard"
-                                              alt="Placeholder image"
-                                            />
-                                          </figure>
-                                    </div>
-                                    <footer class="card-footer">
-                                        <a href="#" class="card-footer-item">Précédent</a>
-                                        <a class="card-footer-item" id="nextButton">Suivant</a>
-                                      </footer>
+                    <section class="section">
+                        <div class="box has-background-white-ter is-shadowless">
+                            <div class="columns ">
+                                <div class="column is-three-fifths has-text-justified " id="containerPresentation">
     
+                                </div>
+                                <div class="column is-two-fifths">
+                                    <div class="carousel is-flex" id="carousel-demo">
+    
+                                    </div>
+        
                                 </div>
                             </div>
                         </div>
-                        <div class="column box">
-                            <h2 class="title">Nerja</h2>
-                            <div class="" id="nerja">
-                                
+                        
+                        <div class="box has-background-white-ter is-shadowless">
+
+                            <div class="columns">
+                                <div class="column is-two-fifths">
+                                    <div class="carousel is-flex" id="carouselNerja">
+        
+                                    </div>
+                                </div>
+                                <div class="column is-three-fifths has-text-justified " id="nerja">
+
+                                </div>
                             </div>
                         </div>
-                        
-                        
+                        <h1 class="title is-size-5 has-text-centered">Les incontournables</h1>
+                        <div class="carousel is-flex-grow-1 is-flex" id="carouselToSee">
+        
+                        </div>
+
                     </section>
+
                     
                 </div>
     
@@ -155,6 +165,8 @@
 
     <script type="text/javascript" src="situation.js"></script>
     <script>window.gtranslateSettings = {"default_language":"fr","native_language_names":true,"detect_browser_language":true,"languages":["fr","es","en","ro","nl","it"],"wrapper_selector":".gtranslate_wrapper","switcher_horizontal_position":"inline","flag_style":"3d"}</script>
-        <script src="https://cdn.gtranslate.net/widgets/latest/dwf.js" defer></script>
+    <script src="https://cdn.gtranslate.net/widgets/latest/dwf.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
+
     </body>
 </html>
