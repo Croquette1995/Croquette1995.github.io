@@ -10,9 +10,10 @@
         ],
         "Images":
         [
-            "https://bulma.io/assets/images/placeholders/1280x960.png",
-            "./Images/banniere.png",
-            "./Images/Nerja.jpg"
+            "eclairs.jpg",
+            "IMG20240816171715.jpg",
+            "eclairs.jpg"
+
         ],
         "Logo":"fas fa-info"
     },
@@ -29,8 +30,9 @@
         ],
         "Images":
         [
-            "./Images/logo.png",
-            "./Images/eclairs.jpg"
+            "eclairs.jpg",
+            "IMG20240816171715.jpg",
+            "eclairs.jpg"
         ],
         "Logo":"fas fa-bed"
     },

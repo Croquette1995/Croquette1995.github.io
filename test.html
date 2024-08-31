@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CasaDali</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.1/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="my-bulma-project.css">  
+    <title>Casa</title>
+    <style>
+        /* Classe pour cacher les éléments */
+        .hidden {
+            display: none;
+        }
+        
+    </style>
+</head>
+<body>
+    <section class="section ">
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="index.html">
+            <figure class="image">
+              <img src="./Images/logo.png" alt="Accueil">
+
+            </figure>
+          </a>
+      
+          <a role="button" class="navbar-burger" data-target="navbarBasicExample" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item">
+              Home
+            </a>
+      
+            <a class="navbar-item">
+              Documentation
+            </a>
+      
+            <div class="navbar-item has-dropdown ">
+              <a id="dropdown-link" class="navbar-link is-arrowless">
+                More
+                <!-- Ajout manuel de l'icône de flèche -->
+                <span class="icon is-pulled-right">
+                    <i class="fas fa-angle-down"></i>
+                </span>
+              </a>
+      
+              <div class="navbar-dropdown">
+                <a class="navbar-item hidden">
+                  About
+                </a>
+                <a class="navbar-item hidden">
+                  Jobs
+                </a>
+                <a class="navbar-item hidden">
+                  Contact
+                </a>
+                <hr class="navbar-divider hidden">
+                <a class="navbar-item hidden">
+                  Report an issue
+                </a>
+              </div>
+            </div>
+          </div>
+      
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a class="button is-primary">
+                  <strong>Sign up</strong>
+                </a>
+                <a class="button is-light">
+                  Log in
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+        // Get all "navbar-burger" elements
+        const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+        // Add a click event on each of them
+        $navbarBurgers.forEach( el => {
+            el.addEventListener('click', () => {
+
+                // Get the target from the "data-target" attribute
+                const target = el.dataset.target;
+                const $target = document.getElementById(target);
+
+                // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                el.classList.toggle('is-active');
+                $target.classList.toggle('is-active');
+
+            });
+        });
+
+        // Dropdown functionality for the "More" button
+        const dropdownLink = document.getElementById('dropdown-link');
+        const dropdownMenuItems = document.querySelectorAll('.navbar-dropdown .navbar-item, .navbar-dropdown .navbar-divider');
+        const dropdownIcon = dropdownLink.querySelector('.icon i');
+
+        dropdownLink.addEventListener('click', (event) => {
+            event.preventDefault();
+
+            // Toggle visibility of dropdown items
+            dropdownMenuItems.forEach(item => {
+                item.classList.toggle('hidden');
+            });
+
+            // Toggle the icon between down and up arrow
+            if (dropdownIcon.classList.contains('fa-angle-down')) {
+                dropdownIcon.classList.remove('fa-angle-down');
+                dropdownIcon.classList.add('fa-angle-up');
+            } else {
+                dropdownIcon.classList.remove('fa-angle-up');
+                dropdownIcon.classList.add('fa-angle-down');
+            }
+        });
+    });
+</script>
+</body>
+</html>
