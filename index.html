@@ -3,7 +3,12 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Bienvenue sur Casa Dali ! Location de vacances">
+        <meta name="keywords" content="Nerja, vacances, Appartement, logement, Andalousie, Espagne, Casa Dali">
+
+
         <title>CasaDali</title>
+        <link rel="icon" href="./Images/logo.png">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.1/css/bulma.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
         <link rel="stylesheet" href="my-bulma-project.css">  
@@ -32,7 +37,7 @@
         <section class="section">
             
             <div class="columns">
-                <div class="column box is-flex is-flex-direction-column is-align-items-center  mr-1 mb-0" id="colMenu">
+                <div class="column box is-flex is-flex-direction-column is-align-items-center  mr-1 mb-0 is-hidden-mobile" id="colMenu">
                     <aside class="menu">
                         <div class="is-flex is-flex-direction-column is-align-items-center">
                             <figure class="image is-128x128">
@@ -70,7 +75,7 @@
                     <div class="card mt-5" style="width: 100%; ">
                         
     
-                        <div class="card-image ">
+                        <div class="card-image">
                             <figure class="image is-1by1">
                                 <img
                                   src="./Images/Contact.png"
@@ -108,7 +113,7 @@
 
                 </div>
                 <div class="column is-four-fifths box " style="position: relative;" id="test">
-                    <span class="icon" style="position:absolute; cursor: pointer;" id="buttonMenu">
+                    <span class="icon is-hidden-mobile" style="position:absolute; cursor: pointer;" id="buttonMenu">
                         <i class="fas fa-2x fa-bars"></i>
                     </span>
                     <section class="section is-small">
@@ -153,6 +158,31 @@
     
             </div>
         </section>
+        <footer class="box is-radiusless is-hidden-desktop is-hidden-fullhd is-hidden-widescreen is-hidden-tablet">
+                    <p class="is-size-5 has-text-weight-semibold has-text-centered mb-2">Contact</p>
+                    <div class="is-flex is-flex-direction-column is-align-items-center">
+                        <div class="icon-text has-text-centered">
+                            <span class="icon has-text-danger">
+                                <i class="fas fa-lg fa-envelope"></i>
+                            </span>
+                            <span style="overflow-wrap: break-word;">
+                                <a href="mailto:casadali.capistrano@gmail.com">Adresse Email</a> 
+                            </span>
+                        </div>
+                        <div class="icon-text">
+                            <span class="icon has-text-danger">
+                                <i class="fab fa-lg fa-facebook"></i>
+                            </span>
+                            <span style="overflow-wrap: break-word;">
+                                <p >
+                                    <a class="" href="https://www.facebook.com/casadalinerja">Lien facebook</a> 
+                                </p>
+                            </span>
+                        </div>
+                    </div>
+                      
+            
+        </footer>
 
 
         <script>window.gtranslateSettings = {"default_language":"fr","native_language_names":true,"detect_browser_language":true,"languages":["fr","es","en","ro","nl","it"],"wrapper_selector":".gtranslate_wrapper","switcher_horizontal_position":"inline","flag_style":"3d"}</script>

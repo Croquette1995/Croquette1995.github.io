@@ -17,13 +17,12 @@
     </style>
 </head>
 <body>
-    <section class="section ">
+    <section class="section is-hidden-desktop is-hidden-fullhd is-hidden-tablet is-hidden-widescreen" id="menuMobile">
       <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <a class="navbar-item" href="index.html">
             <figure class="image">
               <img src="./Images/logo.png" alt="Accueil">
-
             </figure>
           </a>
       
@@ -37,16 +36,16 @@
       
         <div id="navbarBasicExample" class="navbar-menu">
           <div class="navbar-start">
-            <a class="navbar-item">
-              Home
+            <a href="index.html" class="navbar-item">
+              Accueil
             </a>
-      
+
             <a class="navbar-item">
               Documentation
             </a>
       
-            <div class="navbar-item has-dropdown ">
-              <a id="dropdown-link" class="navbar-link is-arrowless">
+            <div class="navbar-item has-dropdown mb-0 ">
+              <a id="dropdown-link" class="navbar-link is-arrowless ">
                 More
                 <!-- Ajout manuel de l'icône de flèche -->
                 <span class="icon is-pulled-right">
@@ -54,7 +53,7 @@
                 </span>
               </a>
       
-              <div class="navbar-dropdown">
+              <div class="navbar-dropdown mb-0">
                 <a class="navbar-item hidden">
                   About
                 </a>
@@ -65,29 +64,28 @@
                   Contact
                 </a>
                 <hr class="navbar-divider hidden">
-                <a class="navbar-item hidden">
+                <a class="navbar-item hidden m-0">
                   Report an issue
                 </a>
               </div>
             </div>
+            <a class="navbar-item mt-0">
+              Documentation
+            </a>
           </div>
       
           <div class="navbar-end">
             <div class="navbar-item">
-              <div class="buttons">
-                <a class="button is-primary">
-                  <strong>Sign up</strong>
-                </a>
-                <a class="button is-light">
-                  Log in
-                </a>
-              </div>
+              <div class="gtranslate_wrapper"></div>
             </div>
           </div>
         </div>
       </nav>
     </section>
 
+
+<script>window.gtranslateSettings = {"default_language":"fr","native_language_names":true,"detect_browser_language":true,"languages":["fr","es","en","ro","nl","it"],"wrapper_selector":".gtranslate_wrapper","switcher_horizontal_position":"inline","flag_style":"3d"}</script>
+<script src="https://cdn.gtranslate.net/widgets/latest/dwf.js" defer></script>
 <script>
     document.addEventListener('DOMContentLoaded', () => {
 
