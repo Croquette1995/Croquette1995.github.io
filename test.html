@@ -8,20 +8,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="my-bulma-project.css">  
     <title>Casa</title>
-    <style>
-        /* Classe pour cacher les éléments */
-        .hidden {
-            display: none;
-        }
-        
-    </style>
+    
 </head>
 <body>
     <section class="section is-hidden-desktop is-hidden-fullhd is-hidden-tablet is-hidden-widescreen" id="menuMobile">
       <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <a class="navbar-item" href="index.html">
-            <figure class="image">
+            <figure class="image is-32x32">
               <img src="./Images/logo.png" alt="Accueil">
             </figure>
           </a>
@@ -40,38 +34,22 @@
               Accueil
             </a>
 
-            <a class="navbar-item">
-              Documentation
+            <a href="casadali.html" class="navbar-item">
+              Casa Dali
             </a>
-      
-            <div class="navbar-item has-dropdown mb-0 ">
-              <a id="dropdown-link" class="navbar-link is-arrowless ">
-                More
-                <!-- Ajout manuel de l'icône de flèche -->
-                <span class="icon is-pulled-right">
-                    <i class="fas fa-angle-down"></i>
-                </span>
-              </a>
-      
-              <div class="navbar-dropdown mb-0">
-                <a class="navbar-item hidden">
-                  About
-                </a>
-                <a class="navbar-item hidden">
-                  Jobs
-                </a>
-                <a class="navbar-item hidden">
-                  Contact
-                </a>
-                <hr class="navbar-divider hidden">
-                <a class="navbar-item hidden m-0">
-                  Report an issue
-                </a>
-              </div>
-            </div>
-            <a class="navbar-item mt-0">
-              Documentation
+
+            <a href="conditions.html" class="navbar-item">
+              Conditions
             </a>
+
+            <a href="situation.html" class="navbar-item">
+              Situation
+            </a>
+
+            <a href="liens.html" class="navbar-item">
+              Liens
+            </a>
+
           </div>
       
           <div class="navbar-end">
@@ -105,29 +83,6 @@
                 $target.classList.toggle('is-active');
 
             });
-        });
-
-        // Dropdown functionality for the "More" button
-        const dropdownLink = document.getElementById('dropdown-link');
-        const dropdownMenuItems = document.querySelectorAll('.navbar-dropdown .navbar-item, .navbar-dropdown .navbar-divider');
-        const dropdownIcon = dropdownLink.querySelector('.icon i');
-
-        dropdownLink.addEventListener('click', (event) => {
-            event.preventDefault();
-
-            // Toggle visibility of dropdown items
-            dropdownMenuItems.forEach(item => {
-                item.classList.toggle('hidden');
-            });
-
-            // Toggle the icon between down and up arrow
-            if (dropdownIcon.classList.contains('fa-angle-down')) {
-                dropdownIcon.classList.remove('fa-angle-down');
-                dropdownIcon.classList.add('fa-angle-up');
-            } else {
-                dropdownIcon.classList.remove('fa-angle-up');
-                dropdownIcon.classList.add('fa-angle-down');
-            }
         });
     });
 </script>
