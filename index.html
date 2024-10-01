@@ -34,9 +34,15 @@
 
 
     <body class="has-background-white-ter">
-        <section class="section">
+        
+        <section class="section" id="menuMobile">
             
+            
+
             <div class="columns">
+
+
+                
                 <div class="column box is-flex is-flex-direction-column is-align-items-center  mr-1 mb-0 is-hidden-mobile" id="colMenu">
                     <aside class="menu">
                         <div class="is-flex is-flex-direction-column is-align-items-center">
@@ -112,11 +118,60 @@
                     
 
                 </div>
-                <div class="column is-four-fifths box " style="position: relative;" id="test">
+                <div class="column is-four-fifths box" style="position: relative;" id="test">
+
+                    
+
                     <span class="icon is-hidden-mobile" style="position:absolute; cursor: pointer;" id="buttonMenu">
                         <i class="fas fa-2x fa-bars"></i>
                     </span>
+                    <nav class="navbar is-hidden-desktop is-hidden-fullhd is-hidden-tablet is-hidden-widescreen mb-0 " role="navigation" aria-label="main navigation">
+                        <div class="navbar-brand">
+                          
+                      
+                          <a role="button" class="navbar-burger" data-target="navbarBasicExample" aria-label="menu" aria-expanded="false">
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                          </a>
+                        </div>
+                      
+                        <div id="navbarBasicExample" class="navbar-menu is-shadowless has-background-white-ter">
+                          <div class="navbar-start ">
+                            <a href="index.html" class="navbar-item">
+                              Accueil
+                            </a>
+                
+                            <a href="casadali.html" class="navbar-item">
+                              Casa Dali
+                            </a>
+                
+                            <a href="conditions.html" class="navbar-item">
+                              Conditions
+                            </a>
+                
+                            <a href="situation.html" class="navbar-item">
+                              Situation
+                            </a>
+                
+                            <a href="liens.html" class="navbar-item">
+                              Liens
+                            </a>
+                
+                          </div>
+                      
+                          <div class="navbar-end">
+                            <div class="navbar-item">
+                              <div class="gtranslate_wrapper"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </nav>
+                    
                     <section class="section is-small">
+                        
+
                             <img src="./Images/banniere.png" alt="Bannière" style="border-radius: 10px; box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;">
                         <div class="box has-background-white-ter mt-5 is-shadowless">
                             <div class="columns  ">
@@ -190,7 +245,28 @@
 
 
         <script>window.myWidgetParam ? window.myWidgetParam : window.myWidgetParam = [];  window.myWidgetParam.push({id: 15,cityid: '2513240',appid: '1308946bd4ba0e48e84085a119382d63',units: 'metric',containerid: 'openweathermap-widget-15',  });  (function() {var script = document.createElement('script');script.async = true;script.charset = "utf-8";script.src = "//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js";var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(script, s);  })();</script>
-    
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+        
+                // Get all "navbar-burger" elements
+                const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+        
+                // Add a click event on each of them
+                $navbarBurgers.forEach( el => {
+                    el.addEventListener('click', () => {
+        
+                        // Get the target from the "data-target" attribute
+                        const target = el.dataset.target;
+                        const $target = document.getElementById(target);
+        
+                        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                        el.classList.toggle('is-active');
+                        $target.classList.toggle('is-active');
+        
+                    });
+                });
+            });
+        </script>
         <script>
             (function(d, s, id) {
                 if (d.getElementById(id)) {

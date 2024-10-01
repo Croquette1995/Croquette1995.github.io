@@ -52,12 +52,12 @@ async function loadGallery1(section){
 
     for(let i=0; i< valeur.length;i++){
         let element = document.createElement("div");
-        element.classList.add("card", "mr-2", "ml-2");
+        element.classList.add("card", "m-3");
          
         element.id="remove";
         element.innerHTML =`
                 <div class="card-image" id="remove" >
-                    <figure class="image is-3by2">
+                    <figure class="image is-square" >
                         <img src="./Images/Casadali/${valeur[i]}"/>
                     </figure>
                 </div>

@@ -10,9 +10,9 @@
         ],
         "Images":
         [
-            "eclairs.jpg",
-            "IMG20240816171715.jpg",
-            "eclairs.jpg"
+            "928_2_img_3_upscayl_400px_realesrgan-x4fast.png",
+            "905_2_img_10.jpg"
+            
 
         ],
         "Logo":"fas fa-info"
@@ -30,9 +30,11 @@
         ],
         "Images":
         [
-            "eclairs.jpg",
-            "IMG20240816171715.jpg",
-            "eclairs.jpg"
+            "931_2_img_32.jpg",
+            "924_2_img_27.jpg",
+            "923_2_img_26 (1).jpg",
+            "908_2_img_13.jpg"
+            
         ],
         "Logo":"fas fa-bed"
     },
@@ -45,7 +47,10 @@
         ],
         "Images":
         [
-            "huhu.png"
+            "180_3_img_9.png",
+            "919_2_img_23.jpg",
+            "918_2_img_22.jpg",
+            "916_2_img_20.jpg"
         ],
         "Logo":"fas fa-bath"
     },
@@ -58,7 +63,12 @@
         ],
         "Images":
         [
-            "huhu.png"
+            "943_2_img_41.jpg",
+            "940_2_img_39.jpg",
+            "938_2_img_37.jpg",
+            "935_2_img_35b.jpg",
+            "904_2_img_1.jpg",
+            "74_2_b2.jpg"
         ],
         "Logo":"fas fa-external-link-alt"
     },
@@ -71,7 +81,7 @@
         ],
         "Images":
         [
-            "huhu.png"
+            "923_2_img_26.jpg"
         ],
         "Logo":"fas fa-taxi"
     },
@@ -88,7 +98,8 @@
         ],
         "Images":
         [
-            "huhu.png"
+            "780_2_dsc_0408__1280x960_.jpg",
+            "698_2_d2.jpg"
         ],
         "logo":"fas fa-umbrella-beach"
     }
