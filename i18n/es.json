@@ -1,0 +1,177 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "apartment": "El Apartamento",
+    "gallery": "Galería",
+    "situation": "Nerja y Alrededores",
+    "pricing": "Tarifas y Condiciones",
+    "links": "Info Práctica",
+    "contact": "Contacto",
+    "bookNow": "Reservar"
+  },
+  "hero": {
+    "badge": "Andalucía · Costa del Sol · Nerja",
+    "title": "La calidez de vivir en El Capistrano Village",
+    "description": "Situada en las laderas de la Sierra de Almijara con vistas al mar Mediterráneo y a las montañas andaluzas, Casa Dali le da la bienvenida para una estancia inolvidable bajo el sol español.",
+    "stats": {
+      "capacity": "2 a 4 personas",
+      "surface": "Cerca de 55 m²",
+      "pools": "3 piscinas del pueblo",
+      "beach": "A 800 m de la playa"
+    },
+    "exploreApt": "Descubrir el apartamento",
+    "checkRates": "Calcular estancia"
+  },
+  "apartment": {
+    "title": "Un rincón de paz renovado con esmero",
+    "subtitle": "Confort moderno, decoración cálida y atmósfera mediterránea.",
+    "tabs": {
+      "general": "Generalidades",
+      "living": "Dormitorio y Salón",
+      "kitchen": "Cocina y Baño",
+      "outdoor": "Terraza y Jardín",
+      "amenities": "Servicios y Comodidades",
+      "activities": "Ocio y Actividades"
+    },
+    "general": {
+      "desc1": "Nuestro apartamento de vacaciones ha sido completamente renovado con materiales de alta calidad.",
+      "desc2": "Con una superficie de unos 55 m², ofrece un confort ideal para 2 personas y puede alojar hasta 4 personas.",
+      "desc3": "Aire acondicionado frío/calor en toda la estancia para su bienestar en cualquier época del año."
+    },
+    "living": {
+      "bed": "Dormitorio luminoso con cama de matrimonio para 2 personas.",
+      "sofa": "Salón amplio con cómodo sofá cama para 2 personas.",
+      "tv": "Televisión de pantalla plana LCD con canales internacionales.",
+      "wifi": "Conexión a internet Wi-Fi de alta velocidad incluida."
+    },
+    "kitchen": {
+      "bath": "Baño moderno con amplia ducha a ras de suelo y secador de pelo.",
+      "cook": "Cocina totalmente equipada: placa vitrocerámica, horno, microondas, frigorífico-congelador, lavadora y vajilla completa."
+    },
+    "outdoor": {
+      "terrace": "Amplia terraza privada con toldo para disfrutar a la sombra.",
+      "garden": "Jardín privado con buganvillas y flores exóticas con barbacoa a su disposición."
+    },
+    "amenities": {
+      "linen": "Sábanas, toallas de baño y toallas de playa incluidas y renovadas semanalmente.",
+      "village": "Aparcamiento gratuito, restaurante, supermercados, cajero y autobús local hacia las playas y el centro."
+    },
+    "activities": {
+      "pools": "Acceso gratuito a las piscinas de Capistrano Village (la piscina principal frente al apartamento).",
+      "sports": "Pistas de tenis a 150 m y campos de golf a menos de 20 km.",
+      "ski": "Pistas de esquí de Sierra Nevada (Granada) a solo 1 hora."
+    }
+  },
+  "gallery": {
+    "title": "Momentos en Casa Dali",
+    "subtitle": "Descubra las fotografías del apartamento, la terraza, las piscinas y los paisajes andaluces.",
+    "filters": {
+      "all": "Todas",
+      "interior": "Interior",
+      "outdoor": "Terraza y Jardín",
+      "village": "Capistrano y Piscina",
+      "nerja": "Nerja y Playas"
+    },
+    "viewFullscreen": "Ampliar foto",
+    "close": "Cerrar",
+    "next": "Siguiente",
+    "prev": "Anterior"
+  },
+  "pricing": {
+    "title": "Disponibilidad, Tarifas y Simulador",
+    "subtitle": "Tarifas transparentes con suministros y servicios incluidos.",
+    "basePrice": "Desde 350 €",
+    "perWeek": "/ semana",
+    "includedTitle": "Todo incluido:",
+    "included": [
+      "Consumos de luz y agua",
+      "Aire acondicionado reversible frío/calor",
+      "Ropa de cama y toallas de baño",
+      "Toallas de playa a su disposición",
+      "Limpieza final completa",
+      "Acceso a las piscinas del complejo"
+    ],
+    "conditionsTitle": "Condiciones de reserva:",
+    "conditions": [
+      "Reserva: anticipo del 25% al reservar",
+      "Saldo restante + fianza de 200 € 3 semanas antes de la llegada",
+      "Fianza reembolsada íntegramente la semana siguiente a la salida",
+      "Estancia mínima: 1 semana (7 noches) para 2 a 4 personas",
+      "Suplemento persona adicional (a partir de 2): 6 € / día / persona"
+    ],
+    "optionsTitle": "Opciones bajo petición:",
+    "options": [
+      "Cuna para bebé disponible bajo petición",
+      "Servicio de transporte aeropuerto de Málaga - Casa Dali",
+      "Cambio extra de sábanas y toallas"
+    ],
+    "simulator": {
+      "title": "Simulador de presupuesto",
+      "weeks": "Duración de la estancia",
+      "weeksCount": "{count} semana(s)",
+      "guests": "Número de personas",
+      "guestsCount": "{count} persona(s)",
+      "baseCalculation": "Tarifa base (2 pers.)",
+      "extraGuests": "Suplemento personas adicionales",
+      "deposit": "Fianza reembolsable",
+      "totalEstimated": "Total estimado",
+      "estimateNotice": "* Estimación orientativa. Contáctenos para consultar disponibilidad exacta según sus fechas.",
+      "requestButton": "Enviar solicitud con esta estimación"
+    }
+  },
+  "situation": {
+    "title": "Nerja y El Capistrano Village",
+    "subtitle": "Un microclima subtropical excepcional y el encanto de los pueblos blancos andaluces.",
+    "capistrano": {
+      "title": "El Capistrano Village",
+      "text1": "El Capistrano es un complejo turístico único con arquitectura tradicional andaluza, jardines floridos y paseos peatonales de ensueño.",
+      "text2": "La playa de Burriana se encuentra a 800 metros y el Balcón de Europa a 1,1 km. Muy bien comunicado por líneas de autobús."
+    },
+    "nerja": {
+      "title": "Nerja, joya de la Costa del Sol",
+      "text1": "Al resguardo de la Sierra de Almijara, Nerja conserva la autenticidad marinera sin la masificación de otras zonas costeras.",
+      "text2": "Disfruta de más de 320 días de sol al año, calas de agua cristalina y una gastronomía mediterránea inolvidable."
+    },
+    "mustSeeTitle": "Los 10 imprescindibles",
+    "spots": {
+      "balcon": "El Balcón de Europa - Mirador emblemático sobre el Mediterráneo.",
+      "eglise": "Iglesia El Salvador - Joya barroca y mudéjar del siglo XVII.",
+      "cavana": "Plaza Cavana - Ideal para relajarse y tomar algo en sus terrazas.",
+      "rues": "Callejuelas del casco antiguo - Paseos entre tiendas y heladerías.",
+      "cangrejos": "Plaza de los Cangrejos - Espacio frente a la playa Torrecilla.",
+      "bendito": "Mirador del Bendito - Magnífica vista sobre la playa de Burriana.",
+      "aqueduc": "Acueducto del Águila - Gran obra histórica de arcos del siglo XIX.",
+      "grottes": "Cueva de Nerja - Maravilla natural de galerías y conciertos.",
+      "plages": "Playas de Nerja - Burriana, Calahonda, Torrecilla y Carabeo.",
+      "criques": "Calas salvajes de Maro - Entorno natural y aguas transparentes."
+    }
+  },
+  "links": {
+    "title": "Información Práctica y Accesos",
+    "subtitle": "Todo lo necesario para organizar su llegada fácilmente.",
+    "transports": "Vuelos y Transportes",
+    "tourism": "Turismo y Actividades",
+    "carRental": "Alquiler de Coches",
+    "restaurants": "Guía de Restaurantes de Nerja",
+    "downloadPdf": "Descargar la guía PDF de restaurantes (Agosto 2024)",
+    "usefulLinks": "Enlaces recomendados"
+  },
+  "contact": {
+    "title": "¿Listo para sus vacaciones en Andalucía?",
+    "subtitle": "Contáctenos directamente para consultar fechas y organizar su estancia en Casa Dali.",
+    "emailLabel": "Email directo:",
+    "facebookLabel": "Página oficial de Facebook:",
+    "owner": "Propietario particular directo",
+    "sendEmail": "Escribir email",
+    "viewFacebook": "Visitar página de Facebook",
+    "quickInquiry": "Solicitud de reserva o información",
+    "namePlaceholder": "Nombre y apellidos",
+    "emailPlaceholder": "Su correo electrónico",
+    "phonePlaceholder": "Teléfono (opcional)",
+    "datesPlaceholder": "Fechas deseadas (ej: 2 semanas en julio)",
+    "guestsPlaceholder": "Número de huéspedes (2 a 4)",
+    "messagePlaceholder": "Su mensaje o petición...",
+    "submit": "Abrir correo de reserva preparado",
+    "footerText": "© Casa Dali · Nerja, España. Todos los derechos reservados."
+  }
+}

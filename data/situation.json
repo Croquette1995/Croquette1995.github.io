@@ -1,0 +1,98 @@
+{
+  "id": "situation-nerja",
+  "capistrano": {
+    "title": "El Capistrano Village",
+    "description": "El Capistrano est un complexe touristique formé de villas et appartements de style andalou traditionnel, entourés de vastes jardins fleuris et d'allées piétonnes pavées. La Casa Dali s'y trouve, à 800 m de la plage de Burriana et à 1,1 km du Balcon de l'Europe.",
+    "images": [
+      "/images/Situation/CapistranoVillage/68_2_a5.jpg",
+      "/images/Situation/CapistranoVillage/71_2_a8.jpg",
+      "/images/Situation/CapistranoVillage/73_2_b1.jpg",
+      "/images/Situation/CapistranoVillage/75_2_b3.jpg",
+      "/images/Situation/CapistranoVillage/77_2_b5.jpg",
+      "/images/Situation/CapistranoVillage/78_2_b6.jpg"
+    ]
+  },
+  "nerja": {
+    "title": "Nerja",
+    "description": "Située au sud de la Costa Del Sol, Nerja dispose de superbes plages et de criques préservées. Protégée par les montagnes, elle a su conserver son âme authentique et bénéficie d'un climat doux toute l'année.",
+    "images": [
+      "/images/Situation/Nerja/203_2_dsc_0022__1280x960_.jpg",
+      "/images/Situation/Nerja/206_2_dsc_0272__1280x960_.jpg",
+      "/images/Situation/Nerja/209_2_dsc_0395__1280x960_.jpg",
+      "/images/Situation/Nerja/218_2_img_3108__853x1280_.jpg",
+      "/images/Situation/Nerja/224_2_img_4190__1280x853_.jpg"
+    ]
+  },
+  "mustSee": [
+    {
+      "id": "balcon-europe",
+      "title": "Le Balcon de l'Europe",
+      "description": "Mirador emblématique sur la mer avec une vue imprenable sur la Méditerranée où l'on aperçoit les côtes africaines.",
+      "image": "/images/Situation/Incontournables/balconEurope.jpeg",
+      "tag": "Belvédère"
+    },
+    {
+      "id": "eglise-salvador",
+      "title": "L’église El Salvador",
+      "description": "Chef-d’œuvre baroque et mauresque datant de la fin du 17e siècle situé entre la Plaza Cavana et le Balcon de l'Europe.",
+      "image": "/images/Situation/Incontournables/IglesiaElSalvadorNerja.jpg",
+      "tag": "Patrimoine"
+    },
+    {
+      "id": "plaza-cavana",
+      "title": "La Plaza Cavana",
+      "description": "Un endroit idéal pour se détendre et déguster une sangria ou un café à l’une des nombreuses terrasses ombragées.",
+      "image": "/images/Situation/Incontournables/PlazadeCavana.jpg",
+      "tag": "Ambiance"
+    },
+    {
+      "id": "rues-adjacentes",
+      "title": "Les ruelles pittoresques",
+      "description": "Ruelles piétonnes animées avec restaurants de tapas, glaciers artisanaux et boutiques de souvenirs.",
+      "image": "/images/Situation/Incontournables/rueAdjacente.avif",
+      "tag": "Flânerie"
+    },
+    {
+      "id": "plaza-cangrejos",
+      "title": "La Plaza de los Cangrejos",
+      "description": "Place animée au bord de la plage Torrecilla, accueillant concerts et animations estivales.",
+      "image": "/images/Situation/Incontournables/plazadeloscangrejos.webp",
+      "tag": "Bord de mer"
+    },
+    {
+      "id": "mirador-bendito",
+      "title": "Le Mirador del Bendito",
+      "description": "Très beau point de vue sur la Méditerranée et la plage de Burriana, situé au bout de la rue Carabeo.",
+      "image": "/images/Situation/Incontournables/MiradordelBendito.jpg",
+      "tag": "Panorama"
+    },
+    {
+      "id": "aqueduc-aigle",
+      "title": "L’Aqueduc de l’Aigle",
+      "description": "Monument historique à 4 niveaux d'arches construit au 19e siècle pour alimenter les anciens moulins à sucre de Maro.",
+      "image": "/images/Situation/Incontournables/aqueduc-de-nerja.webp",
+      "tag": "Histoire"
+    },
+    {
+      "id": "grotte-nerja",
+      "title": "La Grotte de Nerja",
+      "description": "Vaste ensemble souterrain long de 4 km avec stalactites géantes, accueillant un prestigieux festival de musique.",
+      "image": "/images/Situation/Incontournables/Cueva-de-Nerja.jpg",
+      "tag": "Nature"
+    },
+    {
+      "id": "plages-nerja",
+      "title": "Les plages de Nerja",
+      "description": "Burriana, Carabeo, Calahonda, El Salón, Torrecilla et El Playazo : sable fin, eaux limpides et activités nautiques.",
+      "image": "/images/Situation/Incontournables/nerjabeach.webp",
+      "tag": "Plage"
+    },
+    {
+      "id": "criques-sauvages",
+      "title": "Les criques sauvages de Maro",
+      "description": "Vers Almuñecar : criques protégées aux falaises spectaculaires et eaux cristallines propices au snorkeling.",
+      "image": "/images/Situation/Incontournables/nerjacrique.webp",
+      "tag": "Sauvage"
+    }
+  ]
+}
