@@ -97,7 +97,7 @@
     "badge": "Portfolio",
     "previousSlide": "Vorige foto",
     "nextSlide": "Volgende foto",
-    "pageInfo": "{current} / {total}",
+    "pageInfo": "{{current}} / {{total}}",
     "photos": {
       "photo-0-interior": "Casa Dali - Overzicht woonkamer",
       "photo-1-interior": "Lichte hoofdslaapkamer",
@@ -151,9 +151,9 @@
     "simulator": {
       "title": "Kostenberekening verblijf",
       "weeks": "Verblijfsduur",
-      "weeksCount": "{count} week/weken",
+      "weeksCount": "{{count}} week/weken",
       "guests": "Aantal personen",
-      "guestsCount": "{count} persoon/personen",
+      "guestsCount": "{{count}} persoon/personen",
       "baseCalculation": "Basistarief (2 pers.)",
       "extraGuests": "Toeslag extra personen",
       "deposit": "Restitueerbare borg",
@@ -161,9 +161,9 @@
       "estimateNotice": "* Indicatieve berekening. Neem rechtstreeks contact met ons op om de exacte beschikbaarheid te controleren.",
       "requestButton": "Aanvraag verzenden voor deze schatting",
       "subtitle": "Directe berekening van uw verblijf",
-      "weeksNights": "{weeks} week/weken ({nights} nachten)",
-      "weekShort": "{count} wk",
-      "guestShort": "{count} pers.",
+      "weeksNights": "{{weeks}} week/weken ({{nights}} nachten)",
+      "weekShort": "{{count}} wk",
+      "guestShort": "{{count}} pers.",
       "withRefundableDeposit": "(inclusief terugbetaalbare waarborg)",
       "depositDueNow": "Voorschot bij boeking (25%):",
       "balanceDueBeforeArrival": "Saldo voor aankomst (+ waarborg):"
@@ -271,7 +271,7 @@
     "usefulLinks": "Aanbevolen links",
     "badge": "Uw verblijf voorbereiden",
     "flights": "Vluchten",
-    "localSelection": "Lokale selectie · {date}",
+    "localSelection": "Lokale selectie · {{date}}",
     "restaurantsDesc": "Bekijk onze selectie van de beste restaurants, tapasbars en lokale specialiteiten in Nerja.",
     "visitSite": "Bezoek website →",
     "categories": {

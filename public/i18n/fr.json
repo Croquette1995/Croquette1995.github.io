@@ -97,7 +97,7 @@
     "badge": "Portfolio",
     "previousSlide": "Photo précédente",
     "nextSlide": "Photo suivante",
-    "pageInfo": "{current} / {total}",
+    "pageInfo": "{{current}} / {{total}}",
     "photos": {
       "photo-0-interior": "Casa Dali - Vue d'ensemble salon",
       "photo-1-interior": "Chambre parentale lumineuse",
@@ -151,9 +151,9 @@
     "simulator": {
       "title": "Simulateur d'estimation",
       "weeks": "Durée du séjour",
-      "weeksCount": "{count} semaine(s)",
+      "weeksCount": "{{count}} semaine(s)",
       "guests": "Nombre de personnes",
-      "guestsCount": "{count} personne(s)",
+      "guestsCount": "{{count}} personne(s)",
       "baseCalculation": "Tarif de base (2 pers.)",
       "extraGuests": "Supplément personnes additionnelles",
       "deposit": "Caution remboursable",
@@ -161,9 +161,9 @@
       "estimateNotice": "* Estimation indicative. Contactez-nous directement pour les disponibilités exactes selon vos dates.",
       "requestButton": "Envoyer une demande pour cette estimation",
       "subtitle": "Calcul instantané de votre séjour",
-      "weeksNights": "{weeks} semaine(s) ({nights} nuits)",
-      "weekShort": "{count} sem.",
-      "guestShort": "{count} pers.",
+      "weeksNights": "{{weeks}} semaine(s) ({{nights}} nuits)",
+      "weekShort": "{{count}} sem.",
+      "guestShort": "{{count}} pers.",
       "withRefundableDeposit": "(avec caution remboursée)",
       "depositDueNow": "Acompte réservation (25%) :",
       "balanceDueBeforeArrival": "Solde avant arrivée (+ caution) :"
@@ -271,7 +271,7 @@
     "usefulLinks": "Liens recommandés",
     "badge": "Préparer votre séjour",
     "flights": "Vols",
-    "localSelection": "Sélection locale · {date}",
+    "localSelection": "Sélection locale · {{date}}",
     "restaurantsDesc": "Consultez la sélection des meilleures tables, bars à tapas et spécialités locales recommandées pour votre séjour à Nerja.",
     "visitSite": "Accéder au site →",
     "categories": {

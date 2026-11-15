@@ -97,7 +97,7 @@
     "badge": "Portafolio",
     "previousSlide": "Foto anterior",
     "nextSlide": "Foto siguiente",
-    "pageInfo": "{current} / {total}",
+    "pageInfo": "{{current}} / {{total}}",
     "photos": {
       "photo-0-interior": "Casa Dalí - Vista general del salón",
       "photo-1-interior": "Dormitorio principal luminoso",
@@ -151,9 +151,9 @@
     "simulator": {
       "title": "Simulador de presupuesto",
       "weeks": "Duración de la estancia",
-      "weeksCount": "{count} semana(s)",
+      "weeksCount": "{{count}} semana(s)",
       "guests": "Número de personas",
-      "guestsCount": "{count} persona(s)",
+      "guestsCount": "{{count}} persona(s)",
       "baseCalculation": "Tarifa base (2 pers.)",
       "extraGuests": "Suplemento personas adicionales",
       "deposit": "Fianza reembolsable",
@@ -161,9 +161,9 @@
       "estimateNotice": "* Estimación orientativa. Contáctenos para consultar disponibilidad exacta según sus fechas.",
       "requestButton": "Enviar solicitud con esta estimación",
       "subtitle": "Cálculo instantáneo de su estancia",
-      "weeksNights": "{weeks} semana(s) ({nights} noches)",
-      "weekShort": "{count} sem.",
-      "guestShort": "{count} pers.",
+      "weeksNights": "{{weeks}} semana(s) ({{nights}} noches)",
+      "weekShort": "{{count}} sem.",
+      "guestShort": "{{count}} pers.",
       "withRefundableDeposit": "(con fianza reembolsable)",
       "depositDueNow": "Señal de reserva (25%):",
       "balanceDueBeforeArrival": "Resto antes de la llegada (+ fianza):"
@@ -271,7 +271,7 @@
     "usefulLinks": "Enlaces recomendados",
     "badge": "Prepare su estancia",
     "flights": "Vuelos",
-    "localSelection": "Selección local · {date}",
+    "localSelection": "Selección local · {{date}}",
     "restaurantsDesc": "Consulte la selección de los mejores restaurantes, bares de tapas y especialidades locales recomendadas en Nerja.",
     "visitSite": "Visitar sitio web →",
     "categories": {

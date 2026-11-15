@@ -87,7 +87,7 @@
       "all": "Tutte",
       "interior": "Interni",
       "outdoor": "Terrazza & Giardino",
-      "village": "Capistrano & Piscine",
+      "village": "Capistrano & Piscina",
       "nerja": "Nerja & Spiagge"
     },
     "viewFullscreen": "Ingrandisci foto",
@@ -97,7 +97,7 @@
     "badge": "Portfolio",
     "previousSlide": "Foto precedente",
     "nextSlide": "Foto successiva",
-    "pageInfo": "{current} / {total}",
+    "pageInfo": "{{current}} / {{total}}",
     "photos": {
       "photo-0-interior": "Casa Dalì - Vista generale soggiorno",
       "photo-1-interior": "Camera matrimoniale luminosa",
@@ -151,9 +151,9 @@
     "simulator": {
       "title": "Simulatore di preventivo",
       "weeks": "Durata del soggiorno",
-      "weeksCount": "{count} settimana/e",
+      "weeksCount": "{{count}} settimana/e",
       "guests": "Numero di persone",
-      "guestsCount": "{count} persona/e",
+      "guestsCount": "{{count}} persona/e",
       "baseCalculation": "Tariffa base (2 pers.)",
       "extraGuests": "Supplemento ospiti aggiuntivi",
       "deposit": "Cauzione rimborsabile",
@@ -161,9 +161,9 @@
       "estimateNotice": "* Calcolo indicativo. Contattateci direttamente per verificare la disponibilità esatta per le vostre date.",
       "requestButton": "Invia richiesta per questo preventivo",
       "subtitle": "Calcolo istantaneo del soggiorno",
-      "weeksNights": "{weeks} settimana/e ({nights} notti)",
-      "weekShort": "{count} sett.",
-      "guestShort": "{count} pers.",
+      "weeksNights": "{{weeks}} settimana/e ({{nights}} notti)",
+      "weekShort": "{{count}} sett.",
+      "guestShort": "{{count}} pers.",
       "withRefundableDeposit": "(con cauzione rimborsabile)",
       "depositDueNow": "Acconto prenotazione (25%):",
       "balanceDueBeforeArrival": "Saldo prima dell'arrivo (+ cauzione):"
@@ -271,7 +271,7 @@
     "usefulLinks": "Link consigliati",
     "badge": "Prepara il soggiorno",
     "flights": "Voli",
-    "localSelection": "Selezione locale · {date}",
+    "localSelection": "Selezione locale · {{date}}",
     "restaurantsDesc": "Consulta la selezione dei migliori ristoranti, tapas bar e specialità locali consigliate a Nerja.",
     "visitSite": "Visita il sito →",
     "categories": {

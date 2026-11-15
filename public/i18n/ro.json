@@ -87,7 +87,7 @@
       "all": "Toate",
       "interior": "Interior",
       "outdoor": "Terasă & Grădină",
-      "village": "Capistrano & Piscine",
+      "village": "Capistrano & Piscină",
       "nerja": "Nerja & Plaje"
     },
     "viewFullscreen": "Mărește poza",
@@ -97,7 +97,7 @@
     "badge": "Portofoliu",
     "previousSlide": "Fotografia anterioară",
     "nextSlide": "Fotografia următoare",
-    "pageInfo": "{current} / {total}",
+    "pageInfo": "{{current}} / {{total}}",
     "photos": {
       "photo-0-interior": "Casa Dali - Vedere generală living",
       "photo-1-interior": "Dormitor matrimonial luminos",
@@ -151,9 +151,9 @@
     "simulator": {
       "title": "Simulator estimare preț",
       "weeks": "Durata sejurului",
-      "weeksCount": "{count} săptămână(i)",
+      "weeksCount": "{{count}} săptămână(i)",
       "guests": "Număr de persoane",
-      "guestsCount": "{count} persoană(e)",
+      "guestsCount": "{{count}} persoană(e)",
       "baseCalculation": "Tarif de bază (2 pers.)",
       "extraGuests": "Supliment persoane adiționale",
       "deposit": "Garanție rambursabilă",
@@ -161,9 +161,9 @@
       "estimateNotice": "* Calcul orientativ. Vă rugăm să ne contactați direct pentru a verifica disponibilitatea exactă.",
       "requestButton": "Trimite cerere pentru această estimare",
       "subtitle": "Calcul instantaneu al sejurului",
-      "weeksNights": "{weeks} săptămână(i) ({nights} nopți)",
-      "weekShort": "{count} săpt.",
-      "guestShort": "{count} pers.",
+      "weeksNights": "{{weeks}} săptămână(i) ({{nights}} nopți)",
+      "weekShort": "{{count}} săpt.",
+      "guestShort": "{{count}} pers.",
       "withRefundableDeposit": "(cu garanție rambursabilă)",
       "depositDueNow": "Avans rezervare (25%):",
       "balanceDueBeforeArrival": "Sold înainte de sosire (+ garanție):"
@@ -271,7 +271,7 @@
     "usefulLinks": "Linkuri utile recomandate",
     "badge": "Pregătiți-vă sejurul",
     "flights": "Zboruri",
-    "localSelection": "Selecție locală · {date}",
+    "localSelection": "Selecție locală · {{date}}",
     "restaurantsDesc": "Consultați selecția celor mai bune restaurante, baruri de tapas și specialități locale recomandate în Nerja.",
     "visitSite": "Accesați site-ul →",
     "categories": {

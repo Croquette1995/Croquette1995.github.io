@@ -97,7 +97,7 @@
     "badge": "Portfolio",
     "previousSlide": "Previous photo",
     "nextSlide": "Next photo",
-    "pageInfo": "{current} / {total}",
+    "pageInfo": "{{current}} / {{total}}",
     "photos": {
       "photo-0-interior": "Casa Dali - Living room overview",
       "photo-1-interior": "Bright master bedroom",
@@ -151,9 +151,9 @@
     "simulator": {
       "title": "Stay Cost Simulator",
       "weeks": "Stay duration",
-      "weeksCount": "{count} week(s)",
+      "weeksCount": "{{count}} week(s)",
       "guests": "Number of guests",
-      "guestsCount": "{count} guest(s)",
+      "guestsCount": "{{count}} guest(s)",
       "baseCalculation": "Base rate (2 guests)",
       "extraGuests": "Extra guests surcharge",
       "deposit": "Refundable security deposit",
@@ -161,9 +161,9 @@
       "estimateNotice": "* Indicative calculation. Please contact us directly to confirm availability for your specific dates.",
       "requestButton": "Send booking inquiry for this estimate",
       "subtitle": "Instant estimate for your stay",
-      "weeksNights": "{weeks} week(s) ({nights} nights)",
-      "weekShort": "{count} wk",
-      "guestShort": "{count} guest(s)",
+      "weeksNights": "{{weeks}} week(s) ({{nights}} nights)",
+      "weekShort": "{{count}} wk",
+      "guestShort": "{{count}} guest(s)",
       "withRefundableDeposit": "(including refundable deposit)",
       "depositDueNow": "Booking deposit (25%):",
       "balanceDueBeforeArrival": "Balance before arrival (+ deposit):"
@@ -271,7 +271,7 @@
     "usefulLinks": "Recommended links",
     "badge": "Plan your stay",
     "flights": "Flights",
-    "localSelection": "Local selection · {date}",
+    "localSelection": "Local selection · {{date}}",
     "restaurantsDesc": "Browse the selection of top restaurants, tapas bars, and local specialties recommended for your stay in Nerja.",
     "visitSite": "Visit website →",
     "categories": {
