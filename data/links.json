@@ -1,0 +1,81 @@
+{
+  "id": "links-nerja",
+  "usefulLinks": [
+    {
+      "id": "tourisme-nerja",
+      "name": "Office du Tourisme de Nerja",
+      "category": "tourism",
+      "url": "http://www.nerja.es/turismo/index.php",
+      "note": "Infos officielles en espagnol et anglais"
+    },
+    {
+      "id": "nerja-today",
+      "name": "Nerja Today",
+      "category": "tourism",
+      "url": "http://www.nerjatoday.com/",
+      "note": "Guide complet des activités locales (EN)"
+    },
+    {
+      "id": "aeroport-malaga",
+      "name": "Aéroport de Malaga (AGP)",
+      "category": "flights",
+      "url": "http://www.aena.es/csee/Satellite/Aeropuerto-Malaga/es/Inicio.html",
+      "note": "Aéroport international principal à 50 min"
+    },
+    {
+      "id": "ryanair",
+      "name": "Ryanair",
+      "category": "flights",
+      "url": "https://www.ryanair.com/",
+      "note": "Vols directs vers Malaga"
+    },
+    {
+      "id": "vueling",
+      "name": "Vueling",
+      "category": "flights",
+      "url": "http://www.vueling.com/fr",
+      "note": "Vols réguliers"
+    },
+    {
+      "id": "transavia",
+      "name": "Transavia",
+      "category": "flights",
+      "url": "https://www.transavia.com/",
+      "note": "Vols au départ de Paris-Orly et région"
+    },
+    {
+      "id": "easyjet",
+      "name": "EasyJet",
+      "category": "flights",
+      "url": "http://www.easyjet.com/be-fr",
+      "note": "Vols au départ de France et Belgique"
+    },
+    {
+      "id": "centauro",
+      "name": "Centauro Rent a Car",
+      "category": "carRental",
+      "url": "http://www.centauro.net",
+      "note": "Location de véhicule à l'aéroport"
+    },
+    {
+      "id": "alsa-bus",
+      "name": "ALSA (Lignes de bus régionales)",
+      "category": "transports",
+      "url": "http://www.alsa.es/",
+      "note": "Liaisons directes Malaga Ville / Aéroport ↔ Nerja"
+    },
+    {
+      "id": "emt-malaga",
+      "name": "EMT Autobus Malaga",
+      "category": "transports",
+      "url": "http://www.emtsam.org/estabus/",
+      "note": "Navette Aéroport ↔ Gare routière de Malaga"
+    }
+  ],
+  "restaurantGuide": {
+    "title": "Guide des Restaurants de Nerja",
+    "pdfUrl": "/documents/restaurants.pdf",
+    "date": "Août 2024",
+    "coverImage": "/images/Liens/restaurant.png"
+  }
+}

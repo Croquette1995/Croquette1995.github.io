@@ -1,0 +1,19 @@
+{
+  "id": "conditions-dali",
+  "baseWeeklyRate": 350,
+  "currency": "EUR",
+  "baseGuests": 2,
+  "maxGuests": 4,
+  "extraGuestDailyRate": 6,
+  "securityDeposit": 200,
+  "depositPercentage": 25,
+  "minStayNights": 7,
+  "contactEmail": "casadali.capistrano@gmail.com",
+  "facebookUrl": "https://www.facebook.com/casadalinerja",
+  "availabilities": [
+    {
+      "period": "Avril à Novembre",
+      "status": "Disponible à la réservation (durée minimum : 1 semaine)"
+    }
+  ]
+}
