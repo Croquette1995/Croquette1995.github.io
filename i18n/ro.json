@@ -126,28 +126,28 @@
     "basePrice": "De la 350 €",
     "perWeek": "/ săptămână",
     "includedTitle": "Totul este inclus:",
-    "included": [
-      "Consumul de energie electrică și apă",
-      "Aer condiționat reversibil vară/iarnă",
-      "Lenjerie de pat și prosoape de baie",
-      "Prosoape de plajă asigurate",
-      "Curățenie finală completă",
-      "Acces la piscinele complexului"
-    ],
+    "included": {
+      "0": "Consumul de energie electrică și apă",
+      "1": "Aer condiționat reversibil vară/iarnă",
+      "2": "Lenjerie de pat și prosoape de baie",
+      "3": "Prosoape de plajă asigurate",
+      "4": "Curățenie finală completă",
+      "5": "Acces la piscinele complexului"
+    },
     "conditionsTitle": "Condiții de rezervare:",
-    "conditions": [
-      "Rezervare: avans de 25% la confirmare",
-      "Restul de plată + garanția de 200 € cu 3 săptămâni înainte de sosire",
-      "Garanția se restituie integral în săptămâna următoare plecării",
-      "Sejur minim: 1 săptămână (7 nopți) pentru 2 până la 4 persoane",
-      "Supliment persoană adițională (peste 2 persoane): 6 € / zi / persoană"
-    ],
+    "conditions": {
+      "0": "Rezervare: avans de 25% la confirmare",
+      "1": "Restul de plată + garanția de 200 € cu 3 săptămâni înainte de sosire",
+      "2": "Garanția se restituie integral în săptămâna următoare plecării",
+      "3": "Sejur minim: 1 săptămână (7 nopți) pentru 2 până la 4 persoane",
+      "4": "Supliment persoană adițională (peste 2 persoane): 6 € / zi / persoană"
+    },
     "optionsTitle": "Opțiuni la cerere:",
-    "options": [
-      "Pătuț pentru bebeluș disponibil la cerere",
-      "Serviciu de transfer aeroport Malaga - Casa Dali",
-      "Schimb intermediar de lenjerie și prosoape"
-    ],
+    "options": {
+      "0": "Pătuț pentru bebeluș disponibil la cerere",
+      "1": "Serviciu de transfer aeroport Malaga - Casa Dali",
+      "2": "Schimb intermediar de lenjerie și prosoape"
+    },
     "simulator": {
       "title": "Simulator estimare preț",
       "weeks": "Durata sejurului",

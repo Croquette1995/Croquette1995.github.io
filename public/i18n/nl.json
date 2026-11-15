@@ -126,28 +126,28 @@
     "basePrice": "Vanaf 350 €",
     "perWeek": "/ week",
     "includedTitle": "Alles is inbegrepen:",
-    "included": [
-      "Elektriciteits- en waterverbruik",
-      "Omkeerbare airconditioning (zomer/winter)",
-      "Beddengoed en badhanddoeken voorzien",
-      "Strandlakens ter beschikking",
-      "Volledige eindschoonmaak",
-      "Toegang tot de gemeenschappelijke zwembaden"
-    ],
+    "included": {
+      "0": "Elektriciteits- en waterverbruik",
+      "1": "Omkeerbare airconditioning (zomer/winter)",
+      "2": "Beddengoed en badhanddoeken voorzien",
+      "3": "Strandlakens ter beschikking",
+      "4": "Volledige eindschoonmaak",
+      "5": "Toegang tot de gemeenschappelijke zwembaden"
+    },
     "conditionsTitle": "Boekingsvoorwaarden:",
-    "conditions": [
-      "Reservering: aanbetaling van 25% bij bevestiging",
-      "Restbedrag + borg van 200 € te voldoen 3 weken voor aankomst",
-      "Borg wordt volledig teruggestort in de week na vertrek",
-      "Minimaal verblijf: 1 week (7 nachten) voor 2 tot 4 personen",
-      "Toeslag extra persoon (boven 2 personen): 6 € / dag / persoon"
-    ],
+    "conditions": {
+      "0": "Reservering: aanbetaling van 25% bij bevestiging",
+      "1": "Restbedrag + borg van 200 € te voldoen 3 weken voor aankomst",
+      "2": "Borg wordt volledig teruggestort in de week na vertrek",
+      "3": "Minimaal verblijf: 1 week (7 nachten) voor 2 tot 4 personen",
+      "4": "Toeslag extra persoon (boven 2 personen): 6 € / dag / persoon"
+    },
     "optionsTitle": "Opties op aanvraag:",
-    "options": [
-      "Babybedje beschikbaar op aanvraag",
-      "Luchthaventransferservice Malaga - Casa Dali",
-      "Tussentijdse wissel van bedlinnen en handdoeken"
-    ],
+    "options": {
+      "0": "Babybedje beschikbaar op aanvraag",
+      "1": "Luchthaventransferservice Malaga - Casa Dali",
+      "2": "Tussentijdse wissel van bedlinnen en handdoeken"
+    },
     "simulator": {
       "title": "Kostenberekening verblijf",
       "weeks": "Verblijfsduur",

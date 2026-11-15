@@ -126,28 +126,28 @@
     "basePrice": "À partir de 350 €",
     "perWeek": "/ semaine",
     "includedTitle": "Tout est inclus :",
-    "included": [
-      "Consommations d'électricité et d'eau",
-      "Climatisation réversible été/hiver",
-      "Draps de lit et essuies de bain fournis",
-      "Draps de plage à disposition",
-      "Nettoyage final complet",
-      "Accès aux piscines de la résidence"
-    ],
+    "included": {
+      "0": "Consommations d'électricité et d'eau",
+      "1": "Climatisation réversible été/hiver",
+      "2": "Draps de lit et essuies de bain fournis",
+      "3": "Draps de plage à disposition",
+      "4": "Nettoyage final complet",
+      "5": "Accès aux piscines de la résidence"
+    },
     "conditionsTitle": "Modalités de réservation :",
-    "conditions": [
-      "Réservation : acompte de 25% à la réservation",
-      "Solde + garantie locative de 200 € à régler 3 semaines avant l'arrivée",
-      "Garantie remboursée intégralement dans la semaine suivant le départ",
-      "Séjour minimum : 1 semaine (7 nuits) pour 2 à 4 personnes",
-      "Supplément personne additionnelle (au-delà de 2) : 6 € / jour / personne"
-    ],
+    "conditions": {
+      "0": "Réservation : acompte de 25% à la réservation",
+      "1": "Solde + garantie locative de 200 € à régler 3 semaines avant l'arrivée",
+      "2": "Garantie remboursée intégralement dans la semaine suivant le départ",
+      "3": "Séjour minimum : 1 semaine (7 nuits) pour 2 à 4 personnes",
+      "4": "Supplément personne additionnelle (au-delà de 2) : 6 € / jour / personne"
+    },
     "optionsTitle": "Options sur demande :",
-    "options": [
-      "Lit bébé disponible sur demande",
-      "Service de transfert aéroport Malaga - Casa Dali",
-      "Changement intermédiaire de draps et serviettes"
-    ],
+    "options": {
+      "0": "Lit bébé disponible sur demande",
+      "1": "Service de transfert aéroport Malaga - Casa Dali",
+      "2": "Changement intermédiaire de draps et serviettes"
+    },
     "simulator": {
       "title": "Simulateur d'estimation",
       "weeks": "Durée du séjour",

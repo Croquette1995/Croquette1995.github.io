@@ -126,28 +126,28 @@
     "basePrice": "From 350 €",
     "perWeek": "/ week",
     "includedTitle": "Everything is included:",
-    "included": [
-      "Electricity and water consumption",
-      "Reversible air conditioning (summer/winter)",
-      "Bed linen and bath towels provided",
-      "Beach towels provided",
-      "Complete final cleaning",
-      "Free access to community pools"
-    ],
+    "included": {
+      "0": "Electricity and water consumption",
+      "1": "Reversible air conditioning (summer/winter)",
+      "2": "Bed linen and bath towels provided",
+      "3": "Beach towels provided",
+      "4": "Complete final cleaning",
+      "5": "Free access to community pools"
+    },
     "conditionsTitle": "Booking conditions:",
-    "conditions": [
-      "Booking: 25% deposit upon reservation",
-      "Balance + 200 € security deposit due 3 weeks before arrival",
-      "Security deposit fully refunded the week following checkout",
-      "Minimum stay: 1 week (7 nights) for 2 to 4 guests",
-      "Extra guest fee (above 2 people): 6 € / day / person"
-    ],
+    "conditions": {
+      "0": "Booking: 25% deposit upon reservation",
+      "1": "Balance + 200 € security deposit due 3 weeks before arrival",
+      "2": "Security deposit fully refunded the week following checkout",
+      "3": "Minimum stay: 1 week (7 nights) for 2 to 4 guests",
+      "4": "Extra guest fee (above 2 people): 6 € / day / person"
+    },
     "optionsTitle": "Optional services upon request:",
-    "options": [
-      "Baby cot available upon request",
-      "Malaga airport transfer service",
-      "Mid-stay extra linen and towel refresh"
-    ],
+    "options": {
+      "0": "Baby cot available upon request",
+      "1": "Malaga airport transfer service",
+      "2": "Mid-stay extra linen and towel refresh"
+    },
     "simulator": {
       "title": "Stay Cost Simulator",
       "weeks": "Stay duration",

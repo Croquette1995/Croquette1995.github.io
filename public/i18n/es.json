@@ -126,28 +126,28 @@
     "basePrice": "Desde 350 €",
     "perWeek": "/ semana",
     "includedTitle": "Todo incluido:",
-    "included": [
-      "Consumos de luz y agua",
-      "Aire acondicionado reversible frío/calor",
-      "Ropa de cama y toallas de baño",
-      "Toallas de playa a su disposición",
-      "Limpieza final completa",
-      "Acceso a las piscinas del complejo"
-    ],
+    "included": {
+      "0": "Consumos de luz y agua",
+      "1": "Aire acondicionado reversible frío/calor",
+      "2": "Ropa de cama y toallas de baño",
+      "3": "Toallas de playa a su disposición",
+      "4": "Limpieza final completa",
+      "5": "Acceso a las piscinas del complejo"
+    },
     "conditionsTitle": "Condiciones de reserva:",
-    "conditions": [
-      "Reserva: anticipo del 25% al reservar",
-      "Saldo restante + fianza de 200 € 3 semanas antes de la llegada",
-      "Fianza reembolsada íntegramente la semana siguiente a la salida",
-      "Estancia mínima: 1 semana (7 noches) para 2 a 4 personas",
-      "Suplemento persona adicional (a partir de 2): 6 € / día / persona"
-    ],
+    "conditions": {
+      "0": "Reserva: anticipo del 25% al reservar",
+      "1": "Saldo restante + fianza de 200 € 3 semanas antes de la llegada",
+      "2": "Fianza reembolsada íntegramente la semana siguiente a la salida",
+      "3": "Estancia mínima: 1 semana (7 noches) para 2 a 4 personas",
+      "4": "Suplemento persona adicional (a partir de 2): 6 € / día / persona"
+    },
     "optionsTitle": "Opciones bajo petición:",
-    "options": [
-      "Cuna para bebé disponible bajo petición",
-      "Servicio de transporte aeropuerto de Málaga - Casa Dali",
-      "Cambio extra de sábanas y toallas"
-    ],
+    "options": {
+      "0": "Cuna para bebé disponible bajo petición",
+      "1": "Servicio de transporte aeropuerto de Málaga - Casa Dali",
+      "2": "Cambio extra de sábanas y toallas"
+    },
     "simulator": {
       "title": "Simulador de presupuesto",
       "weeks": "Duración de la estancia",

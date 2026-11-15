@@ -126,28 +126,28 @@
     "basePrice": "Da 350 €",
     "perWeek": "/ settimana",
     "includedTitle": "Tutto incluso:",
-    "included": [
-      "Consumi di luce e acqua",
-      "Aria condizionata reversibile estate/inverno",
-      "Biancheria da letto e asciugamani da bagno",
-      "Teli da spiaggia a disposizione",
-      "Pulizia finale completa",
-      "Accesso alle piscine del complesso"
-    ],
+    "included": {
+      "0": "Consumi di luce e acqua",
+      "1": "Aria condizionata reversibile estate/inverno",
+      "2": "Biancheria da letto e asciugamani da bagno",
+      "3": "Teli da spiaggia a disposizione",
+      "4": "Pulizia finale completa",
+      "5": "Accesso alle piscine del complesso"
+    },
     "conditionsTitle": "Condizioni di prenotazione:",
-    "conditions": [
-      "Prenotazione: acconto del 25% alla conferma",
-      "Saldo + deposito cauzionale di 200 € 3 settimane prima dell'arrivo",
-      "Cauzione rimborsata per intero nella settimana successiva alla partenza",
-      "Soggiorno minimo: 1 settimana (7 notti) per 2-4 persone",
-      "Supplemento ospite aggiuntivo (oltre le 2 persone): 6 € / giorno / persona"
-    ],
+    "conditions": {
+      "0": "Prenotazione: acconto del 25% alla conferma",
+      "1": "Saldo + deposito cauzionale di 200 € 3 settimane prima dell'arrivo",
+      "2": "Cauzione rimborsata per intero nella settimana successiva alla partenza",
+      "3": "Soggiorno minimo: 1 settimana (7 notti) per 2-4 persone",
+      "4": "Supplemento ospite aggiuntivo (oltre le 2 persone): 6 € / giorno / persona"
+    },
     "optionsTitle": "Opzioni su richiesta:",
-    "options": [
-      "Lettino per neonati disponibile su richiesta",
-      "Servizio transfer aeroporto di Malaga - Casa Dali",
-      "Cambio extra infrasettimanale di lenzuola e asciugamani"
-    ],
+    "options": {
+      "0": "Lettino per neonati disponibile su richiesta",
+      "1": "Servizio transfer aeroporto di Malaga - Casa Dali",
+      "2": "Cambio extra infrasettimanale di lenzuola e asciugamani"
+    },
     "simulator": {
       "title": "Simulatore di preventivo",
       "weeks": "Durata del soggiorno",
