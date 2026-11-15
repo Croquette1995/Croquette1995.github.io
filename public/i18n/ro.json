@@ -1,0 +1,379 @@
+{
+  "nav": {
+    "home": "Acasă",
+    "apartment": "Apartamentul",
+    "gallery": "Galerie Foto",
+    "situation": "Nerja & Împrejurimi",
+    "pricing": "Tarife & Condiții",
+    "links": "Informații Utile",
+    "contact": "Contact",
+    "bookNow": "Rezervă",
+    "changeLang": "Schimbă limba",
+    "languages": "Limbi",
+    "languageLabel": "Limbă",
+    "toggleMenu": "Deschide sau închide meniul de navigare"
+  },
+  "hero": {
+    "badge": "Andaluzia · Costa del Sol · Nerja",
+    "title": "Liniște și căldură mediteraneană în El Capistrano Village",
+    "description": "Situat pe versanții din Sierra de Almijara, cu o priveliște superbă între Marea Mediterană și culmile andaluze, Casa Dali vă așteaptă pentru un sejur de neuitat sub soarele Spaniei.",
+    "stats": {
+      "capacity": "2 până la 4 persoane",
+      "surface": "Aproximativ 55 m²",
+      "pools": "3 piscine în complex",
+      "beach": "800 m până la plajă"
+    },
+    "exploreApt": "Descoperă apartamentul",
+    "checkRates": "Calculează sejurul",
+    "location": "Andaluzia, Spania",
+    "statsLabels": {
+      "capacity": "Capacitate",
+      "surface": "Suprafață",
+      "relax": "Relaxare",
+      "proximity": "Proximitate"
+    }
+  },
+  "apartment": {
+    "title": "Un refugiu renovat cu grijă și eleganță",
+    "subtitle": "Confort modern, decorațiuni calde și atmosferă primitoare mediteraneană.",
+    "tabs": {
+      "general": "Prezentare Generală",
+      "living": "Dormitor & Sufragerie",
+      "kitchen": "Bucătărie & Baie",
+      "outdoor": "Terasă & Grădină",
+      "amenities": "Servicii & Facilități",
+      "activities": "Timp Liber & Activități"
+    },
+    "general": {
+      "desc1": "Apartamentul nostru de vacanță a fost complet renovat cu finisaje de înaltă calitate.",
+      "desc2": "Cu o suprafață de circa 55 m², oferă un confort optim pentru 2 persoane și poate găzdui până la 4 persoane.",
+      "desc3": "Aer condiționat reversibil integral (cald/rece) pentru o ședere plăcută în orice anotimp."
+    },
+    "living": {
+      "bed": "Dormitor luminos cu pat dublu generos pentru 2 persoane.",
+      "sofa": "Sufragerie spațioasă cu o canapea extensibilă confortabilă pentru 2 persoane.",
+      "tv": "Televizor cu ecran plat LCD și canale internaționale.",
+      "wifi": "Conexiune la internet Wi-Fi de mare viteză inclusă."
+    },
+    "kitchen": {
+      "bath": "Baie modernă cu duș spațios walk-in și uscător de păr.",
+      "cook": "Bucătărie complet utilată: plită vitroceramică, cuptor, cuptor cu microunde, frigider-congelator mare, mașină de spălat rufe și veselă completă."
+    },
+    "outdoor": {
+      "terrace": "Terasă privată spațioasă cu marchiză retractabilă pentru mese la umbră.",
+      "garden": "Grădină privată amenajată cu bougainvillea și flori exotice, cu grătar la dispoziție."
+    },
+    "amenities": {
+      "linen": "Lenjerie de pat, prosoape de baie și prosoape de plajă asigurate și schimbate săptămânal.",
+      "village": "Parcare gratuită, restaurant în complex, minimarketuri, bancomat și autobuz spre plaje și centrul orașului."
+    },
+    "activities": {
+      "pools": "Acces gratuit la piscinele Capistrano Village (piscina principală se află chiar în fața apartamentului).",
+      "sports": "Terenuri de tenis la 150 m, două terenuri de golf superbe la mai puțin de 20 km.",
+      "ski": "Pârtiile de schi din Sierra Nevada (Granada) la doar 1 oră distanță."
+    },
+    "badge": "Vizită detaliată",
+    "photoAlt": "Foto Casa Dali",
+    "quickSummary": {
+      "ac": "Aer condiționat reversibil",
+      "wifi": "Wi-Fi de mare viteză inclus",
+      "pools": "Piscinele complexului"
+    }
+  },
+  "gallery": {
+    "title": "Momente la Casa Dali",
+    "subtitle": "Descoperiți fotografiile apartamentului, terasei, piscinelor și peisajelor andaluze.",
+    "filters": {
+      "all": "Toate",
+      "interior": "Interior",
+      "outdoor": "Terasă & Grădină",
+      "village": "Capistrano & Piscine",
+      "nerja": "Nerja & Plaje"
+    },
+    "viewFullscreen": "Mărește poza",
+    "close": "Închide",
+    "next": "Următoarea",
+    "prev": "Precedenta",
+    "badge": "Portofoliu",
+    "previousSlide": "Fotografia anterioară",
+    "nextSlide": "Fotografia următoare",
+    "pageInfo": "{current} / {total}",
+    "photos": {
+      "photo-0-interior": "Casa Dali - Vedere generală living",
+      "photo-1-interior": "Dormitor matrimonial luminos",
+      "photo-2-interior": "Zonă de zi și canapea confortabilă",
+      "photo-3-interior": "Zonă de relaxare și salon",
+      "photo-4-interior": "Bucătărie modernă utilată",
+      "photo-5-interior": "Bucătărie și electrocasnice",
+      "photo-6-interior": "Detaliu baie cu duș",
+      "photo-7-interior": "Baie modernă",
+      "photo-8-outdoor": "Terasă privată sub copertină",
+      "photo-9-outdoor": "Terasă cu flori și zonă de luat masa",
+      "photo-10-outdoor": "Grădină mediteraneană privată",
+      "photo-11-outdoor": "Acces exterior și alee cu flori",
+      "photo-12-village": "Piscina mare din Capistrano Village",
+      "photo-13-village": "Piscina și grădinile complexului",
+      "photo-14-village": "Alee pietonală tipic andaluză",
+      "photo-15-village": "Vilele albe din El Capistrano",
+      "photo-16-nerja": "Balcón de Europa, Nerja",
+      "photo-17-nerja": "Plaja din Nerja și Marea Mediterană",
+      "photo-18-nerja": "Peșterile din Nerja"
+    }
+  },
+  "pricing": {
+    "title": "Disponibilitate, Tarife & Simulator",
+    "subtitle": "Tarife clare și transparente, cu utilități și servicii incluse.",
+    "basePrice": "De la 350 €",
+    "perWeek": "/ săptămână",
+    "includedTitle": "Totul este inclus:",
+    "included": [
+      "Consumul de energie electrică și apă",
+      "Aer condiționat reversibil vară/iarnă",
+      "Lenjerie de pat și prosoape de baie",
+      "Prosoape de plajă asigurate",
+      "Curățenie finală completă",
+      "Acces la piscinele complexului"
+    ],
+    "conditionsTitle": "Condiții de rezervare:",
+    "conditions": [
+      "Rezervare: avans de 25% la confirmare",
+      "Restul de plată + garanția de 200 € cu 3 săptămâni înainte de sosire",
+      "Garanția se restituie integral în săptămâna următoare plecării",
+      "Sejur minim: 1 săptămână (7 nopți) pentru 2 până la 4 persoane",
+      "Supliment persoană adițională (peste 2 persoane): 6 € / zi / persoană"
+    ],
+    "optionsTitle": "Opțiuni la cerere:",
+    "options": [
+      "Pătuț pentru bebeluș disponibil la cerere",
+      "Serviciu de transfer aeroport Malaga - Casa Dali",
+      "Schimb intermediar de lenjerie și prosoape"
+    ],
+    "simulator": {
+      "title": "Simulator estimare preț",
+      "weeks": "Durata sejurului",
+      "weeksCount": "{count} săptămână(i)",
+      "guests": "Număr de persoane",
+      "guestsCount": "{count} persoană(e)",
+      "baseCalculation": "Tarif de bază (2 pers.)",
+      "extraGuests": "Supliment persoane adiționale",
+      "deposit": "Garanție rambursabilă",
+      "totalEstimated": "Total estimat",
+      "estimateNotice": "* Calcul orientativ. Vă rugăm să ne contactați direct pentru a verifica disponibilitatea exactă.",
+      "requestButton": "Trimite cerere pentru această estimare",
+      "subtitle": "Calcul instantaneu al sejurului",
+      "weeksNights": "{weeks} săptămână(i) ({nights} nopți)",
+      "weekShort": "{count} săpt.",
+      "guestShort": "{count} pers.",
+      "withRefundableDeposit": "(cu garanție rambursabilă)",
+      "depositDueNow": "Avans rezervare (25%):",
+      "balanceDueBeforeArrival": "Sold înainte de sosire (+ garanție):"
+    },
+    "badge": "Tarife clare și transparente",
+    "forTwoGuests": "Închiriere pentru 2 persoane",
+    "rateFootnote": "* Minim 1 săptămână (7 nopți) · +6 € / zi per persoană suplimentară (max 4 pers.)",
+    "depositTitle": "Garanție",
+    "depositDesc": "Garanție de 200 € rambursată în săptămâna următoare plecării.",
+    "inquiry": {
+      "subject": "Cerere de rezervare Casa Dali - {{weeks}} săptămână(i) - {{guests}} persoană(e)",
+      "body": "Bună ziua,\n\nAș dori să solicit informații / o rezervare pentru Casa Dali din El Capistrano Village (Nerja).\n\nDetalii dorite:\n- Durată: {{weeks}} săptămână(i) ({{nights}} nopți)\n- Număr de persoane: {{guests}}\n- Estimare calculată: {{total}} € (utilități și garanție incluse)\n- Perioada sau datele dorite: \n\nPuteți confirma disponibilitatea pentru aceste date?\n\nCu stimă,\n"
+    }
+  },
+  "situation": {
+    "title": "Nerja & El Capistrano Village",
+    "subtitle": "Un microclimat subtropical excepțional și farmecul autentic al unui sat alb andaluz.",
+    "capistrano": {
+      "title": "El Capistrano Village",
+      "text1": "El Capistrano este un complex de vacanță deosebit, cu arhitectură andaluză tradițională, vile albe, alei pietonale pavate și grădini tropicale mereu înflorite.",
+      "text2": "Plaja Burriana se află la 800 de metri, iar Balcón de Europa la 1,1 km. Liniile de autobuz deservesc direct complexul.",
+      "badge": "Complex de vacanță"
+    },
+    "nerja": {
+      "title": "Nerja, perla de pe Costa del Sol",
+      "text1": "Protejat de munții Sierra de Almijara, orașul Nerja și-a păstrat autenticitatea fără a fi afectat de urbanizarea masivă a coastei.",
+      "text2": "Bucurați-vă de peste 320 de zile de soare pe an, golfuri cu ape de turcoaz și o gastronomie mediteraneană desăvârșită."
+    },
+    "mustSeeTitle": "Cele 10 atracții de neratat",
+    "spots": {
+      "balcon": "Balconul Europei - Punct panoramic spectaculos deasupra Mediteranei.",
+      "eglise": "Biserica El Salvador - Capodoperă barocă și maură din secolul al XVII-lea.",
+      "cavana": "Plaza Cavana - Loc minunat pentru o sangria sau o cafea pe terase umbroase.",
+      "rues": "Străduțele pitorești - Plimbări printre magazine locale, tapas și înghețate artizanale.",
+      "cangrejos": "Plaza de los Cangrejos - Piață pe malul mării lângă plaja Torrecilla.",
+      "bendito": "Mirador del Bendito - Vedere panoramică superbă peste plaja Burriana.",
+      "aqueduc": "Apeductul Vulturului - Monument istoric din secolul al XIX-lea pe 4 niveluri de arcade.",
+      "grottes": "Peșterile din Nerja - Galeriile subterane fascinante lungi de 4 km.",
+      "plages": "Plajele din Nerja - Burriana, Calahonda, Torrecilla și Carabeo.",
+      "criques": "Golfurile sălbatice din Maro - Natură neatinsă și ape de cristal pentru snorkeling."
+    },
+    "badge": "Locație și Descoperiri",
+    "mustSeeSubtitle": "Comorile de neratat în timpul sejurului dumneavoastră la Nerja.",
+    "spotsList": {
+      "balcon-europe": {
+        "title": "Balcón de Europa",
+        "description": "Belvedere emblematic deasupra mării, cu o panoramă superbă asupra Mediteranei până la coastele africane.",
+        "tag": "Belvedere"
+      },
+      "eglise-salvador": {
+        "title": "Biserica El Salvador",
+        "description": "Capodoperă barocă și maură din secolul al XVII-lea situată între Plaza Cavana și Balcón de Europa.",
+        "tag": "Patrimoniu"
+      },
+      "plaza-cavana": {
+        "title": "Plaza Cavana",
+        "description": "Un loc ideal pentru relaxare cu o sangria sau o cafea pe una dintre numeroasele terase umbrite.",
+        "tag": "Atmosferă"
+      },
+      "rues-adjacentes": {
+        "title": "Străduțe pitorești",
+        "description": "Aleile pietonale animate pline de baruri de tapas, gelaterii artizanale și magazine de suveniruri.",
+        "tag": "Plimbare"
+      },
+      "plaza-cangrejos": {
+        "title": "Plaza de los Cangrejos",
+        "description": "Piață animată la malul mării, lângă plaja Torrecilla, gazdă a concertelor de vară.",
+        "tag": "La malul mării"
+      },
+      "mirador-bendito": {
+        "title": "Mirador del Bendito",
+        "description": "Punct de belvedere superb asupra Mediteranei și plajei Burriana, la capătul străzii Carabeo.",
+        "tag": "Panoramă"
+      },
+      "aqueduc-aigle": {
+        "title": "Apeductul Vulturului",
+        "description": "Monument istoric din secolul al XIX-lea cu 4 niveluri de arcade, construit pentru morile din Maro.",
+        "tag": "Istorie"
+      },
+      "grotte-nerja": {
+        "title": "Peșterile din Nerja",
+        "description": "Complex subteran vast de 4 km cu stalactite uriașe, gazdă a unui prestigios festival de muzică.",
+        "tag": "Natură"
+      },
+      "plages-nerja": {
+        "title": "Plajele din Nerja",
+        "description": "Burriana, Carabeo, Calahonda, El Salón, Torrecilla și El Playazo: nisip fin și ape limpezi.",
+        "tag": "Plajă"
+      },
+      "criques-sauvages": {
+        "title": "Golfurile sălbatice din Maro",
+        "description": "Spre Almuñécar: golfuri protejate cu stânci spectaculoase și ape cristaline ideale pentru snorkeling.",
+        "tag": "Sălbatic"
+      }
+    }
+  },
+  "links": {
+    "title": "Informații Practice & Acces",
+    "subtitle": "Tot ce aveți nevoie pentru a vă planifica ușor călătoria.",
+    "transports": "Zboruri & Transport",
+    "tourism": "Turism & Activități",
+    "carRental": "Închirieri Auto",
+    "restaurants": "Ghidul Restaurantelor din Nerja",
+    "downloadPdf": "Descarcă ghidul PDF al restaurantelor (August 2024)",
+    "usefulLinks": "Linkuri utile recomandate",
+    "badge": "Pregătiți-vă sejurul",
+    "flights": "Zboruri",
+    "localSelection": "Selecție locală · {date}",
+    "restaurantsDesc": "Consultați selecția celor mai bune restaurante, baruri de tapas și specialități locale recomandate în Nerja.",
+    "visitSite": "Accesați site-ul →",
+    "categories": {
+      "tourism": "Turism",
+      "flights": "Zboruri",
+      "carRental": "Închirieri auto",
+      "transports": "Transport"
+    },
+    "items": {
+      "tourisme-nerja": {
+        "name": "Oficiul de Turism Nerja",
+        "note": "Informații oficiale în spaniolă și engleză"
+      },
+      "nerja-today": {
+        "name": "Nerja Today",
+        "note": "Ghid complet al activităților locale (EN)"
+      },
+      "aeroport-malaga": {
+        "name": "Aeroportul Málaga (AGP)",
+        "note": "Aeroport internațional principal la 50 min"
+      },
+      "ryanair": {
+        "name": "Ryanair",
+        "note": "Zboruri directe către Málaga"
+      },
+      "vueling": {
+        "name": "Vueling",
+        "note": "Zboruri regulate"
+      },
+      "transavia": {
+        "name": "Transavia",
+        "note": "Zboruri din Paris-Orly și regiuni"
+      },
+      "easyjet": {
+        "name": "EasyJet",
+        "note": "Zboruri din Franța și Belgia"
+      },
+      "centauro": {
+        "name": "Centauro Rent a Car",
+        "note": "Închirieri auto la aeroport"
+      },
+      "alsa-bus": {
+        "name": "ALSA (Linii regionale de autobuz)",
+        "note": "Legături directe Málaga Centru / Aeroport ↔ Nerja"
+      },
+      "emt-malaga": {
+        "name": "EMT Autobuz Málaga",
+        "note": "Transfer Aeroport ↔ Autogara Málaga"
+      }
+    }
+  },
+  "contact": {
+    "title": "Sunteți gata pentru o vacanță în Andaluzia?",
+    "subtitle": "Contactați-ne direct pentru a verifica disponibilitatea și a vă organiza sejurul la Casa Dali.",
+    "emailLabel": "Email direct:",
+    "facebookLabel": "Pagina oficială de Facebook:",
+    "owner": "Proprietar particular direct",
+    "sendEmail": "Trimite un email",
+    "viewFacebook": "Vizitează pagina de Facebook",
+    "quickInquiry": "Cerere de informații / Rezervare",
+    "namePlaceholder": "Numele și prenumele",
+    "emailPlaceholder": "Adresa dumneavoastră de email",
+    "phonePlaceholder": "Telefon (opțional)",
+    "datesPlaceholder": "Perioada dorită (ex: 2 săptămâni în iulie)",
+    "guestsPlaceholder": "Număr de persoane (2 până la 4)",
+    "messagePlaceholder": "Mesajul sau întrebările dumneavoastră...",
+    "submit": "Deschide emailul de rezervare pregătit",
+    "footerText": "© Casa Dali · Nerja, Spania. Toate drepturile rezervate.",
+    "badge": "Rezervare directă",
+    "ownerSub": "Închiriere direct de la proprietar, fără comisioane de intermediere",
+    "quickInquiryDesc": "Completați datele și perioada: butonul va genera instantaneu mesajul gata de trimis prin email.",
+    "labels": {
+      "name": "Nume complet",
+      "email": "Email-ul dvs.",
+      "dates": "Date / Perioadă",
+      "guests": "Număr de persoane",
+      "message": "Mesaj sau detalii"
+    },
+    "guestOptions": {
+      "one": "1 persoană",
+      "two": "2 persoane (tarif de bază)",
+      "three": "3 persoane (+6€/zi)",
+      "four": "4 persoane (+12€/zi)"
+    },
+    "inquiry": {
+      "defaultName": "Oaspete nou",
+      "noMessage": "Niciun mesaj special",
+      "subject": "Cerere de rezervare Casa Dali - {{name}}",
+      "body": "Bună ziua,\n\nDoresc să vă trimit o cerere de rezervare pentru Casa Dali din Nerja:\n\n- Nume: {{name}}\n- Email de contact: {{email}}\n- Perioada dorită: {{dates}}\n- Număr de persoane: {{guests}}\n- Mesaj: {{message}}\n\nVă mulțumesc anticipat pentru răspuns și confirmarea disponibilității.\n\nCu stimă,\n{{name}}"
+    }
+  },
+  "weather": {
+    "liveTitle": "Vremea în direct · Nerja",
+    "microclimate": "Microclimat subtropical",
+    "wind": "Vânt:",
+    "humidity": "Umiditate:"
+  },
+  "footer": {
+    "description": "Apartament de vacanță complet renovat și confortabil pentru 2 până la 4 persoane, situat în El Capistrano Village, Nerja (Costa del Sol, Andaluzia).",
+    "navigation": "Navigare",
+    "directContact": "Contact Direct",
+    "address": "El Capistrano Village, 29780 Nerja, Málaga, Spania",
+    "tagline": "Cazare de vacanță în Nerja · El Capistrano Village"
+  }
+}

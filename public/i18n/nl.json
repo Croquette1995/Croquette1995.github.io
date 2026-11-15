@@ -1,0 +1,379 @@
+{
+  "nav": {
+    "home": "Home",
+    "apartment": "Het Appartement",
+    "gallery": "Fotogalerij",
+    "situation": "Nerja & Omgeving",
+    "pricing": "Tarieven & Voorwaarden",
+    "links": "Praktische Info",
+    "contact": "Contact",
+    "bookNow": "Reserveren",
+    "changeLang": "Taal wijzigen",
+    "languages": "Talen",
+    "languageLabel": "Taal",
+    "toggleMenu": "Navigatiemenu openen of sluiten"
+  },
+  "hero": {
+    "badge": "Andalusië · Costa del Sol · Nerja",
+    "title": "Het heerlijke mediterrane leven in El Capistrano Village",
+    "description": "Gelegen op de flanken van de Sierra de Almijara met een adembenemend uitzicht op zowel de Middellandse Zee als de Andalusische bergtoppen, heet Casa Dali u van harte welkom voor een onvergetelijke vakantie onder de Spaanse zon.",
+    "stats": {
+      "capacity": "2 tot 4 personen",
+      "surface": "Ongeveer 55 m²",
+      "pools": "3 zwembaden in het dorp",
+      "beach": "800 m van het strand"
+    },
+    "exploreApt": "Ontdek het appartement",
+    "checkRates": "Verblijf berekenen",
+    "location": "Andalusië, Spanje",
+    "statsLabels": {
+      "capacity": "Capaciteit",
+      "surface": "Oppervlakte",
+      "relax": "Ontspanning",
+      "proximity": "Nabijheid"
+    }
+  },
+  "apartment": {
+    "title": "Een zorgvuldig gerenoveerde oase van rust",
+    "subtitle": "Modern comfort, warme inrichting en een ontspannen mediterrane sfeer.",
+    "tabs": {
+      "general": "Algemeen",
+      "living": "Slaapkamer & Woonkamer",
+      "kitchen": "Keuken & Badkamer",
+      "outdoor": "Terras & Tuin",
+      "amenities": "Diensten & Voorzieningen",
+      "activities": "Vrije Tijd & Activiteiten"
+    },
+    "general": {
+      "desc1": "Ons vakantieappartement is volledig gerenoveerd met hoogwaardige materialen.",
+      "desc2": "Met een oppervlakte van bijna 55 m² biedt het optimaal comfort voor 2 personen en is geschikt voor maximaal 4 personen.",
+      "desc3": "Volledig omkeerbare airconditioning (koelen in de zomer, verwarmen in de winter) voor optimaal comfort in elk seizoen."
+    },
+    "living": {
+      "bed": "Lichte slaapkamer met een royaal tweepersoonsbed voor 2 personen.",
+      "sofa": "Ruime woonkamer met een comfortabele slaapbank voor 2 personen.",
+      "tv": "Flatscreen lcd-televisie met internationale zenders.",
+      "wifi": "Snelle wifi-internetverbinding inbegrepen."
+    },
+    "kitchen": {
+      "bath": "Moderne badkamer met ruime inloopdouche en haardroger.",
+      "cook": "Volledig uitgeruste keuken: kookplaat, oven, magnetron, grote koel-vriescombinatie, wasmachine en compleet keukengerei."
+    },
+    "outdoor": {
+      "terrace": "Groot privéterras met uitschuifbare zonneluifel om heerlijk in de schaduw te dineren.",
+      "garden": "Aangelegde privétuin met bougainvillea en exotische bloemen, met barbecue ter beschikking."
+    },
+    "amenities": {
+      "linen": "Beddengoed, bad- en handdoeken evenals strandlakens worden verstrekt en wekelijks verschoond.",
+      "village": "Gratis parkeergelegenheid, dorpsrestaurant, supermarkten, geldautomaat en lokale bus naar de stranden en het centrum."
+    },
+    "activities": {
+      "pools": "Gratis toegang tot de zwembaden en peuterbaden van Capistrano Village (het grote zwembad ligt direct voor het appartement).",
+      "sports": "Tennisbanen op 150 m, twee schitterende golfbanen op minder dan 20 km.",
+      "ski": "De skipistes van de Sierra Nevada (Granada) op slechts 1 uur rijden."
+    },
+    "badge": "Uitgebreide rondleiding",
+    "photoAlt": "Foto Casa Dali",
+    "quickSummary": {
+      "ac": "Omkeerbare airconditioning",
+      "wifi": "Snelle Wi-Fi inbegrepen",
+      "pools": "Zwembaden van het complex"
+    }
+  },
+  "gallery": {
+    "title": "Sfeerbeelden van Casa Dali",
+    "subtitle": "Bekijk de foto's van het appartement, het terras, de zwembaden en het Andalusische landschap.",
+    "filters": {
+      "all": "Alles",
+      "interior": "Interieur",
+      "outdoor": "Terras & Tuin",
+      "village": "Capistrano & Zwembaden",
+      "nerja": "Nerja & Stranden"
+    },
+    "viewFullscreen": "Foto vergroten",
+    "close": "Sluiten",
+    "next": "Volgende",
+    "prev": "Vorige",
+    "badge": "Portfolio",
+    "previousSlide": "Vorige foto",
+    "nextSlide": "Volgende foto",
+    "pageInfo": "{current} / {total}",
+    "photos": {
+      "photo-0-interior": "Casa Dali - Overzicht woonkamer",
+      "photo-1-interior": "Lichte hoofdslaapkamer",
+      "photo-2-interior": "Woonruimte en comfortabele bank",
+      "photo-3-interior": "Ontspanningsruimte en salon",
+      "photo-4-interior": "Moderne uitgeruste keuken",
+      "photo-5-interior": "Keuken en apparatuur",
+      "photo-6-interior": "Detail badkamer met douche",
+      "photo-7-interior": "Moderne badkamer",
+      "photo-8-outdoor": "Privéterras onder de luifel",
+      "photo-9-outdoor": "Bloemrijk terras en eethoek",
+      "photo-10-outdoor": "Privé mediterrane tuin",
+      "photo-11-outdoor": "Buitentoegang en bloemrijk pad",
+      "photo-12-village": "Groot zwembad van Capistrano Village",
+      "photo-13-village": "Zwembad en tuinen van het complex",
+      "photo-14-village": "Typisch Andalusisch voetpad",
+      "photo-15-village": "Witte villa's van El Capistrano",
+      "photo-16-nerja": "Balcón de Europa, Nerja",
+      "photo-17-nerja": "Strand van Nerja en Middellandse Zee",
+      "photo-18-nerja": "Grotten van Nerja"
+    }
+  },
+  "pricing": {
+    "title": "Beschikbaarheid, Tarieven & Simulator",
+    "subtitle": "Duidelijke en transparante tarieven, inclusief nutsvoorzieningen en diensten.",
+    "basePrice": "Vanaf 350 €",
+    "perWeek": "/ week",
+    "includedTitle": "Alles is inbegrepen:",
+    "included": [
+      "Elektriciteits- en waterverbruik",
+      "Omkeerbare airconditioning (zomer/winter)",
+      "Beddengoed en badhanddoeken voorzien",
+      "Strandlakens ter beschikking",
+      "Volledige eindschoonmaak",
+      "Toegang tot de gemeenschappelijke zwembaden"
+    ],
+    "conditionsTitle": "Boekingsvoorwaarden:",
+    "conditions": [
+      "Reservering: aanbetaling van 25% bij bevestiging",
+      "Restbedrag + borg van 200 € te voldoen 3 weken voor aankomst",
+      "Borg wordt volledig teruggestort in de week na vertrek",
+      "Minimaal verblijf: 1 week (7 nachten) voor 2 tot 4 personen",
+      "Toeslag extra persoon (boven 2 personen): 6 € / dag / persoon"
+    ],
+    "optionsTitle": "Opties op aanvraag:",
+    "options": [
+      "Babybedje beschikbaar op aanvraag",
+      "Luchthaventransferservice Malaga - Casa Dali",
+      "Tussentijdse wissel van bedlinnen en handdoeken"
+    ],
+    "simulator": {
+      "title": "Kostenberekening verblijf",
+      "weeks": "Verblijfsduur",
+      "weeksCount": "{count} week/weken",
+      "guests": "Aantal personen",
+      "guestsCount": "{count} persoon/personen",
+      "baseCalculation": "Basistarief (2 pers.)",
+      "extraGuests": "Toeslag extra personen",
+      "deposit": "Restitueerbare borg",
+      "totalEstimated": "Geschat totaalbedrag",
+      "estimateNotice": "* Indicatieve berekening. Neem rechtstreeks contact met ons op om de exacte beschikbaarheid te controleren.",
+      "requestButton": "Aanvraag verzenden voor deze schatting",
+      "subtitle": "Directe berekening van uw verblijf",
+      "weeksNights": "{weeks} week/weken ({nights} nachten)",
+      "weekShort": "{count} wk",
+      "guestShort": "{count} pers.",
+      "withRefundableDeposit": "(inclusief terugbetaalbare waarborg)",
+      "depositDueNow": "Voorschot bij boeking (25%):",
+      "balanceDueBeforeArrival": "Saldo voor aankomst (+ waarborg):"
+    },
+    "badge": "Duidelijke & Transparante Tarieven",
+    "forTwoGuests": "Huur voor 2 personen",
+    "rateFootnote": "* Minimum 1 week (7 nachten) · +€6 / dag per extra persoon (max 4 pers.)",
+    "depositTitle": "Waarborgsom",
+    "depositDesc": "Waarborg van €200 terugbetaald binnen een week na uw vertrek.",
+    "inquiry": {
+      "subject": "Boekingsaanvraag Casa Dali - {{weeks}} week/weken - {{guests}} persoon/personen",
+      "body": "Hallo,\n\nIk wil graag informatie / een boekingsaanvraag doen voor Casa Dali in El Capistrano Village (Nerja).\n\nGewenste gegevens:\n- Duur: {{weeks}} week/weken ({{nights}} nachten)\n- Aantal personen: {{guests}}\n- Berekende schatting: {{total}} € (inclusief kosten en borg)\n- Gewenste periode of data: \n\nKunt u de beschikbaarheid voor deze data bevestigen?\n\nMet vriendelijke groet,\n"
+    }
+  },
+  "situation": {
+    "title": "Nerja & El Capistrano Village",
+    "subtitle": "Een uitzonderlijk subtropisch microklimaat en de authentieke charme van een Andalusisch wit dorp.",
+    "capistrano": {
+      "title": "El Capistrano Village",
+      "text1": "El Capistrano is een bijzonder vakantieresort met traditionele Andalusische architectuur, witgekalkte villa's, geplaveide wandelpaden en weelderig bloeiende tropische tuinen.",
+      "text2": "Het beroemde Burriana-strand ligt op 800 meter afstand en het Balkon van Europa op 1,1 km. Twee buslijnen bedienen het vakantiedorp direct.",
+      "badge": "Vakantiecomplex"
+    },
+    "nerja": {
+      "title": "Nerja, Parel van de Costa del Sol",
+      "text1": "Beschut door het gebergte Sierra de Almijara heeft Nerja haar authentieke kustdorpskarakter behouden zonder massale hoogbouw.",
+      "text2": "Geniet van meer dan 320 zonnedagen per jaar, idyllische baaien met kristalhelder water en een levendige mediterrane gastronomie."
+    },
+    "mustSeeTitle": "De 10 Niet te missen bezienswaardigheden",
+    "spots": {
+      "balcon": "Het Balkon van Europa - Beroemd uitkijkpunt met adembenemend uitzicht over de Middellandse Zee.",
+      "eglise": "El Salvador Kerk - Barok en Moors meesterwerk uit de 17e eeuw.",
+      "cavana": "Plaza Cavana - Gezellig schaduwrijk plein voor een sangria of koffie op het terras.",
+      "rues": "Schilderachtige straatjes - Gezellig wandelen langs boetieks, tapasbars en ijssalons.",
+      "cangrejos": "Plaza de los Cangrejos - Levendig plein aan zee bij het Torrecilla-strand.",
+      "bendito": "Mirador del Bendito - Prachtig uitzichtpunt over het Burriana-strand en de kliffen.",
+      "aqueduc": "Het Adelaarsquaduct - 19e-eeuws historisch monument met vier verdiepingen bogen.",
+      "grottes": "Grotten van Nerja - Uitgestrekte ondergrondse zalen van 4 km lang.",
+      "plages": "De stranden van Nerja - Burriana, Torrecilla, Calahonda en Carabeo.",
+      "criques": "Wilde baaien van Maro - Beschermde natuurbaaien met kristalhelder water om te snorkelen."
+    },
+    "badge": "Locatie & Ontdekkingen",
+    "mustSeeSubtitle": "De hoogtepunten die u niet mag missen tijdens uw verblijf in Nerja.",
+    "spotsList": {
+      "balcon-europe": {
+        "title": "Balcón de Europa",
+        "description": "Iconisch uitkijkpunt boven zee met adembenemend uitzicht op de Middellandse Zee en de Afrikaanse kust.",
+        "tag": "Uitzichtpunt"
+      },
+      "eglise-salvador": {
+        "title": "El Salvador-kerk",
+        "description": "17e-eeuws barok en Moors meesterwerk tussen Plaza Cavana en Balcón de Europa.",
+        "tag": "Erfgoed"
+      },
+      "plaza-cavana": {
+        "title": "Plaza Cavana",
+        "description": "Een ideale schaduwrijke plek om te ontspannen met een sangria of koffie op een van de terrassen.",
+        "tag": "Sfeer"
+      },
+      "rues-adjacentes": {
+        "title": "Pittoreske straatjes",
+        "description": "Levendige autovrije steegjes met tapasbars, ambachtelijke ijssalons en souvenirwinkels.",
+        "tag": "Wandelen"
+      },
+      "plaza-cangrejos": {
+        "title": "Plaza de los Cangrejos",
+        "description": "Levendig plein aan het Torrecilla-strand met zomerconcerten en evenementen.",
+        "tag": "Aan zee"
+      },
+      "mirador-bendito": {
+        "title": "Mirador del Bendito",
+        "description": "Prachtig uitzichtpunt over de Middellandse Zee en het Burriana-strand aan het einde van Calle Carabeo.",
+        "tag": "Panorama"
+      },
+      "aqueduc-aigle": {
+        "title": "Aquaduct van de Adelaar",
+        "description": "Historisch 19e-eeuws monument met 4 bogenrijen om de oude suikermolens van Maro te voeden.",
+        "tag": "Geschiedenis"
+      },
+      "grotte-nerja": {
+        "title": "Grotten van Nerja",
+        "description": "Uitgestrekt ondergronds grottenstelsel van 4 km met gigantische stalactieten en een zomerfestival.",
+        "tag": "Natuur"
+      },
+      "plages-nerja": {
+        "title": "Stranden van Nerja",
+        "description": "Burriana, Carabeo, Calahonda, El Salón, Torrecilla & El Playazo: fijn zand en helder water.",
+        "tag": "Strand"
+      },
+      "criques-sauvages": {
+        "title": "Wilde baaien van Maro",
+        "description": "Richting Almuñécar: beschermde baaien met spectaculaire kliffen en kristalhelder water om te snorkelen.",
+        "tag": "Ongerept"
+      }
+    }
+  },
+  "links": {
+    "title": "Praktische Info & Route",
+    "subtitle": "Alles wat u nodig heeft om uw reis naar Nerja zorgeloos voor te bereiden.",
+    "transports": "Vluchten & Vervoer",
+    "tourism": "Toerisme & Activiteiten",
+    "carRental": "Autoverhuur",
+    "restaurants": "Restaurantgids Nerja",
+    "downloadPdf": "Download de restaurantgids in PDF (Augustus 2024)",
+    "usefulLinks": "Aanbevolen links",
+    "badge": "Uw verblijf voorbereiden",
+    "flights": "Vluchten",
+    "localSelection": "Lokale selectie · {date}",
+    "restaurantsDesc": "Bekijk onze selectie van de beste restaurants, tapasbars en lokale specialiteiten in Nerja.",
+    "visitSite": "Bezoek website →",
+    "categories": {
+      "tourism": "Toerisme",
+      "flights": "Vluchten",
+      "carRental": "Autoverhuur",
+      "transports": "Vervoer"
+    },
+    "items": {
+      "tourisme-nerja": {
+        "name": "Toeristenbureau van Nerja",
+        "note": "Officiële info in het Spaans en Engels"
+      },
+      "nerja-today": {
+        "name": "Nerja Today",
+        "note": "Complete gids voor lokale activiteiten (EN)"
+      },
+      "aeroport-malaga": {
+        "name": "Luchthaven Málaga (AGP)",
+        "note": "Belangrijkste internationale luchthaven op 50 min"
+      },
+      "ryanair": {
+        "name": "Ryanair",
+        "note": "Directe vluchten naar Málaga"
+      },
+      "vueling": {
+        "name": "Vueling",
+        "note": "Regelmatige vluchten"
+      },
+      "transavia": {
+        "name": "Transavia",
+        "note": "Vluchten vanuit Parijs-Orly en regio's"
+      },
+      "easyjet": {
+        "name": "EasyJet",
+        "note": "Vluchten vanuit Frankrijk en België"
+      },
+      "centauro": {
+        "name": "Centauro Rent a Car",
+        "note": "Autoverhuur op de luchthaven"
+      },
+      "alsa-bus": {
+        "name": "ALSA (Regionale buslijnen)",
+        "note": "Directe verbindingen Málaga Centrum / Luchthaven ↔ Nerja"
+      },
+      "emt-malaga": {
+        "name": "EMT Bus Málaga",
+        "note": "Pendeldienst Luchthaven ↔ Busstation Málaga"
+      }
+    }
+  },
+  "contact": {
+    "title": "Klaar voor uw vakantie in Andalusië?",
+    "subtitle": "Neem rechtstreeks contact met ons op om de beschikbaarheid te controleren en uw verblijf in Casa Dali te regelen.",
+    "emailLabel": "Direct e-mailadres:",
+    "facebookLabel": "Officiële Facebookpagina:",
+    "owner": "Rechtstreekse particuliere eigenaar",
+    "sendEmail": "E-mail sturen",
+    "viewFacebook": "Facebookpagina bezoeken",
+    "quickInquiry": "Informatie- of boekingsaanvraag",
+    "namePlaceholder": "Uw volledige naam",
+    "emailPlaceholder": "Uw e-mailadres",
+    "phonePlaceholder": "Telefoonnummer (optioneel)",
+    "datesPlaceholder": "Gewenste periode (bijv. 2 weken in juli)",
+    "guestsPlaceholder": "Aantal personen (2 tot 4)",
+    "messagePlaceholder": "Uw bericht of eventuele vragen...",
+    "submit": "Voorbereide boekingsmail openen",
+    "footerText": "© Casa Dali · Nerja, Spanje. Alle rechten voorbehouden.",
+    "badge": "Direct boeken",
+    "ownerSub": "Directe verhuur van particulier aan particulier zonder bemiddelingskosten",
+    "quickInquiryDesc": "Vul uw data en gegevens in: de knop genereert direct uw e-mailbericht.",
+    "labels": {
+      "name": "Volledige naam",
+      "email": "Uw e-mail",
+      "dates": "Data / Periode",
+      "guests": "Aantal personen",
+      "message": "Bericht of opmerkingen"
+    },
+    "guestOptions": {
+      "one": "1 persoon",
+      "two": "2 personen (basistarief)",
+      "three": "3 personen (+€6/dag)",
+      "four": "4 personen (+€12/dag)"
+    },
+    "inquiry": {
+      "defaultName": "Nieuwe gast",
+      "noMessage": "Geen specifiek bericht",
+      "subject": "Boekingsaanvraag Casa Dali - {{name}}",
+      "body": "Hallo,\n\nIk wil u graag een boekingsaanvraag sturen voor Casa Dali in Nerja:\n\n- Naam: {{name}}\n- E-mailadres: {{email}}\n- Gewenste periode: {{dates}}\n- Aantal personen: {{guests}}\n- Bericht: {{message}}\n\nAlvast hartelijk dank voor uw antwoord en bevestiging van beschikbaarheid.\n\nMet vriendelijke groet,\n{{name}}"
+    }
+  },
+  "weather": {
+    "liveTitle": "Live weer · Nerja",
+    "microclimate": "Subtropisch microklimaat",
+    "wind": "Wind:",
+    "humidity": "Vochtigheid:"
+  },
+  "footer": {
+    "description": "Volledig gerenoveerd, comfortabel vakantieappartement voor 2 tot 4 personen, gelegen in El Capistrano Village, Nerja (Costa del Sol, Andalusië).",
+    "navigation": "Navigatie",
+    "directContact": "Direct Contact",
+    "address": "El Capistrano Village, 29780 Nerja, Málaga, Spanje",
+    "tagline": "Vakantieverhuur in Nerja · El Capistrano Village"
+  }
+}

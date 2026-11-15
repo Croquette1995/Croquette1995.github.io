@@ -1,0 +1,202 @@
+{
+  "id": "casa-dali-01",
+  "name": "Casa Dali",
+  "tagline": "El Capistrano Village · Nerja",
+  "surfaceSqM": 55,
+  "maxGuests": 4,
+  "baseGuests": 2,
+  "bedrooms": 1,
+  "bathrooms": 1,
+  "airConditioned": true,
+  "wifiAvailable": true,
+  "swimmingPools": 3,
+  "distanceToBeachMeters": 800,
+  "features": [
+    {
+      "id": "general",
+      "icon": "home",
+      "titleKey": "apartment.tabs.general",
+      "items": [
+        "apartment.general.desc1",
+        "apartment.general.desc2",
+        "apartment.general.desc3"
+      ],
+      "images": [
+        "/images/Casadali/928_2_img_3_upscayl_400px_realesrgan-x4fast.png",
+        "/images/Casadali/905_2_img_10.jpg"
+      ]
+    },
+    {
+      "id": "bedroomLiving",
+      "icon": "bed",
+      "titleKey": "apartment.tabs.living",
+      "items": [
+        "apartment.living.bed",
+        "apartment.living.sofa",
+        "apartment.living.tv",
+        "apartment.living.wifi"
+      ],
+      "images": [
+        "/images/Casadali/931_2_img_32.jpg",
+        "/images/Casadali/924_2_img_27.jpg",
+        "/images/Casadali/923_2_img_26 (1).jpg",
+        "/images/Casadali/908_2_img_13.jpg"
+      ]
+    },
+    {
+      "id": "kitchenBath",
+      "icon": "bath",
+      "titleKey": "apartment.tabs.kitchen",
+      "items": [
+        "apartment.kitchen.bath",
+        "apartment.kitchen.cook"
+      ],
+      "images": [
+        "/images/Casadali/180_3_img_9.png",
+        "/images/Casadali/919_2_img_23.jpg",
+        "/images/Casadali/918_2_img_22.jpg",
+        "/images/Casadali/916_2_img_20.jpg"
+      ]
+    },
+    {
+      "id": "outdoor",
+      "icon": "sun",
+      "titleKey": "apartment.tabs.outdoor",
+      "items": [
+        "apartment.outdoor.terrace",
+        "apartment.outdoor.garden"
+      ],
+      "images": [
+        "/images/Casadali/943_2_img_41.jpg",
+        "/images/Casadali/940_2_img_39.jpg",
+        "/images/Casadali/938_2_img_37.jpg",
+        "/images/Casadali/935_2_img_35b.jpg",
+        "/images/Casadali/904_2_img_1.jpg",
+        "/images/Casadali/74_2_b2.jpg"
+      ]
+    },
+    {
+      "id": "amenities",
+      "icon": "sparkles",
+      "titleKey": "apartment.tabs.amenities",
+      "items": [
+        "apartment.amenities.linen",
+        "apartment.amenities.village"
+      ],
+      "images": [
+        "/images/Casadali/923_2_img_26.jpg"
+      ]
+    },
+    {
+      "id": "activities",
+      "icon": "waves",
+      "titleKey": "apartment.tabs.activities",
+      "items": [
+        "apartment.activities.pools",
+        "apartment.activities.sports",
+        "apartment.activities.ski"
+      ],
+      "images": [
+        "/images/Casadali/780_2_dsc_0408__1280x960_.jpg",
+        "/images/Casadali/698_2_d2.jpg"
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/Casadali/928_2_img_3_upscayl_400px_realesrgan-x4fast.png",
+      "alt": "Casa Dali - Vue d'ensemble salon",
+      "category": "interior"
+    },
+    {
+      "src": "/images/Casadali/931_2_img_32.jpg",
+      "alt": "Chambre parentale lumineuse",
+      "category": "interior"
+    },
+    {
+      "src": "/images/Casadali/924_2_img_27.jpg",
+      "alt": "Séjour et canapé confortable",
+      "category": "interior"
+    },
+    {
+      "src": "/images/Casadali/908_2_img_13.jpg",
+      "alt": "Espace détente et salon",
+      "category": "interior"
+    },
+    {
+      "src": "/images/Casadali/180_3_img_9.png",
+      "alt": "Cuisine moderne équipée",
+      "category": "interior"
+    },
+    {
+      "src": "/images/Casadali/919_2_img_23.jpg",
+      "alt": "Cuisine et équipements",
+      "category": "interior"
+    },
+    {
+      "src": "/images/Casadali/918_2_img_22.jpg",
+      "alt": "Détail salle de bain douche",
+      "category": "interior"
+    },
+    {
+      "src": "/images/Casadali/916_2_img_20.jpg",
+      "alt": "Salle de bain moderne",
+      "category": "interior"
+    },
+    {
+      "src": "/images/Casadali/943_2_img_41.jpg",
+      "alt": "Terrasse privée sous le store",
+      "category": "outdoor"
+    },
+    {
+      "src": "/images/Casadali/940_2_img_39.jpg",
+      "alt": "Terrasse fleurie et coin repas",
+      "category": "outdoor"
+    },
+    {
+      "src": "/images/Casadali/938_2_img_37.jpg",
+      "alt": "Jardin privatif méditerranéen",
+      "category": "outdoor"
+    },
+    {
+      "src": "/images/Casadali/904_2_img_1.jpg",
+      "alt": "Accès extérieur et allée fleurie",
+      "category": "outdoor"
+    },
+    {
+      "src": "/images/Casadali/780_2_dsc_0408__1280x960_.jpg",
+      "alt": "Grande piscine de Capistrano Village",
+      "category": "village"
+    },
+    {
+      "src": "/images/Casadali/698_2_d2.jpg",
+      "alt": "Piscine et jardins de la résidence",
+      "category": "village"
+    },
+    {
+      "src": "/images/Situation/CapistranoVillage/68_2_a5.jpg",
+      "alt": "Allée piétonne typique andalouse",
+      "category": "village"
+    },
+    {
+      "src": "/images/Situation/CapistranoVillage/71_2_a8.jpg",
+      "alt": "Villas blanches d'El Capistrano",
+      "category": "village"
+    },
+    {
+      "src": "/images/Situation/Incontournables/balconEurope.jpeg",
+      "alt": "Balcon de l'Europe, Nerja",
+      "category": "nerja"
+    },
+    {
+      "src": "/images/Situation/Incontournables/nerjabeach.webp",
+      "alt": "Plage de Nerja et Méditerranée",
+      "category": "nerja"
+    },
+    {
+      "src": "/images/Situation/Incontournables/Cueva-de-Nerja.jpg",
+      "alt": "Grottes de Nerja",
+      "category": "nerja"
+    }
+  ]
+}

@@ -1,0 +1,379 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "apartment": "El Apartamento",
+    "gallery": "Galería",
+    "situation": "Nerja y Alrededores",
+    "pricing": "Tarifas y Condiciones",
+    "links": "Info Práctica",
+    "contact": "Contacto",
+    "bookNow": "Reservar",
+    "changeLang": "Cambiar idioma",
+    "languages": "Idiomas",
+    "languageLabel": "Idioma",
+    "toggleMenu": "Abrir o cerrar el menú de navegación"
+  },
+  "hero": {
+    "badge": "Andalucía · Costa del Sol · Nerja",
+    "title": "La calidez de vivir en El Capistrano Village",
+    "description": "Situada en las laderas de la Sierra de Almijara con vistas al mar Mediterráneo y a las montañas andaluzas, Casa Dali le da la bienvenida para una estancia inolvidable bajo el sol español.",
+    "stats": {
+      "capacity": "2 a 4 personas",
+      "surface": "Cerca de 55 m²",
+      "pools": "3 piscinas del pueblo",
+      "beach": "A 800 m de la playa"
+    },
+    "exploreApt": "Descubrir el apartamento",
+    "checkRates": "Calcular estancia",
+    "location": "Andalucía, España",
+    "statsLabels": {
+      "capacity": "Capacidad",
+      "surface": "Superficie",
+      "relax": "Ocio",
+      "proximity": "Proximidad"
+    }
+  },
+  "apartment": {
+    "title": "Un rincón de paz renovado con esmero",
+    "subtitle": "Confort moderno, decoración cálida y atmósfera mediterránea.",
+    "tabs": {
+      "general": "Generalidades",
+      "living": "Dormitorio y Salón",
+      "kitchen": "Cocina y Baño",
+      "outdoor": "Terraza y Jardín",
+      "amenities": "Servicios y Comodidades",
+      "activities": "Ocio y Actividades"
+    },
+    "general": {
+      "desc1": "Nuestro apartamento de vacaciones ha sido completamente renovado con materiales de alta calidad.",
+      "desc2": "Con una superficie de unos 55 m², ofrece un confort ideal para 2 personas y puede alojar hasta 4 personas.",
+      "desc3": "Aire acondicionado frío/calor en toda la estancia para su bienestar en cualquier época del año."
+    },
+    "living": {
+      "bed": "Dormitorio luminoso con cama de matrimonio para 2 personas.",
+      "sofa": "Salón amplio con cómodo sofá cama para 2 personas.",
+      "tv": "Televisión de pantalla plana LCD con canales internacionales.",
+      "wifi": "Conexión a internet Wi-Fi de alta velocidad incluida."
+    },
+    "kitchen": {
+      "bath": "Baño moderno con amplia ducha a ras de suelo y secador de pelo.",
+      "cook": "Cocina totalmente equipada: placa vitrocerámica, horno, microondas, frigorífico-congelador, lavadora y vajilla completa."
+    },
+    "outdoor": {
+      "terrace": "Amplia terraza privada con toldo para disfrutar a la sombra.",
+      "garden": "Jardín privado con buganvillas y flores exóticas con barbacoa a su disposición."
+    },
+    "amenities": {
+      "linen": "Sábanas, toallas de baño y toallas de playa incluidas y renovadas semanalmente.",
+      "village": "Aparcamiento gratuito, restaurante, supermercados, cajero y autobús local hacia las playas y el centro."
+    },
+    "activities": {
+      "pools": "Acceso gratuito a las piscinas de Capistrano Village (la piscina principal frente al apartamento).",
+      "sports": "Pistas de tenis a 150 m y campos de golf a menos de 20 km.",
+      "ski": "Pistas de esquí de Sierra Nevada (Granada) a solo 1 hora."
+    },
+    "badge": "Visita detallada",
+    "photoAlt": "Foto Casa Dali",
+    "quickSummary": {
+      "ac": "Aire acondicionado reversible",
+      "wifi": "Wi-Fi de alta velocidad incluido",
+      "pools": "Piscinas de la urbanización"
+    }
+  },
+  "gallery": {
+    "title": "Momentos en Casa Dali",
+    "subtitle": "Descubra las fotografías del apartamento, la terraza, las piscinas y los paisajes andaluces.",
+    "filters": {
+      "all": "Todas",
+      "interior": "Interior",
+      "outdoor": "Terraza y Jardín",
+      "village": "Capistrano y Piscina",
+      "nerja": "Nerja y Playas"
+    },
+    "viewFullscreen": "Ampliar foto",
+    "close": "Cerrar",
+    "next": "Siguiente",
+    "prev": "Anterior",
+    "badge": "Portafolio",
+    "previousSlide": "Foto anterior",
+    "nextSlide": "Foto siguiente",
+    "pageInfo": "{current} / {total}",
+    "photos": {
+      "photo-0-interior": "Casa Dalí - Vista general del salón",
+      "photo-1-interior": "Dormitorio principal luminoso",
+      "photo-2-interior": "Salón y sofá confortable",
+      "photo-3-interior": "Zona de descanso y salón",
+      "photo-4-interior": "Cocina moderna equipada",
+      "photo-5-interior": "Cocina y equipamiento",
+      "photo-6-interior": "Detalle del baño con ducha",
+      "photo-7-interior": "Baño moderno",
+      "photo-8-outdoor": "Terraza privada bajo el toldo",
+      "photo-9-outdoor": "Terraza florida y zona de comedor",
+      "photo-10-outdoor": "Jardín privado mediterráneo",
+      "photo-11-outdoor": "Acceso exterior y sendero florido",
+      "photo-12-village": "Gran piscina de Capistrano Village",
+      "photo-13-village": "Piscina y jardines de la urbanización",
+      "photo-14-village": "Callejuela peatonal típica andaluza",
+      "photo-15-village": "Villas blancas de El Capistrano",
+      "photo-16-nerja": "Balcón de Europa, Nerja",
+      "photo-17-nerja": "Playa de Nerja y el Mediterráneo",
+      "photo-18-nerja": "Cuevas de Nerja"
+    }
+  },
+  "pricing": {
+    "title": "Disponibilidad, Tarifas y Simulador",
+    "subtitle": "Tarifas transparentes con suministros y servicios incluidos.",
+    "basePrice": "Desde 350 €",
+    "perWeek": "/ semana",
+    "includedTitle": "Todo incluido:",
+    "included": [
+      "Consumos de luz y agua",
+      "Aire acondicionado reversible frío/calor",
+      "Ropa de cama y toallas de baño",
+      "Toallas de playa a su disposición",
+      "Limpieza final completa",
+      "Acceso a las piscinas del complejo"
+    ],
+    "conditionsTitle": "Condiciones de reserva:",
+    "conditions": [
+      "Reserva: anticipo del 25% al reservar",
+      "Saldo restante + fianza de 200 € 3 semanas antes de la llegada",
+      "Fianza reembolsada íntegramente la semana siguiente a la salida",
+      "Estancia mínima: 1 semana (7 noches) para 2 a 4 personas",
+      "Suplemento persona adicional (a partir de 2): 6 € / día / persona"
+    ],
+    "optionsTitle": "Opciones bajo petición:",
+    "options": [
+      "Cuna para bebé disponible bajo petición",
+      "Servicio de transporte aeropuerto de Málaga - Casa Dali",
+      "Cambio extra de sábanas y toallas"
+    ],
+    "simulator": {
+      "title": "Simulador de presupuesto",
+      "weeks": "Duración de la estancia",
+      "weeksCount": "{count} semana(s)",
+      "guests": "Número de personas",
+      "guestsCount": "{count} persona(s)",
+      "baseCalculation": "Tarifa base (2 pers.)",
+      "extraGuests": "Suplemento personas adicionales",
+      "deposit": "Fianza reembolsable",
+      "totalEstimated": "Total estimado",
+      "estimateNotice": "* Estimación orientativa. Contáctenos para consultar disponibilidad exacta según sus fechas.",
+      "requestButton": "Enviar solicitud con esta estimación",
+      "subtitle": "Cálculo instantáneo de su estancia",
+      "weeksNights": "{weeks} semana(s) ({nights} noches)",
+      "weekShort": "{count} sem.",
+      "guestShort": "{count} pers.",
+      "withRefundableDeposit": "(con fianza reembolsable)",
+      "depositDueNow": "Señal de reserva (25%):",
+      "balanceDueBeforeArrival": "Resto antes de la llegada (+ fianza):"
+    },
+    "badge": "Tarifas claras y transparentes",
+    "forTwoGuests": "Alquiler para 2 personas",
+    "rateFootnote": "* Mínimo 1 semana (7 noches) · +6 € / día por persona adicional (máx. 4 pers.)",
+    "depositTitle": "Fianza de alquiler",
+    "depositDesc": "Fianza de 200 € reembolsada la semana siguiente a su salida.",
+    "inquiry": {
+      "subject": "Solicitud de reserva Casa Dalí - {{weeks}} semana(s) - {{guests}} persona(s)",
+      "body": "Hola,\n\nMe gustaría realizar una consulta / solicitud de reserva para Casa Dalí en El Capistrano Village (Nerja).\n\nDetalles deseados:\n- Duración: {{weeks}} semana(s) ({{nights}} noches)\n- Número de personas: {{guests}}\n- Estimación calculada: {{total}} € (gastos y fianza incluidos)\n- Periodo o fechas deseadas: \n\n¿Podrían confirmarme la disponibilidad para estas fechas?\n\nAtentamente,\n"
+    }
+  },
+  "situation": {
+    "title": "Nerja y El Capistrano Village",
+    "subtitle": "Un microclima subtropical excepcional y el encanto de los pueblos blancos andaluces.",
+    "capistrano": {
+      "title": "El Capistrano Village",
+      "text1": "El Capistrano es un complejo turístico único con arquitectura tradicional andaluza, jardines floridos y paseos peatonales de ensueño.",
+      "text2": "La playa de Burriana se encuentra a 800 metros y el Balcón de Europa a 1,1 km. Muy bien comunicado por líneas de autobús.",
+      "badge": "Complejo vacacional"
+    },
+    "nerja": {
+      "title": "Nerja, joya de la Costa del Sol",
+      "text1": "Al resguardo de la Sierra de Almijara, Nerja conserva la autenticidad marinera sin la masificación de otras zonas costeras.",
+      "text2": "Disfruta de más de 320 días de sol al año, calas de agua cristalina y una gastronomía mediterránea inolvidable."
+    },
+    "mustSeeTitle": "Los 10 imprescindibles",
+    "spots": {
+      "balcon": "El Balcón de Europa - Mirador emblemático sobre el Mediterráneo.",
+      "eglise": "Iglesia El Salvador - Joya barroca y mudéjar del siglo XVII.",
+      "cavana": "Plaza Cavana - Ideal para relajarse y tomar algo en sus terrazas.",
+      "rues": "Callejuelas del casco antiguo - Paseos entre tiendas y heladerías.",
+      "cangrejos": "Plaza de los Cangrejos - Espacio frente a la playa Torrecilla.",
+      "bendito": "Mirador del Bendito - Magnífica vista sobre la playa de Burriana.",
+      "aqueduc": "Acueducto del Águila - Gran obra histórica de arcos del siglo XIX.",
+      "grottes": "Cueva de Nerja - Maravilla natural de galerías y conciertos.",
+      "plages": "Playas de Nerja - Burriana, Calahonda, Torrecilla y Carabeo.",
+      "criques": "Calas salvajes de Maro - Entorno natural y aguas transparentes."
+    },
+    "badge": "Ubicación y Descubrimientos",
+    "mustSeeSubtitle": "Los tesoros imprescindibles durante su estancia en Nerja.",
+    "spotsList": {
+      "balcon-europe": {
+        "title": "El Balcón de Europa",
+        "description": "Emblemático mirador sobre el mar con vistas panorámicas al Mediterráneo desde donde se divisa la costa africana.",
+        "tag": "Mirador"
+      },
+      "eglise-salvador": {
+        "title": "Iglesia de El Salvador",
+        "description": "Obra maestra barroca y morisca de finales del siglo XVII situada entre la Plaza Cavana y el Balcón de Europa.",
+        "tag": "Patrimonio"
+      },
+      "plaza-cavana": {
+        "title": "Plaza Cavana",
+        "description": "Lugar ideal para relajarse y disfrutar de una sangría o un café en sus numerosas terrazas sombreadas.",
+        "tag": "Ambiente"
+      },
+      "rues-adjacentes": {
+        "title": "Calles pintorescas",
+        "description": "Animadas calles peatonales con bares de tapas, heladerías artesanales y tiendas de recuerdos.",
+        "tag": "Paseo"
+      },
+      "plaza-cangrejos": {
+        "title": "Plaza de los Cangrejos",
+        "description": "Animada plaza junto a la playa Torrecilla que acoge conciertos y eventos de verano.",
+        "tag": "Junto al mar"
+      },
+      "mirador-bendito": {
+        "title": "Mirador del Bendito",
+        "description": "Precioso mirador sobre el Mediterráneo y la playa de Burriana, al final de la calle Carabeo.",
+        "tag": "Panorámica"
+      },
+      "aqueduc-aigle": {
+        "title": "Acueducto del Águila",
+        "description": "Monumento histórico de 4 niveles de arcos construido en el siglo XIX para abastecer los antiguos molinos de Maro.",
+        "tag": "Historia"
+      },
+      "grotte-nerja": {
+        "title": "Cueva de Nerja",
+        "description": "Vasto conjunto subterráneo de 4 km con estalactitas gigantes, sede de un prestigioso festival de música.",
+        "tag": "Naturaleza"
+      },
+      "plages-nerja": {
+        "title": "Playas de Nerja",
+        "description": "Burriana, Carabeo, Calahonda, El Salón, Torrecilla y El Playazo: arena fina, aguas cristalinas y deportes náuticos.",
+        "tag": "Playa"
+      },
+      "criques-sauvages": {
+        "title": "Calas vírgenes de Maro",
+        "description": "Hacia Almuñécar: calas protegidas con acantilados espectaculares y aguas cristalinas ideales para el snorkel.",
+        "tag": "Naturaleza"
+      }
+    }
+  },
+  "links": {
+    "title": "Información Práctica y Accesos",
+    "subtitle": "Todo lo necesario para organizar su llegada fácilmente.",
+    "transports": "Vuelos y Transportes",
+    "tourism": "Turismo y Actividades",
+    "carRental": "Alquiler de Coches",
+    "restaurants": "Guía de Restaurantes de Nerja",
+    "downloadPdf": "Descargar la guía PDF de restaurantes (Agosto 2024)",
+    "usefulLinks": "Enlaces recomendados",
+    "badge": "Prepare su estancia",
+    "flights": "Vuelos",
+    "localSelection": "Selección local · {date}",
+    "restaurantsDesc": "Consulte la selección de los mejores restaurantes, bares de tapas y especialidades locales recomendadas en Nerja.",
+    "visitSite": "Visitar sitio web →",
+    "categories": {
+      "tourism": "Turismo",
+      "flights": "Vuelos",
+      "carRental": "Alquiler de coches",
+      "transports": "Transportes"
+    },
+    "items": {
+      "tourisme-nerja": {
+        "name": "Oficina de Turismo de Nerja",
+        "note": "Información oficial en español e inglés"
+      },
+      "nerja-today": {
+        "name": "Nerja Today",
+        "note": "Guía completa de actividades locales (EN)"
+      },
+      "aeroport-malaga": {
+        "name": "Aeropuerto de Málaga (AGP)",
+        "note": "Aeropuerto internacional principal a 50 min"
+      },
+      "ryanair": {
+        "name": "Ryanair",
+        "note": "Vuelos directos a Málaga"
+      },
+      "vueling": {
+        "name": "Vueling",
+        "note": "Vuelos regulares"
+      },
+      "transavia": {
+        "name": "Transavia",
+        "note": "Vuelos desde París-Orly y regiones"
+      },
+      "easyjet": {
+        "name": "EasyJet",
+        "note": "Vuelos desde Francia y Bélgica"
+      },
+      "centauro": {
+        "name": "Centauro Rent a Car",
+        "note": "Alquiler de vehículos en el aeropuerto"
+      },
+      "alsa-bus": {
+        "name": "ALSA (Líneas de autobús regionales)",
+        "note": "Conexiones directas Málaga Centro / Aeropuerto ↔ Nerja"
+      },
+      "emt-malaga": {
+        "name": "EMT Autobús Málaga",
+        "note": "Lanzadera Aeropuerto ↔ Estación de autobuses de Málaga"
+      }
+    }
+  },
+  "contact": {
+    "title": "¿Listo para sus vacaciones en Andalucía?",
+    "subtitle": "Contáctenos directamente para consultar fechas y organizar su estancia en Casa Dali.",
+    "emailLabel": "Email directo:",
+    "facebookLabel": "Página oficial de Facebook:",
+    "owner": "Propietario particular directo",
+    "sendEmail": "Escribir email",
+    "viewFacebook": "Visitar página de Facebook",
+    "quickInquiry": "Solicitud de reserva o información",
+    "namePlaceholder": "Nombre y apellidos",
+    "emailPlaceholder": "Su correo electrónico",
+    "phonePlaceholder": "Teléfono (opcional)",
+    "datesPlaceholder": "Fechas deseadas (ej: 2 semanas en julio)",
+    "guestsPlaceholder": "Número de huéspedes (2 a 4)",
+    "messagePlaceholder": "Su mensaje o petición...",
+    "submit": "Abrir correo de reserva preparado",
+    "footerText": "© Casa Dali · Nerja, España. Todos los derechos reservados.",
+    "badge": "Reserva directa",
+    "ownerSub": "Alquiler directo de particular a particular sin comisiones",
+    "quickInquiryDesc": "Indique sus fechas y datos de contacto: el botón generará al instante su mensaje listo para enviar por correo.",
+    "labels": {
+      "name": "Nombre completo",
+      "email": "Su correo",
+      "dates": "Fechas / Período",
+      "guests": "Número de personas",
+      "message": "Mensaje o detalles"
+    },
+    "guestOptions": {
+      "one": "1 persona",
+      "two": "2 personas (tarifa base)",
+      "three": "3 personas (+6€/día)",
+      "four": "4 personas (+12€/día)"
+    },
+    "inquiry": {
+      "defaultName": "Nuevo viajero",
+      "noMessage": "Sin mensaje adicional",
+      "subject": "Solicitud de reserva Casa Dalí - {{name}}",
+      "body": "Hola,\n\nDeseo enviarles una solicitud de reserva para Casa Dalí en Nerja:\n\n- Nombre: {{name}}\n- Correo de contacto: {{email}}\n- Fechas deseadas: {{dates}}\n- Número de personas: {{guests}}\n- Mensaje: {{message}}\n\nMuchas gracias de antemano por su respuesta y confirmación de disponibilidad.\n\nSaludos cordiales,\n{{name}}"
+    }
+  },
+  "weather": {
+    "liveTitle": "Tiempo en directo · Nerja",
+    "microclimate": "Microclima subtropical",
+    "wind": "Viento:",
+    "humidity": "Humedad:"
+  },
+  "footer": {
+    "description": "Apartamento vacacional totalmente renovado para 2 a 4 personas, situado en El Capistrano Village, Nerja (Costa del Sol, Andalucía).",
+    "navigation": "Navegación",
+    "directContact": "Contacto Directo",
+    "address": "El Capistrano Village, 29780 Nerja, Málaga, España",
+    "tagline": "Alquiler vacacional en Nerja · El Capistrano Village"
+  }
+}
