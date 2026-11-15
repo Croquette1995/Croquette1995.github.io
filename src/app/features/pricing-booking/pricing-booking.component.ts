@@ -240,7 +240,7 @@ import { MotionPressDirective } from '../../shared/motion/motion-press.directive
                 <a 
                   [href]="getInquiryMailto(calc)"
                   appMotionPress
-                  class="w-full flex items-center justify-center gap-2 bg-terracotta-700 hover:bg-terracotta-800 text-white py-3.5 px-4 rounded-xl font-bold text-sm shadow-md hover:shadow-lg transition-colors duration-200 cursor-pointer"
+                  class="w-full flex items-center justify-center gap-2 bg-terracotta-700 hover:bg-terracotta-800 text-white py-3.5 px-4 rounded-xl font-bold text-sm shadow-md hover:shadow-lg transition-[color,background-color,border-color,box-shadow] duration-200 cursor-pointer"
                 >
                   <app-icon name="mail" [size]="18" />
                   <span>{{ 'pricing.simulator.requestButton' | transloco }}</span>

@@ -144,7 +144,7 @@ interface LanguageItem {
           <a 
             href="#tarifs" 
             appMotionPress
-            class="inline-flex items-center gap-2 bg-terracotta-700 hover:bg-terracotta-800 text-white h-10 px-4 sm:px-5 rounded-full text-xs sm:text-sm font-semibold shadow-xs hover:shadow-md transition-colors duration-200 whitespace-nowrap shrink-0"
+            class="inline-flex items-center gap-2 bg-terracotta-700 hover:bg-terracotta-800 text-white h-10 px-4 sm:px-5 rounded-full text-xs sm:text-sm font-semibold shadow-xs hover:shadow-md transition-[color,background-color,border-color,box-shadow] duration-200 whitespace-nowrap shrink-0"
           >
             <app-icon name="calendar" [size]="15" class="text-terracotta-100 shrink-0" />
             <span>{{ 'nav.bookNow' | transloco }}</span>

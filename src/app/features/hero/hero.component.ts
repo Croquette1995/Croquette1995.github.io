@@ -44,7 +44,7 @@ import { MotionPressDirective } from '../../shared/motion/motion-press.directive
             <a 
               href="#appartement" 
               appMotionPress
-              class="inline-flex items-center gap-2 bg-terracotta-600 hover:bg-terracotta-700 text-white px-6 py-3.5 rounded-full font-semibold shadow-md hover:shadow-lg transition-colors duration-200"
+              class="inline-flex items-center gap-2 bg-terracotta-600 hover:bg-terracotta-700 text-white px-6 py-3.5 rounded-full font-semibold shadow-md hover:shadow-lg transition-[color,background-color,border-color,box-shadow] duration-200"
             >
               <span>{{ 'hero.exploreApt' | transloco }}</span>
               <app-icon name="chevron-right" [size]="18" />

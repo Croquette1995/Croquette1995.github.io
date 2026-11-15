@@ -154,7 +154,7 @@ import { MotionPressDirective } from '../../shared/motion/motion-press.directive
               <button 
                 type="submit" 
                 appMotionPress
-                class="w-full py-4 rounded-xl bg-terracotta-700 hover:bg-terracotta-800 text-white font-bold text-sm shadow-md hover:shadow-lg transition-colors duration-200 flex items-center justify-center gap-2 cursor-pointer"
+                class="w-full py-4 rounded-xl bg-terracotta-700 hover:bg-terracotta-800 text-white font-bold text-sm shadow-md hover:shadow-lg transition-[color,background-color,border-color,box-shadow] duration-200 flex items-center justify-center gap-2 cursor-pointer"
               >
                 <app-icon name="mail" [size]="18" />
                 <span>{{ 'contact.submit' | transloco }}</span>

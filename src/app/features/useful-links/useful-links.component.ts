@@ -51,7 +51,7 @@ import { MotionPressDirective } from '../../shared/motion/motion-press.directive
                 target="_blank"
                 download
                 appMotionPress
-                class="inline-flex items-center gap-2.5 bg-terracotta-700 hover:bg-terracotta-800 text-white px-6 py-3.5 rounded-full font-bold text-sm shadow-md hover:shadow-lg transition-colors duration-200 shrink-0"
+                class="inline-flex items-center gap-2.5 bg-terracotta-700 hover:bg-terracotta-800 text-white px-6 py-3.5 rounded-full font-bold text-sm shadow-md hover:shadow-lg transition-[color,background-color,border-color,box-shadow] duration-200 shrink-0"
               >
                 <app-icon name="download" [size]="18" />
                 <span>{{ 'links.downloadPdf' | transloco }}</span>
@@ -81,7 +81,7 @@ import { MotionPressDirective } from '../../shared/motion/motion-press.directive
                 [href]="link.url" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                class="bg-sand-50/80 hover:bg-white rounded-2xl p-5 border border-sand-200 hover:border-terracotta-300 shadow-xs hover:shadow-md transition-colors duration-200 flex flex-col justify-between group"
+                class="bg-sand-50/80 hover:bg-white rounded-2xl p-5 border border-sand-200 hover:border-terracotta-300 shadow-xs hover:shadow-md transition-[color,background-color,border-color,box-shadow] duration-200 flex flex-col justify-between group"
               >
                 <div>
                   <div class="flex items-center justify-between mb-3">
